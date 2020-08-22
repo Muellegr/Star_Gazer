@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name StarGazer-cache)(type Legacy)(uri ${KIPRJMOD}/StarGazer-cache.lib)(options "")(descr ""))
+)
