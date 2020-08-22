@@ -3,7 +3,148 @@ GPS
 GYRO
 
 SCREEN
-
+33 18 60
 MC
+	
+	Cortex M0
+		https://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8C4014SXI-411/2015-CY8C4014SXI-411-ND/9955262
+	AVRtiny
+		https://www.digikey.com/product-detail/en/microchip-technology/ATTINY1606-SNR/ATTINY1606-SNRCT-ND/10187889
 
+	Cortex M0
+		https://www.digikey.com/product-detail/en/stmicroelectronics/STM32L051K8U6/497-17490-ND/5051352
+		C MCU 32BIT 64KB FLASH 32UFQFPN 
+		Square, no legs
+		
+		https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E17A-AUT/ATSAMD21E17A-AUTCT-ND/4878881
+		IC MCU 32BIT 128KB FLASH 32TQFP 
+		Square with legs
+		
+		https://www.digikey.com/product-detail/en/infineon-technologies/XMC1302T038X0200ABXUMA1/XMC1302T038X0200ABXUMA1CT-ND/5725331
+		IC MCU 32BIT 200KB FLASH 38TSSOP 
+		Rectangle with legs
+		X : only 2x SERCOM channels (no i2c)
+		
+		https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F070CBT6/497-15099-ND/5051734
+		IC MCU 32BIT 128KB FLASH 48LQFP 
+		Rectangle, many, no legs
+		
+		
+		-----------------
+		https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F070RBT6/497-15100-ND/5051735
+		https://www.st.com/content/ccc/resource/technical/document/datasheet/31/4f/10/5f/a5/32/46/42/DM00141386.pdf/files/DM00141386.pdf/jcr:content/translations/en.DM00141386.pdf
+			2x i2c
+		
 POWER REGULATION
+
+
+
+PROGRAMMER
+J-Link EDU Mini Programmer
+	https://www.sparkfun.com/products/15345
+	
+	
+	
+	
+	
+stm32g0	
+https://www.digikey.com/product-detail/en/stmicroelectronics/STM32G071GBU6/497-18343-ND/9749148
+
+	Will use external clock
+		1 pin for actual input, second for enable/gpio
+	Boot to main flash memory
+		Boot pins to 0
+			boot_lock 0
+			n BOOT1 : X
+			BOOT0 : 0
+			nBOOT_SEL 0 
+			nBOOT0 : 0
+			
+	Embedded boot loader
+		The embedded boot loader is located in the System memory, programmed by ST during production. It is used to
+		reprogram the Flash memory using one of the following serial interfaces:
+		• USART on pins PA2/PA3, PA9/PA10 or PC10/PC11
+		• I2C on pins PB6/PB7 or PB10/PB11
+		• SPI on pins PA4/PA5/PA6/PA7 or PB12/PB13/PB14/PB15
+		For further details, refer to application note STM32 microcontroller system memory boot mode (AN2606).
+		
+		
+		
+		PA13 SWDIO
+		PA14 SWCLK (USART2_TX)
+				
+				
+				
+---------
+STM32L
+Boot modes       
+	At startup, BOOT0 pin and nBOOT1 option bit are used to select one of three boot options:
+		•Boot from Flash memory
+		•Boot from System memory
+		•Boot from embedded RAM
+	The boot loader is located in System memory. 
+	It is used to reprogram the Flash memory by using S
+		PI1 (PA4, PA5, PA6, PA7), 
+		USART2 (PA2, PA3) 
+		or USART2 (PA9, PA10). 
+	See STM32™ microcontroller system memory boot mode AN2606 for details.
+	
+	
+	
+THINGS TO BUY
+	PROGRAMMER
+	SOLDER PASTE, LEAD
+	FLUX MARKER
+	HOT PLATE
+	
+
+	
+file:///C:/Users/Graham/AppData/Local/Temp/stm32g030c6.pdf
+	SPI : 1
+	I2C : 1
+	USART : 2
+	15x GPIO
+	
+	
+	
+SHIFT REGISTER
+	74HC595D,118 
+		https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595D-118/1727-2821-1-ND/763394
+		Big things
+			-8 bit
+			-100Mhz shift out freq
+			Serial support
+			LEFTOVER
+				Verify output amp is safe!
+				Check best way to connect (SPI or direct?)
+				
+
+REMAINING PARTS
+	POWER
+		CHARGE
+			https://www.digikey.com/products/en/integrated-circuits-ics/pmic-battery-chargers/781
+			https://www.digikey.com/product-detail/en/texas-instruments/BQ24080DRCR/296-19653-1-ND/1016521
+			Transistor to block power in
+			LED to display charging / system on
+			
+		DISCHARGE
+		POWER TOGGLE
+		
+	USER INTERFACE
+	
+	GYRO (I2C)
+		3 AXIS MAGNOMETER
+			MMC5603NJ
+			https://www.digikey.com/product-detail/en/memsic-inc/MMC5603NJ/1267-MMC5603NJCT-ND/10452803
+		6 AXIS ACC, ORIENATATION
+			LSM6DS33TR
+			https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396
+			
+	CLOCK
+	
+	GPS (I2C)
+	
+	
+	
+		
+			
