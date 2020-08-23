@@ -121,14 +121,24 @@ SHIFT REGISTER
 
 REMAINING PARTS
 	POWER
-		CHARGE
-			https://www.digikey.com/products/en/integrated-circuits-ics/pmic-battery-chargers/781
-			https://www.digikey.com/product-detail/en/texas-instruments/BQ24080DRCR/296-19653-1-ND/1016521
-			Transistor to block power in
-			LED to display charging / system on
-			
-		DISCHARGE
+	
+		REGULATOR
+				AP2114H-1.8TRG1 - 1.8v regulator, simple
+				https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-1-8TRG1/AP2114H-1-8TRG1DICT-ND/4505140
+				
+				
 		POWER TOGGLE
+			This prevents the linear regulator / rest of system from making the charger believe the battery is still pulling current.  When charging, the res tof the circuit is off.
+			AP22811BW5 - Acive low power switch mosfet
+				https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787
+			
+			
+		CHARGER STBC08PMR - Lithium Ion battery charger, very simple
+			https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505
+			6 pin
+			2 indicator lights
+			programmable
+			
 		
 	USER INTERFACE
 	
