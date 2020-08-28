@@ -1,43 +1,11 @@
-GPS
-
-GYRO
-
-SCREEN
-33 18 60
-MC
-	
-	Cortex M0
-		https://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8C4014SXI-411/2015-CY8C4014SXI-411-ND/9955262
-	AVRtiny
-		https://www.digikey.com/product-detail/en/microchip-technology/ATTINY1606-SNR/ATTINY1606-SNRCT-ND/10187889
-
-	Cortex M0
-		https://www.digikey.com/product-detail/en/stmicroelectronics/STM32L051K8U6/497-17490-ND/5051352
-		C MCU 32BIT 64KB FLASH 32UFQFPN 
-		Square, no legs
-		
-		https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E17A-AUT/ATSAMD21E17A-AUTCT-ND/4878881
-		IC MCU 32BIT 128KB FLASH 32TQFP 
-		Square with legs
-		
-		https://www.digikey.com/product-detail/en/infineon-technologies/XMC1302T038X0200ABXUMA1/XMC1302T038X0200ABXUMA1CT-ND/5725331
-		IC MCU 32BIT 200KB FLASH 38TSSOP 
-		Rectangle with legs
-		X : only 2x SERCOM channels (no i2c)
-		
-		https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F070CBT6/497-15099-ND/5051734
-		IC MCU 32BIT 128KB FLASH 48LQFP 
-		Rectangle, many, no legs
-		
-		
-		-----------------
-		https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F070RBT6/497-15100-ND/5051735
-		https://www.st.com/content/ccc/resource/technical/document/datasheet/31/4f/10/5f/a5/32/46/42/DM00141386.pdf/files/DM00141386.pdf/jcr:content/translations/en.DM00141386.pdf
-			2x i2c
-		
-POWER REGULATION
-
-
+THINGS TO BUY
+	PROGRAMMER
+	SOLDER PASTE, LEAD
+	FLUX MARKER
+	HOT PLATE
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 PROGRAMMER
 J-Link EDU Mini Programmer
@@ -67,9 +35,6 @@ https://www.digikey.com/product-detail/en/stmicroelectronics/STM32G071GBU6/497-1
 		• I2C on pins PB6/PB7 or PB10/PB11
 		• SPI on pins PA4/PA5/PA6/PA7 or PB12/PB13/PB14/PB15
 		For further details, refer to application note STM32 microcontroller system memory boot mode (AN2606).
-		
-		
-		
 		PA13 SWDIO
 		PA14 SWCLK (USART2_TX)
 				
@@ -90,33 +55,6 @@ Boot modes
 	See STM32™ microcontroller system memory boot mode AN2606 for details.
 	
 	
-	
-THINGS TO BUY
-	PROGRAMMER
-	SOLDER PASTE, LEAD
-	FLUX MARKER
-	HOT PLATE
-	
-
-	
-file:///C:/Users/Graham/AppData/Local/Temp/stm32g030c6.pdf
-	SPI : 1
-	I2C : 1
-	USART : 2
-	15x GPIO
-	
-	
-	
-SHIFT REGISTER
-	74HC595D,118 
-		https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595D-118/1727-2821-1-ND/763394
-		Big things
-			-8 bit
-			-100Mhz shift out freq
-			Serial support
-			LEFTOVER
-				Verify output amp is safe!
-				Check best way to connect (SPI or direct?)
 				
 
 REMAINING PARTS
@@ -126,22 +64,46 @@ REMAINING PARTS
 				AP2114H-1.8TRG1 - 1.8v regulator, simple
 				https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-1-8TRG1/AP2114H-1-8TRG1DICT-ND/4505140
 				
+				DESIGN CHANGE
+					GO TO THIS 
+						Reason : 2.5 is bigger (thus better) than 1.8
+						Likely going to try and feed this into GPS and screen directly
+						May alternatively go to a programmable 3.0v  or something close.
+						
+					AP2114H-2.5TRG1
+					https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-2-5TRG1/AP2114H-2-5TRG1DICT-ND/4505141
 				
-		POWER TOGGLE
-			This prevents the linear regulator / rest of system from making the charger believe the battery is still pulling current.  When charging, the res tof the circuit is off.
-			AP22811BW5 - Acive low power switch mosfet
-				https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787
+	POWER TOGGLE
+		This prevents the linear regulator / rest of system from making the charger believe the battery is still pulling current.
+		When charging, the res tof the circuit is off.
+		AP22811BW5 - Acive low power switch mosfet
+			https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787
 			
-			
-		CHARGER STBC08PMR - Lithium Ion battery charger, very simple
-			https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505
-			6 pin
-			2 indicator lights
-			programmable
-			
-		
-	USER INTERFACE
+	CHARGER STBC08PMR - Lithium Ion battery charger, very simple
+		https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505
+		6 pin
+		2 indicator lights
+		programmable current
 	
+	
+	
+	
+	SHIFT REGISTER (3x)
+		74HC595D,118 
+		https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595D-118/1727-2821-1-ND/763394
+		Big things
+			-8 bit
+			-100Mhz shift out freq
+			Serial support
+			LEFTOVER
+				Verify output amp is safe!
+				Check best way to connect (SPI or direct?)
+	
+	USER INTERFACE
+		Power switch
+		Maybe no other interface needed..
+		(display screen?)
+		
 	GYRO (I2C)
 		3 AXIS MAGNOMETER
 			MMC5603NJ
@@ -149,12 +111,26 @@ REMAINING PARTS
 		6 AXIS ACC, ORIENATATION
 			LSM6DS33TR
 			https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396
-			
-	CLOCK
 	
-	GPS (I2C)
+	SCREEN 
+		3 x 0.91 Inch I2C SSD1306 OLED Display Module
+		https://www.amazon.com/WayinTop-Display-SSD1306-3-3V-5V-Raspberry/dp/B085NHJYBV/ref=pd_vtp_328_10?_encoding=UTF8&pd_rd_i=B085NHM5TC&pd_rd_r=7bdf7370-03dc-4b29-82c0-f607778b8952&pd_rd_w=HTH0F&pd_rd_wg=QAfMe&pf_rd_p=9f0d957d-c466-420a-817f-4adcb2657c85&pf_rd_r=2740EXSJPY7P7H0NYG2V&refRID=2740EXSJPY7P7H0NYG2V&th=1
+		Big thing : OLED blue
+		Will likely need to remove voltage regulator to get inside :) 
+			“SA0” bit provides an extension bit for the slave address. 
+			Either “0111100” or “0111101”, can be selected as the slave address of SSD1306. 
+			D/C# pin acts as SA0 for slave address selection. 
+			“R/W#” bit is used to determine the operation mode of the I2C-bus interface.  
+			R/W#=1, it is in read mode.  R/W#=0, it is in write mode. 
+		
+		
+-------------------------
 	
-	
-	
+I2C
+	ADDRESSES
+		GYRO - 7-bit device address is [1101010]
+		MAGNOMETER - 7-bit device address is [0110000]
+		GPS - 
+		SCREEN - either 0111100 or 0111101  "\__(-_-)__/"
 		
 			
