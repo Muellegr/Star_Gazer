@@ -54,7 +54,10 @@ Boot modes
 		or USART2 (PA9, PA10). 
 	See STM32™ microcontroller system memory boot mode AN2606 for details.
 	
-	
+USER INTERFACE
+	Hard power button/toggle
+	Snap button
+	Scroll wheel (??)
 				
 
 REMAINING PARTS
