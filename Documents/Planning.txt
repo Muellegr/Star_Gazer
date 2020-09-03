@@ -7,6 +7,28 @@ THINGS TO BUY
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
+LEFTOVER
+	Clock - 48MHZ
+	GPS
+	Begin assigning values
+	Begin basic board demensions, begin layout
+		4 layer board
+		which layers go to what
+			TOP SIGNAL - HIGH SPEEDS
+			GROUND
+			POWER
+			BOTTOM SIGNAL - LOWER SPEEDS
+
+Adding external clock, though not neccesary.
+	Crystal with two caps
+	The crystal manufacturer typically specifies a load capacitance which is the series combination of C L1 and C L2 .
+	 PCB and MCU pin capacitance must be included (10 pF can be used as a rough estimate of the combined pin and board capacitance) when sizing C L1 and C L2 
+	CL = (CL1*CL2) / (CL1 + CL2)   + Cs (PCB)
+
+7*(10^-9) = ( (x ) / (2) ) + 10pF
+
+
+2CL - Cstray
 PROGRAMMER
 J-Link EDU Mini Programmer
 	https://www.sparkfun.com/products/15345
@@ -55,26 +77,31 @@ Boot modes
 	See STM32™ microcontroller system memory boot mode AN2606 for details.
 	
 USER INTERFACE
-	Hard power button/toggle
-	Snap button
-	Scroll wheel (??)
-				
+	THUMBSTICK DUAL AXIS W/MOM PB - little thumb joystick
+		https://www.digikey.com/product-detail/en/c-k/THB001P/108-THB001P-ND/11687191
+		Mounted externally.  Likely use amazon pieces.
+		While ADC, these basically act as complete up or down apparenntly.  Very little accuracy.
+		
+	
+
+
+
 
 REMAINING PARTS
-	POWER
+	EXTERNAL CLOCK
+		Not actually needed, throwing it in for sake of it!
+		TSX-3225 16.0000MF10U-B3
+		https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509
+		CL : 7pF
+		C1, C2 = 4pF
+		R : UNKNOWN, use pot
+			35WR10KLFTR
+			https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891
+			
 	
-		REGULATOR
-				AP2114H-1.8TRG1 - 1.8v regulator, simple
-				https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-1-8TRG1/AP2114H-1-8TRG1DICT-ND/4505140
-				
-				DESIGN CHANGE
-					GO TO THIS 
-						Reason : 2.5 is bigger (thus better) than 1.8
-						Likely going to try and feed this into GPS and screen directly
-						May alternatively go to a programmable 3.0v  or something close.
-						
-					AP2114H-2.5TRG1
-					https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-2-5TRG1/AP2114H-2-5TRG1DICT-ND/4505141
+	REGULATOR
+			TLV75528PDBVR Voltage Regulator - 2.8v with low (300mv) drop down voltage.
+			https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161
 				
 	POWER TOGGLE
 		This prevents the linear regulator / rest of system from making the charger believe the battery is still pulling current.
@@ -127,6 +154,10 @@ REMAINING PARTS
 			R/W#=1, it is in read mode.  R/W#=0, it is in write mode. 
 		
 		
+		
+		
+ADC
+	VDDA - 2.4 VDC MIN
 -------------------------
 	
 I2C
