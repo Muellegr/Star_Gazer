@@ -236,4 +236,8 @@ U 5F580392
 F0 "Schematic_Test_Digital" 50
 F1 "Schematic_Test_Digital.sch" 50
 $EndSheet
+Text GLabel 6175 3275 2    50   BiDi ~ 0
+SHIFT_REG_RESET_N
+Wire Wire Line
+	6100 3275 6175 3275
 $EndSCHEMATC

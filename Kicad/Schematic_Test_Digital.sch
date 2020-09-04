@@ -1773,8 +1773,6 @@ Wire Wire Line
 	8300 4200 8425 4200
 Wire Wire Line
 	8700 4950 8300 4950
-Text GLabel 8300 4950 0    50   BiDi ~ 0
-RESET_N
 Wire Wire Line
 	9250 5100 9250 5150
 Text GLabel 8300 4200 0    50   BiDi ~ 0
@@ -1836,8 +1834,6 @@ Wire Wire Line
 	8300 2675 8425 2675
 Wire Wire Line
 	8700 3425 8300 3425
-Text GLabel 8300 3425 0    50   BiDi ~ 0
-RESET_N
 Wire Wire Line
 	9250 3575 9250 3625
 Text GLabel 8300 2675 0    50   BiDi ~ 0
@@ -1888,8 +1884,6 @@ Wire Wire Line
 Connection ~ 8425 1225
 Wire Wire Line
 	8300 1225 8425 1225
-Text GLabel 8300 1975 0    50   BiDi ~ 0
-RESET_N
 Text GLabel 8300 1225 0    50   BiDi ~ 0
 V_REG
 $Comp
@@ -1933,4 +1927,13 @@ F 3 "" H 2250 1775 50  0001 C CNN
 $EndComp
 Text GLabel 1800 1375 0    50   BiDi ~ 0
 RESET_N
+Text GLabel 8300 1975 0    50   BiDi ~ 0
+SHIFT_REG_RESET_N
+Text GLabel 8300 3425 0    50   BiDi ~ 0
+SHIFT_REG_RESET_N
+Text GLabel 8300 4950 0    50   BiDi ~ 0
+SHIFT_REG_RESET_N
+Wire Wire Line
+	8700 4750 8550 4750
+NoConn ~ 8550 4750
 $EndSCHEMATC
