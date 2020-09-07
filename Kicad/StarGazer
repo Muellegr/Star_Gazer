@@ -1,32 +1,32 @@
 | Part Name | Value | Quantity | References | Details | 
 |:---|:---|:---|:---|:---|
-| [ part name example ]( some.part.url.com ) | 0.1 uF | 1 | C1 | part details |
-| [  ](  ) | 1uF | 2 | C2, C8 |  |
 | [  ](  ) | 100nF | 1 | C3 |  |
 | [  ](  ) | 4.7uF | 1 | C4 |  |
-| [  ](  ) | 10uF | 3 | C5, C6, C7 |  |
-| [  ](  ) | 1.0uF | 2 | C9, C10 |  |
-| [  ](  ) | 4pF | 2 | C11, C12 |  |
-| [  ](  ) | 2.2uF | 1 | C13 |  |
-| [  ](  ) | 100nF | 1 | C14 |  |
-| [  ](  ) | LED | 2 | D1, D2 |  |
-| [  ](  ) | RING_LED | 24 | D4, D5, D6, D7, D8, D9, D10, D11<br>D12, D13, D14, D15, D16, D17<br>D18, D19, D20, D21, D22, D23<br>D24, D25, D26, D27 |  |
-| [  ](  ) | Conn_02x01 BATTERY | 1 | J1 |  |
-| [  ](  ) | I2C_CONNECTOR_OUT | 3 | J2, J3, J5 |  |
-| [  ](  ) | CONN_JOYSTICK | 1 | J4 |  |
-| [ Resistor - Pull Up ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 10k | 5 | R1, R2, R7, R9, R10 |  |
-| [ Resistor - Prog ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 10k | 1 | R3 | Battery Program for 100mA recharge rate. |
-| [ Resistor - LED Status ]( https://www.digikey.com/product-detail/en/yageo/RC1206FR-07200RL/311-200FRCT-ND/731622 ) | 200 | 2 | R5, R6 |  |
-| [  ](  ) | R_LED_RING | 24 | R8, R11, R12, R13, R14, R15, R16<br>R17, R18, R19, R20, R21, R22<br>R23, R24, R25, R26, R27, R28<br>R29, R30, R31, R32, R33 |  |
-| [  ](  ) | R_I2C_PULLUP | 2 | R34, R35 |  |
-| [ Resistor - Potentiometer ]( https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891 ) | R_POT | 1 | RV1 | Adjustable external clock resistor. |
-| [  ](  ) | RESET PUSH | 1 | SW1 |  |
-| [  ](  ) | SW_DIP_x01 | 1 | SW2 |  |
+| [  ](  ) | 1uF | 2 | C201, C202 |  |
+| [  ](  ) | 1.0uF | 2 | C203, C204 |  |
+| [  ](  ) | 4pF | 2 | C301, C303 |  |
+| [ part name example ]( some.part.url.com ) | 0.1 uF | 1 | C302 | part details |
+| [  ](  ) | 2.2uF | 1 | C304 |  |
+| [  ](  ) | 100nF | 1 | C305 |  |
+| [  ](  ) | 10uF | 3 | C306, C307, C308 |  |
+| [  ](  ) | LED | 2 | D201, D202 |  |
+| [  ](  ) | RING_LED | 24 | D301, D302, D303, D304, D305, D306, D307, D308, D309, D310, D311, D312, D313, D314, D315, D316, D317, D318, D319, D320, D321, D322, D323, D324 |  |
+| [  ](  ) | Conn_02x01 BATTERY | 1 | J201 |  |
+| [  ](  ) | I2C_CONNECTOR_OUT | 3 | J301, J302, J304 |  |
+| [  ](  ) | CONN_JOYSTICK | 1 | J303 |  |
+| [ Resistor - Pull Up ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 10k | 5 | R2, R7, R204, R205, R301 |  |
+| [ Resistor - Prog ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 10k | 1 | R201 | Battery Program for 100mA recharge rate. |
+| [ Resistor - LED Status ]( https://www.digikey.com/product-detail/en/yageo/RC1206FR-07200RL/311-200FRCT-ND/731622 ) | 200 | 2 | R202, R203 |  |
+| [  ](  ) | R_I2C_PULLUP | 2 | R302, R303 |  |
+| [  ](  ) | R_LED_RING | 24 | R304, R305, R306, R307, R308, R309, R310, R311, R312, R313, R314, R315, R316, R317, R318, R319, R320, R321, R322, R323, R324, R325, R326, R327 |  |
+| [ Resistor - Potentiometer ]( https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891 ) | R_POT | 1 | RV301 | Adjustable external clock resistor. |
+| [  ](  ) | SW_DIP_x01 | 1 | SW201 |  |
+| [  ](  ) | RESET PUSH | 1 | SW301 |  |
 | [ STM32F070F6P6TR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F070F6P6TR/497-17354-1-ND/8024125 ) | STM32F070F6Px | 1 | U1 | Cortex M0 48MHz |
-| [ STBC08PMR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505 ) | STBC08 | 1 | U2 | Lithium Ion Battery Recharge IC |
-| [ 74HC595D,118 ]( https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595D-118/1727-2821-1-ND/763394 ) | 74HC595D | 3 | U3, U4, U5 | Shift Register |
-| [  AP22811BW5-7  ]( https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787 ) | AP22811BW5 | 1 | U6 | Mosfet, active low (batt protection) |
-| [ TLV75528PDBVR ]( https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161 ) | TLV75528PDBV | 1 | U7 | Linear Regulator, 2.8v 500mA, 230mV~ dropout |
-| [ TSX-3225 ]( https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509 ) | TSX-3225 | 1 | U8 | 16MHz Crystal |
-| [ MMC5603NJ ]( https://www.digikey.com/product-detail/en/memsic-inc/MMC5603NJ/1267-MMC5603NJCT-ND/10452803 ) | MMC5603NJ | 1 | U9 | Magnometer Sensor  |
-| [ LSM6DS33TR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396 ) | LSM6DS33TR | 1 | U10 | 6-axis Gyrometer |
+| [ STBC08PMR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505 ) | STBC08 | 1 | U201 | Lithium Ion Battery Recharge IC |
+| [  AP22811BW5-7  ]( https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787 ) | AP22811BW5 | 1 | U202 | Mosfet, active low (batt protection) |
+| [ TLV75528PDBVR ]( https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161 ) | TLV75528PDBV | 1 | U203 | Linear Regulator, 2.8v 500mA, 230mV~ dropout |
+| [ TSX-3225 ]( https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509 ) | TSX-3225 | 1 | U301 | 16MHz Crystal |
+| [ MMC5603NJ ]( https://www.digikey.com/product-detail/en/memsic-inc/MMC5603NJ/1267-MMC5603NJCT-ND/10452803 ) | MMC5603NJ | 1 | U302 | Magnometer Sensor  |
+| [ LSM6DS33TR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396 ) | LSM6DS33TR | 1 | U303 | 6-axis Gyrometer |
+| [ 74HC595D,118 ]( https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595D-118/1727-2821-1-ND/763394 ) | 74HC595D | 3 | U304, U305, U306 | Shift Register |
