@@ -1,9 +1,10 @@
 | Part Name | Value | Quantity | References | Details | 
 |:---|:---|:---|:---|:---|
 | [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107009/732-7619-1-ND/5454246 ) | 4.7uF | 2 | C101, C102 |  |
-| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252 ) | 1uF | 5 | C201, C202, C203, C204, C302 |  |
+| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 1uF | 6 | C201, C202, C203, C204, C302, C310 |  |
 | [ Capactitor - Crystal ]( https://www.digikey.com/product-detail/en/yageo/CC0805BRNPO9BN3R9/311-4131-6-ND/8026143 ) | 4pF | 2 | C301, C303 |  |
-| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 2.2uF | 2 | C304, C305 |  |
+| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 100nF | 2 | C304, C309 |  |
+| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 2.2uF | 1 | C305 |  |
 | [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368 ) | 10uF | 3 | C306, C307, C308 |  |
 | [ LED - Red ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054 ) | LED | 1 | D201 | RED when ERROR |
 | [ LED - Green ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060 ) | LED | 1 | D202 | GREEN when CHARGING |
@@ -26,6 +27,6 @@
 | [  AP22811BW5-7  ]( https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787 ) | AP22811BW5 | 1 | U202 | Mosfet, active low (batt protection) |
 | [ TLV75528PDBVR ]( https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161 ) | TLV75528PDBV | 1 | U203 | Linear Regulator, 2.8v 500mA, 230mV~ dropout |
 | [ TSX-3225 ]( https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509 ) | TSX-3225 | 1 | U301 | 16MHz Crystal |
-| [ MMC5603NJ ]( https://www.digikey.com/product-detail/en/memsic-inc/MMC5603NJ/1267-MMC5603NJCT-ND/10452803 ) | MMC5603NJ | 1 | U302 | Magnometer Sensor  |
+| [ LIS3MDLTR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3MDLTR/497-13892-1-ND/4309737 ) | LIS3MDLTR | 1 | U302 | Magnometer Sensor  |
 | [ LSM6DS33TR ]( https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396 ) | LSM6DS33TR | 1 | U303 | 6-axis Gyrometer |
 | [ 74HC595PW,118 ]( https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493 ) | 74HC595PW | 3 | U304, U305, U306 | Shift Register |

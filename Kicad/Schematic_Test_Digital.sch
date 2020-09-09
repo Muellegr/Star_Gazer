@@ -1510,34 +1510,34 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0105
 U 1 1 5F746BCA
-P 4375 4700
-F 0 "#PWR0105" H 4375 4450 50  0001 C CNN
-F 1 "GND" H 4380 4527 50  0000 C CNN
-F 2 "" H 4375 4700 50  0001 C CNN
-F 3 "" H 4375 4700 50  0001 C CNN
-	1    4375 4700
+P 4275 4700
+F 0 "#PWR0105" H 4275 4450 50  0001 C CNN
+F 1 "GND" H 4280 4527 50  0000 C CNN
+F 2 "" H 4275 4700 50  0001 C CNN
+F 3 "" H 4275 4700 50  0001 C CNN
+	1    4275 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4175 4600 4375 4600
+	4175 4600 4275 4600
 Wire Wire Line
-	4375 4600 4375 4700
-Connection ~ 4375 4600
+	4275 4600 4275 4700
+Connection ~ 4275 4600
 Wire Wire Line
-	4175 4400 4375 4400
+	4175 4400 4275 4400
 Wire Wire Line
 	3025 4500 2875 4500
 Text GLabel 5575 4000 2    51   BiDi ~ 0
 V_REG
 Wire Wire Line
-	5575 4000 5425 4000
+	5575 4000 5475 4000
 Wire Wire Line
-	4175 4100 4375 4100
+	4175 4100 4275 4100
 Wire Wire Line
-	4375 4100 4375 4000
-Connection ~ 4375 4000
+	4275 4100 4275 4000
+Connection ~ 4275 4000
 Wire Wire Line
-	4375 4000 4175 4000
+	4275 4000 4175 4000
 $Comp
 L Device:C C?
 U 1 1 5F891147
@@ -1554,17 +1554,17 @@ F 5 "Capactitor - Bypass" H 5050 4350 50  0001 C CNN "part_name"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4375 4000 5050 4000
+	4275 4000 5050 4000
 Wire Wire Line
 	5050 4000 5050 4200
 Wire Wire Line
 	4175 4200 4600 4200
 Wire Wire Line
-	4375 4400 4375 4500
+	4275 4400 4275 4500
 Wire Wire Line
-	4375 4500 4375 4600
+	4275 4500 4275 4600
 Wire Wire Line
-	4175 4500 4375 4500
+	4175 4500 4275 4500
 $Comp
 L Device:C C?
 U 1 1 5F7F2C46
@@ -1580,9 +1580,9 @@ F 5 "Capactitor - Bypass" H 4600 4350 50  0001 C CNN "part_name"
 	1    4600 4350
 	-1   0    0    1   
 $EndComp
-Connection ~ 4375 4500
+Connection ~ 4275 4500
 Wire Wire Line
-	4375 4600 4600 4600
+	4275 4600 4600 4600
 Wire Wire Line
 	5050 4500 5050 4600
 Connection ~ 4600 4600
@@ -1590,32 +1590,17 @@ Wire Wire Line
 	4600 4600 5050 4600
 Wire Wire Line
 	4600 4500 4600 4600
-$Comp
-L Device:CP C?
-U 1 1 5FA10C8E
-P 5425 4350
-AR Path="/5FA10C8E" Ref="C?"  Part="1" 
-AR Path="/5F580392/5FA10C8E" Ref="C310"  Part="1" 
-F 0 "C310" H 5307 4304 50  0000 R CNN
-F 1 "1uF" H 5307 4395 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 5463 4200 50  0001 C CNN
-F 3 "~" H 5425 4350 50  0001 C CNN
-F 4 "Capactitor - Bypass" H 5425 4350 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 5425 4350 50  0001 C CNN "part_url"
-	1    5425 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5425 4500 5425 4600
+	5475 4500 5475 4600
 Wire Wire Line
-	5425 4600 5050 4600
+	5475 4600 5050 4600
 Connection ~ 5050 4600
 Wire Wire Line
-	5050 4000 5425 4000
+	5050 4000 5475 4000
 Wire Wire Line
-	5425 4000 5425 4200
+	5475 4000 5475 4200
 Connection ~ 5050 4000
-Connection ~ 5425 4000
+Connection ~ 5475 4000
 Wire Wire Line
 	3025 4400 2875 4400
 NoConn ~ 2875 4400
@@ -2176,4 +2161,19 @@ Wire Wire Line
 	10550 2675 10700 2675
 Wire Wire Line
 	10700 2675 10700 2775
+$Comp
+L Device:C C?
+U 1 1 5FC220FB
+P 5475 4350
+AR Path="/5FC220FB" Ref="C?"  Part="1" 
+AR Path="/5F580392/5FC220FB" Ref="C310"  Part="1" 
+F 0 "C310" H 5590 4396 50  0000 L CNN
+F 1 "1uF" H 5590 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5513 4200 50  0001 C CNN
+F 3 "~" H 5475 4350 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 5475 4350 50  0001 C CNN "part_url"
+F 5 "Capactitor - Bypass" H 5475 4350 50  0001 C CNN "part_name"
+	1    5475 4350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
