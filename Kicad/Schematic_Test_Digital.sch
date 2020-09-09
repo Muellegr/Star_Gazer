@@ -650,9 +650,6 @@ Wire Wire Line
 Connection ~ 10700 2875
 Wire Wire Line
 	10700 2775 10700 2875
-Connection ~ 10700 2775
-Wire Wire Line
-	10700 2675 10700 2775
 Wire Wire Line
 	10550 3375 10700 3375
 Wire Wire Line
@@ -667,8 +664,6 @@ Wire Wire Line
 	10550 2875 10700 2875
 Wire Wire Line
 	10550 2775 10700 2775
-Wire Wire Line
-	10550 2675 10700 2675
 Wire Wire Line
 	10250 3375 10200 3375
 $Comp
@@ -882,357 +877,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 2775 10200 2775
 Wire Wire Line
-	10250 2675 10200 2675
-$Comp
-L Device:LED D?
-U 1 1 5F64B3FF
-P 10400 2775
-AR Path="/5F64B3FF" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B3FF" Ref="D310"  Part="1" 
-F 0 "D310" H 10393 2520 39  0001 C CNN
-F 1 "RING_LED" H 10393 2611 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2775 50  0001 C CNN
-F 3 "~" H 10400 2775 50  0001 C CNN
-F 4 "LED - Green" H 10400 2775 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2775 50  0001 C CNN "part_url"
-	1    10400 2775
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B405
-P 10050 2775
-AR Path="/5F64B405" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B405" Ref="R313"  Part="1" 
-F 0 "R313" V 9843 2775 50  0001 C CNN
-F 1 "330" V 9934 2775 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2775 50  0001 C CNN
-F 3 "~" H 10050 2775 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 2775 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 2775 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2775 50  0001 C CNN "part_url"
-	1    10050 2775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	9550 2775 9900 2775
-$Comp
-L Device:LED D?
-U 1 1 5F64B40C
-P 10400 2675
-AR Path="/5F64B40C" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B40C" Ref="D309"  Part="1" 
-F 0 "D309" H 10393 2420 39  0000 C CNN
-F 1 "RING_LED" H 10393 2511 39  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2675 50  0001 C CNN
-F 3 "~" H 10400 2675 50  0001 C CNN
-F 4 "LED - Green" H 10400 2675 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2675 50  0001 C CNN "part_url"
-	1    10400 2675
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B412
-P 10050 2675
-AR Path="/5F64B412" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B412" Ref="R312"  Part="1" 
-F 0 "R312" V 9843 2675 39  0000 C CNN
-F 1 "330" V 9934 2675 39  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2675 50  0001 C CNN
-F 3 "~" H 10050 2675 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 2675 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 2675 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2675 50  0001 C CNN "part_url"
-	1    10050 2675
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 2675 9900 2675
-Connection ~ 10700 1925
-Wire Wire Line
-	10700 1825 10700 1925
-Connection ~ 10700 1825
-Wire Wire Line
-	10700 1725 10700 1825
-Connection ~ 10700 1725
-Wire Wire Line
-	10700 1625 10700 1725
-Connection ~ 10700 1625
-Wire Wire Line
-	10700 1525 10700 1625
-Connection ~ 10700 1525
-Wire Wire Line
-	10700 1425 10700 1525
-Connection ~ 10700 1425
-Wire Wire Line
-	10700 1325 10700 1425
-Connection ~ 10700 1325
-Wire Wire Line
-	10700 1225 10700 1325
-Wire Wire Line
-	10550 1925 10700 1925
-Wire Wire Line
-	10550 1825 10700 1825
-Wire Wire Line
-	10550 1725 10700 1725
-Wire Wire Line
-	10550 1625 10700 1625
-Wire Wire Line
-	10550 1525 10700 1525
-Wire Wire Line
-	10550 1425 10700 1425
-Wire Wire Line
-	10550 1325 10700 1325
-Wire Wire Line
-	10550 1225 10700 1225
-Wire Wire Line
-	10250 1925 10200 1925
-$Comp
-L Device:LED D?
-U 1 1 5F64B437
-P 10400 1925
-AR Path="/5F64B437" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B437" Ref="D308"  Part="1" 
-F 0 "D308" H 10393 1670 39  0001 C CNN
-F 1 "RING_LED" H 10393 1761 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1925 50  0001 C CNN
-F 3 "~" H 10400 1925 50  0001 C CNN
-F 4 "LED - Green" H 10400 1925 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1925 50  0001 C CNN "part_url"
-	1    10400 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B43D
-P 10050 1925
-AR Path="/5F64B43D" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B43D" Ref="R311"  Part="1" 
-F 0 "R311" V 9843 1925 50  0001 C CNN
-F 1 "330" V 9934 1925 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1925 50  0001 C CNN
-F 3 "~" H 10050 1925 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1925 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1925 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1925 50  0001 C CNN "part_url"
-	1    10050 1925
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1925 9900 1925
-Wire Wire Line
-	10250 1825 10200 1825
-$Comp
-L Device:LED D?
-U 1 1 5F64B445
-P 10400 1825
-AR Path="/5F64B445" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B445" Ref="D307"  Part="1" 
-F 0 "D307" H 10393 1570 39  0001 C CNN
-F 1 "RING_LED" H 10393 1661 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1825 50  0001 C CNN
-F 3 "~" H 10400 1825 50  0001 C CNN
-F 4 "LED - Green" H 10400 1825 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1825 50  0001 C CNN "part_url"
-	1    10400 1825
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B44B
-P 10050 1825
-AR Path="/5F64B44B" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B44B" Ref="R310"  Part="1" 
-F 0 "R310" V 9843 1825 50  0001 C CNN
-F 1 "330" V 9934 1825 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1825 50  0001 C CNN
-F 3 "~" H 10050 1825 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1825 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1825 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1825 50  0001 C CNN "part_url"
-	1    10050 1825
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1825 9900 1825
-Wire Wire Line
-	10250 1725 10200 1725
-$Comp
-L Device:LED D?
-U 1 1 5F64B453
-P 10400 1725
-AR Path="/5F64B453" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B453" Ref="D306"  Part="1" 
-F 0 "D306" H 10393 1470 39  0001 C CNN
-F 1 "RING_LED" H 10393 1561 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1725 50  0001 C CNN
-F 3 "~" H 10400 1725 50  0001 C CNN
-F 4 "LED - Green" H 10400 1725 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1725 50  0001 C CNN "part_url"
-	1    10400 1725
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B459
-P 10050 1725
-AR Path="/5F64B459" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B459" Ref="R309"  Part="1" 
-F 0 "R309" V 9843 1725 50  0001 C CNN
-F 1 "330" V 9934 1725 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1725 50  0001 C CNN
-F 3 "~" H 10050 1725 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1725 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1725 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1725 50  0001 C CNN "part_url"
-	1    10050 1725
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1725 9900 1725
-Wire Wire Line
-	10250 1625 10200 1625
-$Comp
-L Device:LED D?
-U 1 1 5F64B461
-P 10400 1625
-AR Path="/5F64B461" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B461" Ref="D305"  Part="1" 
-F 0 "D305" H 10393 1370 39  0001 C CNN
-F 1 "RING_LED" H 10393 1461 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1625 50  0001 C CNN
-F 3 "~" H 10400 1625 50  0001 C CNN
-F 4 "LED - Green" H 10400 1625 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1625 50  0001 C CNN "part_url"
-	1    10400 1625
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B467
-P 10050 1625
-AR Path="/5F64B467" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B467" Ref="R308"  Part="1" 
-F 0 "R308" V 9843 1625 50  0001 C CNN
-F 1 "330" V 9934 1625 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1625 50  0001 C CNN
-F 3 "~" H 10050 1625 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1625 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1625 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1625 50  0001 C CNN "part_url"
-	1    10050 1625
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1625 9900 1625
-Wire Wire Line
-	10250 1525 10200 1525
-$Comp
-L Device:LED D?
-U 1 1 5F64B46F
-P 10400 1525
-AR Path="/5F64B46F" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B46F" Ref="D304"  Part="1" 
-F 0 "D304" H 10393 1270 39  0001 C CNN
-F 1 "RING_LED" H 10393 1361 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1525 50  0001 C CNN
-F 3 "~" H 10400 1525 50  0001 C CNN
-F 4 "LED - Green" H 10400 1525 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1525 50  0001 C CNN "part_url"
-	1    10400 1525
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B475
-P 10050 1525
-AR Path="/5F64B475" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B475" Ref="R307"  Part="1" 
-F 0 "R307" V 9843 1525 50  0001 C CNN
-F 1 "330" V 9934 1525 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1525 50  0001 C CNN
-F 3 "~" H 10050 1525 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1525 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1525 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1525 50  0001 C CNN "part_url"
-	1    10050 1525
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1525 9900 1525
-Wire Wire Line
-	10250 1425 10200 1425
-$Comp
-L Device:LED D?
-U 1 1 5F64B47D
-P 10400 1425
-AR Path="/5F64B47D" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B47D" Ref="D303"  Part="1" 
-F 0 "D303" H 10393 1170 39  0001 C CNN
-F 1 "RING_LED" H 10393 1261 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1425 50  0001 C CNN
-F 3 "~" H 10400 1425 50  0001 C CNN
-F 4 "LED - Green" H 10400 1425 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1425 50  0001 C CNN "part_url"
-	1    10400 1425
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B483
-P 10050 1425
-AR Path="/5F64B483" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B483" Ref="R306"  Part="1" 
-F 0 "R306" V 9843 1425 50  0001 C CNN
-F 1 "330" V 9934 1425 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1425 50  0001 C CNN
-F 3 "~" H 10050 1425 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1425 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1425 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1425 50  0001 C CNN "part_url"
-	1    10050 1425
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1425 9900 1425
-Wire Wire Line
-	10250 1325 10200 1325
-Wire Wire Line
-	10250 1225 10200 1225
-$Comp
-L Device:LED D?
-U 1 1 5F64B48C
-P 10400 1325
-AR Path="/5F64B48C" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B48C" Ref="D302"  Part="1" 
-F 0 "D302" H 10393 1070 39  0001 C CNN
-F 1 "RING_LED" H 10393 1161 39  0001 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1325 50  0001 C CNN
-F 3 "~" H 10400 1325 50  0001 C CNN
-F 4 "LED - Green" H 10400 1325 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1325 50  0001 C CNN "part_url"
-	1    10400 1325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B492
-P 10050 1325
-AR Path="/5F64B492" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B492" Ref="R305"  Part="1" 
-F 0 "R305" V 9843 1325 50  0001 C CNN
-F 1 "330" V 9934 1325 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1325 50  0001 C CNN
-F 3 "~" H 10050 1325 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1325 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1325 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1325 50  0001 C CNN "part_url"
-	1    10050 1325
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 1325 9900 1325
 Wire Notes Line
 	4800 4975 2350 4975
 Wire Notes Line
@@ -1286,9 +931,9 @@ Wire Wire Line
 	3500 5675 3500 5925
 Text Notes 2375 5125 0    79   ~ 0
 I2C
-Text GLabel 3950 4025 2    50   BiDi ~ 0
+Text GLabel 2750 4100 0    50   BiDi ~ 0
 I2C_SDA
-Text GLabel 3950 4175 2    50   BiDi ~ 0
+Text GLabel 2750 4000 0    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 5225 3075 2    50   BiDi ~ 0
 I2C_SDA
@@ -1341,80 +986,32 @@ F 3 "~" H 3150 5525 50  0001 C CNN
 	1    3150 5525
 	1    0    0    -1  
 $EndComp
-Text Notes 2400 3775 0    79   ~ 0
+Text Notes 2400 3750 0    79   ~ 0
 MAGNOMETER
 Wire Notes Line
-	4350 3625 2350 3625
+	6000 3600 2350 3600
 Wire Notes Line
-	4350 4875 4350 3625
+	6000 4925 6000 3600
 Wire Notes Line
-	2350 4875 4350 4875
-Wire Notes Line
-	2350 3625 2350 4875
+	2350 3600 2350 4925
 Wire Wire Line
-	3000 4375 3000 4525
-Connection ~ 3000 4375
+	2750 4000 3025 4000
 Wire Wire Line
-	2800 4025 3150 4025
-Connection ~ 2800 4025
-Wire Wire Line
-	2700 4025 2800 4025
-Wire Wire Line
-	3000 4175 3000 4375
-Wire Wire Line
-	2800 4075 2800 4025
-Wire Wire Line
-	2800 4375 3000 4375
+	2750 4100 3025 4100
 $Comp
-L Device:C C?
-U 1 1 5F64B4DB
-P 2800 4225
-AR Path="/5F64B4DB" Ref="C?"  Part="1" 
-AR Path="/5F580392/5F64B4DB" Ref="C304"  Part="1" 
-F 0 "C304" H 2685 4179 50  0000 R CNN
-F 1 "2.2uF" H 2685 4270 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 4075 50  0001 C CNN
-F 3 "~" H 2800 4225 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 2800 4225 50  0001 C CNN "part_url"
-F 5 "Capactitor - Bypass" H 2800 4225 50  0001 C CNN "part_name"
-	1    2800 4225
-	1    0    0    -1  
-$EndComp
-Text GLabel 2700 4025 0    51   BiDi ~ 0
-V_REG
-$Comp
-L power:GND #PWR?
-U 1 1 5F64B4E2
-P 3000 4525
-AR Path="/5F64B4E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F580392/5F64B4E2" Ref="#PWR0309"  Part="1" 
-F 0 "#PWR0309" H 3000 4275 50  0001 C CNN
-F 1 "GND" H 3005 4352 50  0000 C CNN
-F 2 "" H 3000 4525 50  0001 C CNN
-F 3 "" H 3000 4525 50  0001 C CNN
-	1    3000 4525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 4175 3000 4175
-Wire Wire Line
-	3950 4175 3850 4175
-Wire Wire Line
-	3950 4025 3850 4025
-$Comp
-L StarGazer:MMC5603NJ U?
+L StarGazer:LIS3MDL U?
 U 1 1 5F64B4EE
-P 3500 3825
+P 3575 3850
 AR Path="/5F64B4EE" Ref="U?"  Part="1" 
 AR Path="/5F580392/5F64B4EE" Ref="U302"  Part="1" 
-F 0 "U302" H 3500 3956 79  0000 C CNN
-F 1 "MMC5603NJ" H 3500 3821 79  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 3500 3825 79  0001 C CNN
-F 3 "" H 3500 3825 79  0001 C CNN
-F 4 "Magnometer Sensor " H 3500 3825 50  0001 C CNN "part_details"
-F 5 "MMC5603NJ" H 3500 3825 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/memsic-inc/MMC5603NJ/1267-MMC5603NJCT-ND/10452803" H 3500 3825 50  0001 C CNN "part_url"
-	1    3500 3825
+F 0 "U302" H 3575 3981 79  0000 C CNN
+F 1 "LIS3MDLTR" H 3575 3846 79  0000 C CNN
+F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 3575 3850 79  0001 C CNN
+F 3 "" H 3575 3850 79  0001 C CNN
+F 4 "Magnometer Sensor " H 3575 3850 50  0001 C CNN "part_details"
+F 5 "LIS3MDLTR" H 3575 3850 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3MDLTR/497-13892-1-ND/4309737" H 3575 3850 50  0001 C CNN "part_url"
+	1    3575 3850
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1586,8 +1183,6 @@ Wire Notes Line
 Wire Notes Line
 	10925 550  7075 550 
 Wire Notes Line
-	10925 5550 10925 550 
-Wire Notes Line
 	7075 5550 10925 5550
 Text Notes 650  675  0    79   ~ 0
 RESET DIAGRAM
@@ -1632,22 +1227,6 @@ Wire Wire Line
 Wire Wire Line
 	1675 1625 1675 1725
 $Comp
-L StarGazer:74HC595D U?
-U 1 1 5F64B568
-P 9150 1025
-AR Path="/5F64B568" Ref="U?"  Part="1" 
-AR Path="/5F580392/5F64B568" Ref="U304"  Part="1" 
-F 0 "U304" H 9125 1092 50  0000 C CNN
-F 1 "74HC595PW" H 9125 1000 51  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 1125 50  0001 C CNN
-F 3 "" H 9200 1125 50  0001 C CNN
-F 4 "Shift Register" H 9150 1025 50  0001 C CNN "part_details"
-F 5 "74HC595PW,118" H 9150 1025 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 1025 50  0001 C CNN "part_url"
-	1    9150 1025
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C?
 U 1 1 5F64B56E
 P 8425 3925
@@ -1679,37 +1258,6 @@ F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/17
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
-U 1 1 5F64B57D
-P 8425 2400
-AR Path="/5F64B57D" Ref="C?"  Part="1" 
-AR Path="/5F580392/5F64B57D" Ref="C307"  Part="1" 
-F 0 "C307" H 8307 2354 50  0000 R CNN
-F 1 "10uF" H 8307 2445 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 2250 50  0001 C CNN
-F 3 "~" H 8425 2400 50  0001 C CNN
-F 4 "Capactitor - Bypass" H 8425 2400 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 2400 50  0001 C CNN "part_url"
-	1    8425 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L StarGazer:74HC595D U?
-U 1 1 5F64B586
-P 9150 2475
-AR Path="/5F64B586" Ref="U?"  Part="1" 
-AR Path="/5F580392/5F64B586" Ref="U305"  Part="1" 
-F 0 "U305" H 9125 2542 50  0000 C CNN
-F 1 "74HC595PW" H 9125 2450 51  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 2575 50  0001 C CNN
-F 3 "" H 9200 2575 50  0001 C CNN
-F 4 "Shift Register" H 9150 2475 50  0001 C CNN "part_details"
-F 5 "74HC595PW,118" H 9150 2475 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 2475 50  0001 C CNN "part_url"
-	1    9150 2475
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5F64B590
 P 1475 975
@@ -1727,52 +1275,6 @@ F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
-U 1 1 5F64B596
-P 10400 1225
-AR Path="/5F64B596" Ref="D?"  Part="1" 
-AR Path="/5F580392/5F64B596" Ref="D301"  Part="1" 
-F 0 "D301" H 10393 970 39  0000 C CNN
-F 1 "RING_LED" H 10393 1061 39  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1225 50  0001 C CNN
-F 3 "~" H 10400 1225 50  0001 C CNN
-F 4 "LED - Green" H 10400 1225 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1225 50  0001 C CNN "part_url"
-	1    10400 1225
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F64B59C
-P 10050 1225
-AR Path="/5F64B59C" Ref="R?"  Part="1" 
-AR Path="/5F580392/5F64B59C" Ref="R304"  Part="1" 
-F 0 "R304" V 9843 1225 39  0000 C CNN
-F 1 "330" V 9934 1225 39  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1225 50  0001 C CNN
-F 3 "~" H 10050 1225 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1225 50  0001 C CNN "part_details"
-F 5 "Resistor - LED Ring" H 10050 1225 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1225 50  0001 C CNN "part_url"
-	1    10050 1225
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 5F64B5A2
-P 8425 950
-AR Path="/5F64B5A2" Ref="C?"  Part="1" 
-AR Path="/5F580392/5F64B5A2" Ref="C306"  Part="1" 
-F 0 "C306" H 8307 904 50  0000 R CNN
-F 1 "10uF" H 8307 995 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 800 50  0001 C CNN
-F 3 "~" H 8425 950 50  0001 C CNN
-F 4 "Capactitor - Bypass" H 8425 950 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 950 50  0001 C CNN "part_url"
-	1    8425 950 
-	-1   0    0    1   
-$EndComp
-$Comp
 L Switch:SW_Push SW?
 U 1 1 5F64B5A8
 P 2075 1525
@@ -1787,14 +1289,6 @@ F 5 "https://www.digikey.com/product-detail/en/c-k/PTS636-SM43-SMTR-LFS/CKN12310
 	1    2075 1525
 	0    1    1    0   
 $EndComp
-Text GLabel 8300 1475 0    50   BiDi ~ 0
-SHIFT_REG_LATCH
-Wire Wire Line
-	8300 1475 8700 1475
-Text GLabel 8300 1375 0    50   BiDi ~ 0
-SHIFT_REG_CLK
-Wire Wire Line
-	8300 1375 8700 1375
 Wire Wire Line
 	7400 4650 8700 4650
 Wire Wire Line
@@ -1805,21 +1299,6 @@ Wire Wire Line
 	7400 3125 8700 3125
 Wire Wire Line
 	7400 1775 7400 3125
-Wire Wire Line
-	8700 1775 7400 1775
-Wire Wire Line
-	8700 1975 8300 1975
-Wire Wire Line
-	8700 2075 8600 2075
-Wire Wire Line
-	9550 1225 9900 1225
-Wire Wire Line
-	8425 1225 8700 1225
-Wire Wire Line
-	9250 2125 9250 2175
-Connection ~ 9250 2175
-Wire Wire Line
-	9250 2175 9250 2250
 Wire Wire Line
 	9250 5250 9250 5325
 Connection ~ 9250 5250
@@ -1890,9 +1369,6 @@ Wire Wire Line
 	8600 3525 8600 3700
 Wire Wire Line
 	8700 3525 8600 3525
-Wire Wire Line
-	9250 3625 9250 3700
-Connection ~ 9250 3625
 Text GLabel 8300 2925 0    50   BiDi ~ 0
 SHIFT_REG_LATCH
 Wire Wire Line
@@ -1901,34 +1377,8 @@ Text GLabel 8300 2825 0    50   BiDi ~ 0
 SHIFT_REG_CLK
 Wire Wire Line
 	8300 2825 8700 2825
-$Comp
-L power:GND #PWR?
-U 1 1 5F64B5EF
-P 8200 2250
-AR Path="/5F64B5EF" Ref="#PWR?"  Part="1" 
-AR Path="/5F580392/5F64B5EF" Ref="#PWR0315"  Part="1" 
-F 0 "#PWR0315" H 8200 2000 50  0001 C CNN
-F 1 "GND" H 8205 2077 50  0000 C CNN
-F 2 "" H 8200 2250 50  0001 C CNN
-F 3 "" H 8200 2250 50  0001 C CNN
-	1    8200 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 2250 8200 2250
-Wire Wire Line
-	8425 2550 8425 2675
-Connection ~ 8425 2675
-Wire Wire Line
-	8425 2675 8700 2675
-Wire Wire Line
-	8300 2675 8425 2675
 Wire Wire Line
 	8700 3425 8300 3425
-Wire Wire Line
-	9250 3575 9250 3625
-Text GLabel 8300 2675 0    50   BiDi ~ 0
-V_REG
 $Comp
 L power:GND #PWR?
 U 1 1 5F64B5FE
@@ -1942,54 +1392,12 @@ F 3 "" H 9250 3725 50  0001 C CNN
 	1    9250 3725
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2250 9250 2275
-Connection ~ 9250 2250
-Wire Wire Line
-	8600 2250 9250 2250
-Wire Wire Line
-	8600 2075 8600 2250
 Text GLabel 1225 1150 0    50   BiDi ~ 0
 SW_RESET_N
 Wire Wire Line
 	1325 975  1225 975 
 Text GLabel 1225 975  0    50   BiDi ~ 0
 V_REG
-$Comp
-L power:GND #PWR?
-U 1 1 5F64B60B
-P 8200 800
-AR Path="/5F64B60B" Ref="#PWR?"  Part="1" 
-AR Path="/5F580392/5F64B60B" Ref="#PWR0314"  Part="1" 
-F 0 "#PWR0314" H 8200 550 50  0001 C CNN
-F 1 "GND" H 8205 627 50  0000 C CNN
-F 2 "" H 8200 800 50  0001 C CNN
-F 3 "" H 8200 800 50  0001 C CNN
-	1    8200 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 800  8200 800 
-Wire Wire Line
-	8425 1100 8425 1225
-Connection ~ 8425 1225
-Wire Wire Line
-	8300 1225 8425 1225
-Text GLabel 8300 1225 0    50   BiDi ~ 0
-V_REG
-$Comp
-L power:GND #PWR?
-U 1 1 5F64B617
-P 9250 2275
-AR Path="/5F64B617" Ref="#PWR?"  Part="1" 
-AR Path="/5F580392/5F64B617" Ref="#PWR0317"  Part="1" 
-F 0 "#PWR0317" H 9250 2025 50  0001 C CNN
-F 1 "GND" H 9255 2102 50  0000 C CNN
-F 2 "" H 9250 2275 50  0001 C CNN
-F 3 "" H 9250 2275 50  0001 C CNN
-	1    9250 2275
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F64B61D
@@ -2018,8 +1426,6 @@ F 3 "" H 1675 1725 50  0001 C CNN
 $EndComp
 Text GLabel 1225 1325 0    50   BiDi ~ 0
 RESET_N
-Text GLabel 8300 1975 0    50   BiDi ~ 0
-SHIFT_REG_RESET_N
 Text GLabel 8300 3425 0    50   BiDi ~ 0
 SHIFT_REG_RESET_N
 Text GLabel 8300 4950 0    50   BiDi ~ 0
@@ -2027,10 +1433,6 @@ SHIFT_REG_RESET_N
 Wire Wire Line
 	8700 4750 8550 4750
 NoConn ~ 8550 4750
-Text GLabel 8300 1675 0    50   BiDi ~ 0
-SHIFT_REG_DATA_IN
-Wire Wire Line
-	8300 1675 8700 1675
 Wire Wire Line
 	9250 5250 10700 5250
 Wire Wire Line
@@ -2039,10 +1441,6 @@ Wire Wire Line
 	9250 3700 10700 3700
 Wire Wire Line
 	10700 3375 10700 3700
-Wire Wire Line
-	9250 2250 10700 2250
-Wire Wire Line
-	10700 1925 10700 2250
 Text GLabel 1175 7050 0    50   BiDi ~ 0
 SWDIO
 Text GLabel 1175 6950 0    50   BiDi ~ 0
@@ -2098,4 +1496,684 @@ Wire Notes Line
 	2350 6650 600  6650
 Text Notes 650  6775 0    50   ~ 0
 SWD - PROGRAM\n
+Text GLabel 2750 4200 0    51   BiDi ~ 0
+V_REG
+Wire Wire Line
+	3025 4200 2875 4200
+Wire Wire Line
+	2875 4200 2875 4300
+Wire Wire Line
+	2875 4300 3025 4300
+Connection ~ 2875 4200
+Wire Wire Line
+	2875 4200 2750 4200
+$Comp
+L power:GND #PWR0105
+U 1 1 5F746BCA
+P 4375 4700
+F 0 "#PWR0105" H 4375 4450 50  0001 C CNN
+F 1 "GND" H 4380 4527 50  0000 C CNN
+F 2 "" H 4375 4700 50  0001 C CNN
+F 3 "" H 4375 4700 50  0001 C CNN
+	1    4375 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 4600 4375 4600
+Wire Wire Line
+	4375 4600 4375 4700
+Connection ~ 4375 4600
+Wire Wire Line
+	4175 4400 4375 4400
+Wire Wire Line
+	3025 4500 2875 4500
+Text GLabel 5575 4000 2    51   BiDi ~ 0
+V_REG
+Wire Wire Line
+	5575 4000 5425 4000
+Wire Wire Line
+	4175 4100 4375 4100
+Wire Wire Line
+	4375 4100 4375 4000
+Connection ~ 4375 4000
+Wire Wire Line
+	4375 4000 4175 4000
+$Comp
+L Device:C C?
+U 1 1 5F891147
+P 5050 4350
+AR Path="/5F891147" Ref="C?"  Part="1" 
+AR Path="/5F580392/5F891147" Ref="C309"  Part="1" 
+F 0 "C309" H 5165 4396 50  0000 L CNN
+F 1 "100nF" H 5165 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 4200 50  0001 C CNN
+F 3 "~" H 5050 4350 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 5050 4350 50  0001 C CNN "part_url"
+F 5 "Capactitor - Bypass" H 5050 4350 50  0001 C CNN "part_name"
+	1    5050 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4375 4000 5050 4000
+Wire Wire Line
+	5050 4000 5050 4200
+Wire Wire Line
+	4175 4200 4600 4200
+Wire Wire Line
+	4375 4400 4375 4500
+Wire Wire Line
+	4375 4500 4375 4600
+Wire Wire Line
+	4175 4500 4375 4500
+$Comp
+L Device:C C?
+U 1 1 5F7F2C46
+P 4600 4350
+AR Path="/5F7F2C46" Ref="C?"  Part="1" 
+AR Path="/5F580392/5F7F2C46" Ref="C304"  Part="1" 
+F 0 "C304" H 4715 4396 50  0000 L CNN
+F 1 "100nF" H 4715 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4638 4200 50  0001 C CNN
+F 3 "~" H 4600 4350 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 4600 4350 50  0001 C CNN "part_url"
+F 5 "Capactitor - Bypass" H 4600 4350 50  0001 C CNN "part_name"
+	1    4600 4350
+	-1   0    0    1   
+$EndComp
+Connection ~ 4375 4500
+Wire Wire Line
+	4375 4600 4600 4600
+Wire Wire Line
+	5050 4500 5050 4600
+Connection ~ 4600 4600
+Wire Wire Line
+	4600 4600 5050 4600
+Wire Wire Line
+	4600 4500 4600 4600
+$Comp
+L Device:CP C?
+U 1 1 5FA10C8E
+P 5425 4350
+AR Path="/5FA10C8E" Ref="C?"  Part="1" 
+AR Path="/5F580392/5FA10C8E" Ref="C310"  Part="1" 
+F 0 "C310" H 5307 4304 50  0000 R CNN
+F 1 "1uF" H 5307 4395 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 5463 4200 50  0001 C CNN
+F 3 "~" H 5425 4350 50  0001 C CNN
+F 4 "Capactitor - Bypass" H 5425 4350 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 5425 4350 50  0001 C CNN "part_url"
+	1    5425 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 4500 5425 4600
+Wire Wire Line
+	5425 4600 5050 4600
+Connection ~ 5050 4600
+Wire Wire Line
+	5050 4000 5425 4000
+Wire Wire Line
+	5425 4000 5425 4200
+Connection ~ 5050 4000
+Connection ~ 5425 4000
+Wire Wire Line
+	3025 4400 2875 4400
+NoConn ~ 2875 4400
+NoConn ~ 2875 4500
+Wire Notes Line
+	2350 4925 6000 4925
+Connection ~ 9250 3625
+Wire Wire Line
+	9250 3575 9250 3625
+Wire Wire Line
+	9250 3625 9250 3700
+Connection ~ 10700 2775
+Wire Wire Line
+	8425 800  8200 800 
+Wire Wire Line
+	10700 1925 10700 2250
+Wire Wire Line
+	9250 2250 10700 2250
+Wire Wire Line
+	8300 1675 8700 1675
+Text GLabel 8300 1675 0    50   BiDi ~ 0
+SHIFT_REG_DATA_IN
+Text GLabel 8300 1975 0    50   BiDi ~ 0
+SHIFT_REG_RESET_N
+$Comp
+L power:GND #PWR?
+U 1 1 5F64B617
+P 9250 2275
+AR Path="/5F64B617" Ref="#PWR?"  Part="1" 
+AR Path="/5F580392/5F64B617" Ref="#PWR0317"  Part="1" 
+F 0 "#PWR0317" H 9250 2025 50  0001 C CNN
+F 1 "GND" H 9255 2102 50  0000 C CNN
+F 2 "" H 9250 2275 50  0001 C CNN
+F 3 "" H 9250 2275 50  0001 C CNN
+	1    9250 2275
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 1225 0    50   BiDi ~ 0
+V_REG
+Wire Wire Line
+	8300 1225 8425 1225
+Connection ~ 8425 1225
+Wire Wire Line
+	8425 1100 8425 1225
+$Comp
+L power:GND #PWR?
+U 1 1 5F64B60B
+P 8200 800
+AR Path="/5F64B60B" Ref="#PWR?"  Part="1" 
+AR Path="/5F580392/5F64B60B" Ref="#PWR0314"  Part="1" 
+F 0 "#PWR0314" H 8200 550 50  0001 C CNN
+F 1 "GND" H 8205 627 50  0000 C CNN
+F 2 "" H 8200 800 50  0001 C CNN
+F 3 "" H 8200 800 50  0001 C CNN
+	1    8200 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2075 8600 2250
+Wire Wire Line
+	8600 2250 9250 2250
+Connection ~ 9250 2250
+Wire Wire Line
+	9250 2250 9250 2275
+Text GLabel 8300 2675 0    50   BiDi ~ 0
+V_REG
+Wire Wire Line
+	8300 2675 8425 2675
+Wire Wire Line
+	8425 2675 8700 2675
+Connection ~ 8425 2675
+Wire Wire Line
+	8425 2550 8425 2675
+Wire Wire Line
+	8425 2250 8200 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5F64B5EF
+P 8200 2250
+AR Path="/5F64B5EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F580392/5F64B5EF" Ref="#PWR0315"  Part="1" 
+F 0 "#PWR0315" H 8200 2000 50  0001 C CNN
+F 1 "GND" H 8205 2077 50  0000 C CNN
+F 2 "" H 8200 2250 50  0001 C CNN
+F 3 "" H 8200 2250 50  0001 C CNN
+	1    8200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2175 9250 2250
+Connection ~ 9250 2175
+Wire Wire Line
+	9250 2125 9250 2175
+Wire Wire Line
+	8425 1225 8700 1225
+Wire Wire Line
+	9550 1225 9900 1225
+Wire Wire Line
+	8700 2075 8600 2075
+Wire Wire Line
+	8700 1975 8300 1975
+Wire Wire Line
+	8700 1775 7400 1775
+Wire Wire Line
+	8300 1375 8700 1375
+Text GLabel 8300 1375 0    50   BiDi ~ 0
+SHIFT_REG_CLK
+Wire Wire Line
+	8300 1475 8700 1475
+Text GLabel 8300 1475 0    50   BiDi ~ 0
+SHIFT_REG_LATCH
+$Comp
+L Device:CP C?
+U 1 1 5F64B5A2
+P 8425 950
+AR Path="/5F64B5A2" Ref="C?"  Part="1" 
+AR Path="/5F580392/5F64B5A2" Ref="C306"  Part="1" 
+F 0 "C306" H 8307 904 50  0000 R CNN
+F 1 "10uF" H 8307 995 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 800 50  0001 C CNN
+F 3 "~" H 8425 950 50  0001 C CNN
+F 4 "Capactitor - Bypass" H 8425 950 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 950 50  0001 C CNN "part_url"
+	1    8425 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F64B59C
+P 10050 1225
+AR Path="/5F64B59C" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B59C" Ref="R304"  Part="1" 
+F 0 "R304" V 9843 1225 39  0000 C CNN
+F 1 "330" V 9934 1225 39  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1225 50  0001 C CNN
+F 3 "~" H 10050 1225 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1225 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1225 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1225 50  0001 C CNN "part_url"
+	1    10050 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B596
+P 10400 1225
+AR Path="/5F64B596" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B596" Ref="D301"  Part="1" 
+F 0 "D301" H 10393 970 39  0000 C CNN
+F 1 "RING_LED" H 10393 1061 39  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1225 50  0001 C CNN
+F 3 "~" H 10400 1225 50  0001 C CNN
+F 4 "LED - Green" H 10400 1225 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1225 50  0001 C CNN "part_url"
+	1    10400 1225
+	-1   0    0    1   
+$EndComp
+$Comp
+L StarGazer:74HC595D U?
+U 1 1 5F64B586
+P 9150 2475
+AR Path="/5F64B586" Ref="U?"  Part="1" 
+AR Path="/5F580392/5F64B586" Ref="U305"  Part="1" 
+F 0 "U305" H 9125 2542 50  0000 C CNN
+F 1 "74HC595PW" H 9125 2450 51  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 2575 50  0001 C CNN
+F 3 "" H 9200 2575 50  0001 C CNN
+F 4 "Shift Register" H 9150 2475 50  0001 C CNN "part_details"
+F 5 "74HC595PW,118" H 9150 2475 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 2475 50  0001 C CNN "part_url"
+	1    9150 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5F64B57D
+P 8425 2400
+AR Path="/5F64B57D" Ref="C?"  Part="1" 
+AR Path="/5F580392/5F64B57D" Ref="C307"  Part="1" 
+F 0 "C307" H 8307 2354 50  0000 R CNN
+F 1 "10uF" H 8307 2445 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 2250 50  0001 C CNN
+F 3 "~" H 8425 2400 50  0001 C CNN
+F 4 "Capactitor - Bypass" H 8425 2400 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 2400 50  0001 C CNN "part_url"
+	1    8425 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L StarGazer:74HC595D U?
+U 1 1 5F64B568
+P 9150 1025
+AR Path="/5F64B568" Ref="U?"  Part="1" 
+AR Path="/5F580392/5F64B568" Ref="U304"  Part="1" 
+F 0 "U304" H 9125 1092 50  0000 C CNN
+F 1 "74HC595PW" H 9125 1000 51  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 1125 50  0001 C CNN
+F 3 "" H 9200 1125 50  0001 C CNN
+F 4 "Shift Register" H 9150 1025 50  0001 C CNN "part_details"
+F 5 "74HC595PW,118" H 9150 1025 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 1025 50  0001 C CNN "part_url"
+	1    9150 1025
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10925 5550 10925 550 
+Wire Wire Line
+	9550 1325 9900 1325
+$Comp
+L Device:R R?
+U 1 1 5F64B492
+P 10050 1325
+AR Path="/5F64B492" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B492" Ref="R305"  Part="1" 
+F 0 "R305" V 9843 1325 50  0001 C CNN
+F 1 "330" V 9934 1325 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1325 50  0001 C CNN
+F 3 "~" H 10050 1325 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1325 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1325 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1325 50  0001 C CNN "part_url"
+	1    10050 1325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B48C
+P 10400 1325
+AR Path="/5F64B48C" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B48C" Ref="D302"  Part="1" 
+F 0 "D302" H 10393 1070 39  0001 C CNN
+F 1 "RING_LED" H 10393 1161 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1325 50  0001 C CNN
+F 3 "~" H 10400 1325 50  0001 C CNN
+F 4 "LED - Green" H 10400 1325 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1325 50  0001 C CNN "part_url"
+	1    10400 1325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1225 10200 1225
+Wire Wire Line
+	10250 1325 10200 1325
+Wire Wire Line
+	9550 1425 9900 1425
+$Comp
+L Device:R R?
+U 1 1 5F64B483
+P 10050 1425
+AR Path="/5F64B483" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B483" Ref="R306"  Part="1" 
+F 0 "R306" V 9843 1425 50  0001 C CNN
+F 1 "330" V 9934 1425 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1425 50  0001 C CNN
+F 3 "~" H 10050 1425 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1425 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1425 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1425 50  0001 C CNN "part_url"
+	1    10050 1425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B47D
+P 10400 1425
+AR Path="/5F64B47D" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B47D" Ref="D303"  Part="1" 
+F 0 "D303" H 10393 1170 39  0001 C CNN
+F 1 "RING_LED" H 10393 1261 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1425 50  0001 C CNN
+F 3 "~" H 10400 1425 50  0001 C CNN
+F 4 "LED - Green" H 10400 1425 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1425 50  0001 C CNN "part_url"
+	1    10400 1425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1425 10200 1425
+Wire Wire Line
+	9550 1525 9900 1525
+$Comp
+L Device:R R?
+U 1 1 5F64B475
+P 10050 1525
+AR Path="/5F64B475" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B475" Ref="R307"  Part="1" 
+F 0 "R307" V 9843 1525 50  0001 C CNN
+F 1 "330" V 9934 1525 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1525 50  0001 C CNN
+F 3 "~" H 10050 1525 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1525 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1525 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1525 50  0001 C CNN "part_url"
+	1    10050 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B46F
+P 10400 1525
+AR Path="/5F64B46F" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B46F" Ref="D304"  Part="1" 
+F 0 "D304" H 10393 1270 39  0001 C CNN
+F 1 "RING_LED" H 10393 1361 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1525 50  0001 C CNN
+F 3 "~" H 10400 1525 50  0001 C CNN
+F 4 "LED - Green" H 10400 1525 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1525 50  0001 C CNN "part_url"
+	1    10400 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1525 10200 1525
+Wire Wire Line
+	9550 1625 9900 1625
+$Comp
+L Device:R R?
+U 1 1 5F64B467
+P 10050 1625
+AR Path="/5F64B467" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B467" Ref="R308"  Part="1" 
+F 0 "R308" V 9843 1625 50  0001 C CNN
+F 1 "330" V 9934 1625 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1625 50  0001 C CNN
+F 3 "~" H 10050 1625 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1625 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1625 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1625 50  0001 C CNN "part_url"
+	1    10050 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B461
+P 10400 1625
+AR Path="/5F64B461" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B461" Ref="D305"  Part="1" 
+F 0 "D305" H 10393 1370 39  0001 C CNN
+F 1 "RING_LED" H 10393 1461 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1625 50  0001 C CNN
+F 3 "~" H 10400 1625 50  0001 C CNN
+F 4 "LED - Green" H 10400 1625 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1625 50  0001 C CNN "part_url"
+	1    10400 1625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1625 10200 1625
+Wire Wire Line
+	9550 1725 9900 1725
+$Comp
+L Device:R R?
+U 1 1 5F64B459
+P 10050 1725
+AR Path="/5F64B459" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B459" Ref="R309"  Part="1" 
+F 0 "R309" V 9843 1725 50  0001 C CNN
+F 1 "330" V 9934 1725 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1725 50  0001 C CNN
+F 3 "~" H 10050 1725 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1725 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1725 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1725 50  0001 C CNN "part_url"
+	1    10050 1725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B453
+P 10400 1725
+AR Path="/5F64B453" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B453" Ref="D306"  Part="1" 
+F 0 "D306" H 10393 1470 39  0001 C CNN
+F 1 "RING_LED" H 10393 1561 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1725 50  0001 C CNN
+F 3 "~" H 10400 1725 50  0001 C CNN
+F 4 "LED - Green" H 10400 1725 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1725 50  0001 C CNN "part_url"
+	1    10400 1725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1725 10200 1725
+Wire Wire Line
+	9550 1825 9900 1825
+$Comp
+L Device:R R?
+U 1 1 5F64B44B
+P 10050 1825
+AR Path="/5F64B44B" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B44B" Ref="R310"  Part="1" 
+F 0 "R310" V 9843 1825 50  0001 C CNN
+F 1 "330" V 9934 1825 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1825 50  0001 C CNN
+F 3 "~" H 10050 1825 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1825 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1825 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1825 50  0001 C CNN "part_url"
+	1    10050 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B445
+P 10400 1825
+AR Path="/5F64B445" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B445" Ref="D307"  Part="1" 
+F 0 "D307" H 10393 1570 39  0001 C CNN
+F 1 "RING_LED" H 10393 1661 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1825 50  0001 C CNN
+F 3 "~" H 10400 1825 50  0001 C CNN
+F 4 "LED - Green" H 10400 1825 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1825 50  0001 C CNN "part_url"
+	1    10400 1825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1825 10200 1825
+Wire Wire Line
+	9550 1925 9900 1925
+$Comp
+L Device:R R?
+U 1 1 5F64B43D
+P 10050 1925
+AR Path="/5F64B43D" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B43D" Ref="R311"  Part="1" 
+F 0 "R311" V 9843 1925 50  0001 C CNN
+F 1 "330" V 9934 1925 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1925 50  0001 C CNN
+F 3 "~" H 10050 1925 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 1925 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 1925 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1925 50  0001 C CNN "part_url"
+	1    10050 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B437
+P 10400 1925
+AR Path="/5F64B437" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B437" Ref="D308"  Part="1" 
+F 0 "D308" H 10393 1670 39  0001 C CNN
+F 1 "RING_LED" H 10393 1761 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1925 50  0001 C CNN
+F 3 "~" H 10400 1925 50  0001 C CNN
+F 4 "LED - Green" H 10400 1925 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1925 50  0001 C CNN "part_url"
+	1    10400 1925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 1925 10200 1925
+Wire Wire Line
+	10550 1225 10700 1225
+Wire Wire Line
+	10550 1325 10700 1325
+Wire Wire Line
+	10550 1425 10700 1425
+Wire Wire Line
+	10550 1525 10700 1525
+Wire Wire Line
+	10550 1625 10700 1625
+Wire Wire Line
+	10550 1725 10700 1725
+Wire Wire Line
+	10550 1825 10700 1825
+Wire Wire Line
+	10550 1925 10700 1925
+Wire Wire Line
+	10700 1225 10700 1325
+Connection ~ 10700 1325
+Wire Wire Line
+	10700 1325 10700 1425
+Connection ~ 10700 1425
+Wire Wire Line
+	10700 1425 10700 1525
+Connection ~ 10700 1525
+Wire Wire Line
+	10700 1525 10700 1625
+Connection ~ 10700 1625
+Wire Wire Line
+	10700 1625 10700 1725
+Connection ~ 10700 1725
+Wire Wire Line
+	10700 1725 10700 1825
+Connection ~ 10700 1825
+Wire Wire Line
+	10700 1825 10700 1925
+Connection ~ 10700 1925
+Wire Wire Line
+	9550 2675 9900 2675
+$Comp
+L Device:R R?
+U 1 1 5F64B412
+P 10050 2675
+AR Path="/5F64B412" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B412" Ref="R312"  Part="1" 
+F 0 "R312" V 9843 2675 39  0000 C CNN
+F 1 "330" V 9934 2675 39  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2675 50  0001 C CNN
+F 3 "~" H 10050 2675 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 2675 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 2675 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2675 50  0001 C CNN "part_url"
+	1    10050 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B40C
+P 10400 2675
+AR Path="/5F64B40C" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B40C" Ref="D309"  Part="1" 
+F 0 "D309" H 10393 2420 39  0000 C CNN
+F 1 "RING_LED" H 10393 2511 39  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2675 50  0001 C CNN
+F 3 "~" H 10400 2675 50  0001 C CNN
+F 4 "LED - Green" H 10400 2675 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2675 50  0001 C CNN "part_url"
+	1    10400 2675
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F64B405
+P 10050 2775
+AR Path="/5F64B405" Ref="R?"  Part="1" 
+AR Path="/5F580392/5F64B405" Ref="R313"  Part="1" 
+F 0 "R313" V 9843 2775 50  0001 C CNN
+F 1 "330" V 9934 2775 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2775 50  0001 C CNN
+F 3 "~" H 10050 2775 50  0001 C CNN
+F 4 "Limits current to 8mA" H 10050 2775 50  0001 C CNN "part_details"
+F 5 "Resistor - LED Ring" H 10050 2775 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2775 50  0001 C CNN "part_url"
+	1    10050 2775
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F64B3FF
+P 10400 2775
+AR Path="/5F64B3FF" Ref="D?"  Part="1" 
+AR Path="/5F580392/5F64B3FF" Ref="D310"  Part="1" 
+F 0 "D310" H 10393 2520 39  0001 C CNN
+F 1 "RING_LED" H 10393 2611 39  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2775 50  0001 C CNN
+F 3 "~" H 10400 2775 50  0001 C CNN
+F 4 "LED - Green" H 10400 2775 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2775 50  0001 C CNN "part_url"
+	1    10400 2775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 2675 10200 2675
+Wire Wire Line
+	10550 2675 10700 2675
+Wire Wire Line
+	10700 2675 10700 2775
 $EndSCHEMATC

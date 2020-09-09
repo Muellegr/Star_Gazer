@@ -16,70 +16,39 @@ LEFTOVER
     BATTERY selected
         Fits inside
             Think in Z dimension, may be able to rotate.
+            
 	Go over power side
         Voltage, current
         Make sure right tags are on right pins
         
-
-
-2CL - Cstray
-PROGRAMMER
-J-Link EDU Mini Programmer
-	https://www.sparkfun.com/products/15345
-	
-	
-	
-	
-	
-stm32g0	
-https://www.digikey.com/product-detail/en/stmicroelectronics/STM32G071GBU6/497-18343-ND/9749148
-
-	Will use external clock
-		1 pin for actual input, second for enable/gpio
-	Boot to main flash memory
-		Boot pins to 0
-			boot_lock 0
-			n BOOT1 : X
-			BOOT0 : 0
-			nBOOT_SEL 0 
-			nBOOT0 : 0
-			
-	Embedded boot loader
-		The embedded boot loader is located in the System memory, programmed by ST during production. It is used to
-		reprogram the Flash memory using one of the following serial interfaces:
-		• USART on pins PA2/PA3, PA9/PA10 or PC10/PC11
-		• I2C on pins PB6/PB7 or PB10/PB11
-		• SPI on pins PA4/PA5/PA6/PA7 or PB12/PB13/PB14/PB15
-		For further details, refer to application note STM32 microcontroller system memory boot mode (AN2606).
-		PA13 SWDIO
-		PA14 SWCLK (USART2_TX)
-				
-				
-				
----------
-STM32L
-Boot modes       
-	At startup, BOOT0 pin and nBOOT1 option bit are used to select one of three boot options:
-		•Boot from Flash memory
-		•Boot from System memory
-		•Boot from embedded RAM
-	The boot loader is located in System memory. 
-	It is used to reprogram the Flash memory by using S
-		PI1 (PA4, PA5, PA6, PA7), 
-		USART2 (PA2, PA3) 
-		or USART2 (PA9, PA10). 
-	See STM32™ microcontroller system memory boot mode AN2606 for details.
+    i2C
+        Verify all components will work on speed
+        Verify all have same packet size
+        Verify all treat pins the same (do they have active high vs active low??)
+        
+    PCB MARKINGS
+        Orientation of gyros and magnometer
+            common orientation?
+    
+   SENSITIVE COMPONENT LOCATOINS
+        Magnometer -> Far away from current.  
+        GPS -> Far away from components.  Maybe even blank area of PCB.
+        
+   SCREW TERMINALS
+        Screw locations for
+            PCB
+            GPS (may glue to case instead)
+            Battery (May tape to case instead)
+            
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	
 USER INTERFACE
 	THUMBSTICK DUAL AXIS W/MOM PB - little thumb joystick
 		https://www.digikey.com/product-detail/en/c-k/THB001P/108-THB001P-ND/11687191
 		Mounted externally.  Likely use amazon pieces.
 		While ADC, these basically act as complete up or down apparenntly.  Very little accuracy.
-		
-	
-
-
-
 
 REMAINING PARTS
 	EXTERNAL CLOCK
@@ -157,7 +126,7 @@ ADC
 I2C
 	ADDRESSES
 		GYRO - 7-bit device address is [1101010]
-		MAGNOMETER - 7-bit device address is [0110000]
+		MAGNOMETER - 7 bit address is LIS3MDL is 0011110     The second least significant bit (next to 0) is controllable.
 		GPS - 
 		SCREEN - either 0111100 or 0111101  "\__(-_-)__/"
 		
