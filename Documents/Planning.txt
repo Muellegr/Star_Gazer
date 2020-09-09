@@ -1,31 +1,25 @@
 THINGS TO BUY
-	PROGRAMMER
+	PROGRAMMER - SWD
 	SOLDER PASTE, LEAD
 	FLUX MARKER
 	HOT PLATE
+    
+    
+ 
+    
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 LEFTOVER
-	Clock - 48MHZ
-	GPS
-	Begin assigning values
-	Begin basic board demensions, begin layout
-		4 layer board
-		which layers go to what
-			TOP SIGNAL - HIGH SPEEDS
-			GROUND
-			POWER
-			BOTTOM SIGNAL - LOWER SPEEDS
-
-Adding external clock, though not neccesary.
-	Crystal with two caps
-	The crystal manufacturer typically specifies a load capacitance which is the series combination of C L1 and C L2 .
-	 PCB and MCU pin capacitance must be included (10 pF can be used as a rough estimate of the combined pin and board capacitance) when sizing C L1 and C L2 
-	CL = (CL1*CL2) / (CL1 + CL2)   + Cs (PCB)
-
-7*(10^-9) = ( (x ) / (2) ) + 10pF
+	GPS selected
+    BATTERY selected
+        Fits inside
+            Think in Z dimension, may be able to rotate.
+	Go over power side
+        Voltage, current
+        Make sure right tags are on right pins
+        
 
 
 2CL - Cstray
