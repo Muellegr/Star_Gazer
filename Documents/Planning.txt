@@ -3,13 +3,25 @@ THINGS TO BUY
 	SOLDER PASTE, LEAD
 	FLUX MARKER
 	HOT PLATE
-    
+    TWEEZERS (actually useful)
     
  
     
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+LEFT OFF
+    Add vias to route LED signals on bottom of board.
+    test how this would look
+    ---
+    Once a format is made, apply it to the rest of the LED ring.
+    Think how an off-by-one error might look
+        Can I route these in a way so that 0-24 happens around a clock correctly?
+        Since I'm running these underneath the board, I think I can.
+        
+    Thatmeans top layer pieces will likely change.
+    AWESOME THING
+        Make connections THEN rotate. Allows for fine tuned routing!
 
 LEFTOVER
 	GPS selected

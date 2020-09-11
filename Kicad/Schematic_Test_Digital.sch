@@ -1303,10 +1303,6 @@ Wire Wire Line
 	9250 5250 9250 5325
 Connection ~ 9250 5250
 Wire Wire Line
-	8600 5250 9250 5250
-Wire Wire Line
-	8600 5050 8600 5250
-Wire Wire Line
 	8700 5050 8600 5050
 Wire Wire Line
 	9250 5150 9250 5250
@@ -1363,10 +1359,6 @@ $EndComp
 Wire Wire Line
 	9250 3700 9250 3725
 Connection ~ 9250 3700
-Wire Wire Line
-	8600 3700 9250 3700
-Wire Wire Line
-	8600 3525 8600 3700
 Wire Wire Line
 	8700 3525 8600 3525
 Text GLabel 8300 2925 0    50   BiDi ~ 0
@@ -1426,10 +1418,10 @@ F 3 "" H 1675 1725 50  0001 C CNN
 $EndComp
 Text GLabel 1225 1325 0    50   BiDi ~ 0
 RESET_N
-Text GLabel 8300 3425 0    50   BiDi ~ 0
-SHIFT_REG_RESET_N
-Text GLabel 8300 4950 0    50   BiDi ~ 0
-SHIFT_REG_RESET_N
+Text GLabel 8600 3525 0    50   BiDi ~ 0
+SHIFT_REG_OUTPUT_ENABLE_N
+Text GLabel 8600 5050 0    50   BiDi ~ 0
+SHIFT_REG_OUTPUT_ENABLE_N
 Wire Wire Line
 	8700 4750 8550 4750
 NoConn ~ 8550 4750
@@ -1623,8 +1615,8 @@ Wire Wire Line
 	8300 1675 8700 1675
 Text GLabel 8300 1675 0    50   BiDi ~ 0
 SHIFT_REG_DATA_IN
-Text GLabel 8300 1975 0    50   BiDi ~ 0
-SHIFT_REG_RESET_N
+Text GLabel 8600 2075 0    50   BiDi ~ 0
+SHIFT_REG_OUTPUT_ENABLE_N
 $Comp
 L power:GND #PWR?
 U 1 1 5F64B617
@@ -1658,10 +1650,6 @@ F 3 "" H 8200 800 50  0001 C CNN
 	1    8200 800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 2075 8600 2250
-Wire Wire Line
-	8600 2250 9250 2250
 Connection ~ 9250 2250
 Wire Wire Line
 	9250 2250 9250 2275
@@ -2176,4 +2164,10 @@ F 5 "Capactitor - Bypass" H 5475 4350 50  0001 C CNN "part_name"
 	1    5475 4350
 	-1   0    0    1   
 $EndComp
+Text GLabel 8300 1975 0    50   BiDi ~ 0
+RESET_N
+Text GLabel 8300 4950 0    50   BiDi ~ 0
+RESET_N
+Text GLabel 8300 3425 0    50   BiDi ~ 0
+RESET_N
 $EndSCHEMATC

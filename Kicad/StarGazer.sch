@@ -214,9 +214,9 @@ Wire Wire Line
 	6100 3375 6175 3375
 Text GLabel 4375 4375 0    47   BiDi ~ 0
 UI_BUTTON
-Text GLabel 6175 3375 2    47   BiDi ~ 0
+Text GLabel 6175 3275 2    47   BiDi ~ 0
 UI_JOY_X
-Text GLabel 6175 3475 2    47   BiDi ~ 0
+Text GLabel 6175 3375 2    47   BiDi ~ 0
 UI_JOY_Y
 Wire Wire Line
 	4375 4375 4800 4375
@@ -234,8 +234,8 @@ U 5F580392
 F0 "Schematic_Test_Digital" 50
 F1 "Schematic_Test_Digital.sch" 50
 $EndSheet
-Text GLabel 6175 3275 2    50   BiDi ~ 0
-SHIFT_REG_RESET_N
+Text GLabel 6175 3475 2    50   BiDi ~ 0
+SHIFT_REG_OUTPUT_ENABLE_N
 Wire Wire Line
 	6100 3275 6175 3275
 Wire Wire Line
