@@ -886,47 +886,6 @@ Wire Notes Line
 	2350 6350 4800 6350
 Wire Notes Line
 	2350 4975 2350 6350
-$Comp
-L power:GND #PWR?
-U 1 1 5F64B49D
-P 3750 6100
-AR Path="/5F64B49D" Ref="#PWR?"  Part="1" 
-AR Path="/5F580392/5F64B49D" Ref="#PWR0310"  Part="1" 
-F 0 "#PWR0310" H 3750 5850 50  0001 C CNN
-F 1 "GND" H 3755 5927 50  0000 C CNN
-F 2 "" H 3750 6100 50  0001 C CNN
-F 3 "" H 3750 6100 50  0001 C CNN
-	1    3750 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 6025 3750 6100
-Wire Wire Line
-	3750 5200 3750 5725
-Wire Wire Line
-	3150 5825 3750 5825
-Wire Wire Line
-	3500 5925 3750 5925
-Connection ~ 3500 5925
-Connection ~ 3150 5825
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5F64B4A9
-P 3950 5925
-AR Path="/5F64B4A9" Ref="J?"  Part="1" 
-AR Path="/5F580392/5F64B4A9" Ref="J305"  Part="1" 
-F 0 "J305" H 3922 5807 50  0000 R CNN
-F 1 "I2C_CONNECTOR_OUT" H 3922 5898 50  0000 R CNN
-F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 3950 5925 50  0001 C CNN
-F 3 "~" H 3950 5925 50  0001 C CNN
-F 4 "JST - 4 pin" H 3950 5925 50  0001 C CNN "part_details"
-F 5 "LOCAL STOCK" H 3950 5925 50  0001 C CNN "part_url"
-	1    3950 5925
-	-1   0    0    1   
-$EndComp
-Connection ~ 3500 5200
-Wire Wire Line
-	3500 5200 3750 5200
 Wire Wire Line
 	3500 5675 3500 5925
 Text Notes 2375 5125 0    79   ~ 0

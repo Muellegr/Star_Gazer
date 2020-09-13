@@ -289,8 +289,8 @@ U 1 1 5F6E4B74
 P 6725 3525
 AR Path="/5F6E4B74" Ref="C?"  Part="1" 
 AR Path="/5F580D08/5F6E4B74" Ref="C202"  Part="1" 
-F 0 "C202" V 6473 3525 50  0000 C CNN
-F 1 "1uF" V 6564 3525 50  0000 C CNN
+F 0 "C202" V 6925 3525 50  0000 C CNN
+F 1 "1uF" V 6850 3525 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6763 3375 50  0001 C CNN
 F 3 "~" H 6725 3525 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 6725 3525 50  0001 C CNN "part_name"
@@ -412,15 +412,15 @@ U 1 1 5F6E4BB5
 P 6625 3175
 AR Path="/5F6E4BB5" Ref="SW?"  Part="1" 
 AR Path="/5F580D08/5F6E4BB5" Ref="SW201"  Part="1" 
-F 0 "SW201" H 6625 3442 50  0000 C CNN
-F 1 "SW_DIP_x01" H 6625 3351 50  0000 C CNN
+F 0 "SW201" H 6625 2950 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6625 3025 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 6625 3175 50  0001 C CNN
 F 3 "~" H 6625 3175 50  0001 C CNN
 F 4 "JST - 2 pin (switch attached to case)" H 6625 3175 50  0001 C CNN "part_details"
 F 5 "Switch - Power" H 6625 3175 50  0001 C CNN "part_name"
 F 6 "https://www.amazon.com/MTS-101-Position-Miniature-Toggle-Switch/dp/B0799LBFNY/ref=lp_306596011_1_8?s=industrial&ie=UTF8&qid=1599516393&sr=1-8" H 6625 3175 50  0001 C CNN "part_url"
 	1    6625 3175
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text GLabel 10550 3575 2    51   BiDi ~ 0
 V_REG
