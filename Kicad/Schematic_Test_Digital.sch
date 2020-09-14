@@ -257,9 +257,9 @@ F 5 "LOCAL STOCK" H 1300 5050 50  0001 C CNN "part_url"
 $EndComp
 Text Notes 600  4750 0    79   ~ 0
 SCREEN\n
-Text GLabel 1025 4950 0    50   BiDi ~ 0
-I2C_SDA
 Text GLabel 1025 5050 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 1025 4950 0    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 1025 4850 0    51   BiDi ~ 0
 V_REG
@@ -309,9 +309,9 @@ F 5 "LOCAL STOCK" H 1300 4075 50  0001 C CNN "part_url"
 $EndComp
 Text Notes 600  3775 0    79   ~ 0
 GPS\n
-Text GLabel 1025 3975 0    50   BiDi ~ 0
-I2C_SDA
 Text GLabel 1025 4075 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 1025 3975 0    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 1025 3875 0    51   BiDi ~ 0
 V_REG
