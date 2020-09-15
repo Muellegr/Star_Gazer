@@ -79,7 +79,7 @@ P 2675 2475
 AR Path="/5F64B28C" Ref="RV?"  Part="1" 
 AR Path="/5F580392/5F64B28C" Ref="RV301"  Part="1" 
 F 0 "RV301" V 2468 2475 50  0000 C CNN
-F 1 "R_POT" V 2559 2475 50  0000 C CNN
+F 1 "Pot - 10kohm" V 2559 2475 50  0000 C CNN
 F 2 "Kicad:35WR10KLFTR" H 2675 2475 50  0001 C CNN
 F 3 "~" H 2675 2475 50  0001 C CNN
 F 4 "Adjustable external clock resistor." H 2675 2475 50  0001 C CNN "part_details"
@@ -145,8 +145,8 @@ F 0 "U301" H 1700 2556 79  0000 C CNN
 F 1 "TSX-3225" H 1700 2421 79  0000 C CNN
 F 2 "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering" H 1600 2375 79  0001 C CNN
 F 3 "" H 1600 2375 79  0001 C CNN
-F 4 "16MHz Crystal" H 1550 2425 50  0001 C CNN "part_details"
-F 5 "TSX-3225" H 1550 2425 50  0001 C CNN "part_name"
+F 4 "" H 1550 2425 50  0001 C CNN "part_details"
+F 5 "16MHz Crystal" H 1550 2425 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509" H 1550 2425 50  0001 C CNN "part_url"
 	1    1550 2425
 	1    0    0    -1  
@@ -168,11 +168,12 @@ P 1650 6025
 AR Path="/5F64B2B8" Ref="J?"  Part="1" 
 AR Path="/5F580392/5F64B2B8" Ref="J304"  Part="1" 
 F 0 "J304" H 1622 5957 50  0000 R CNN
-F 1 "CONN_JOYSTICK" H 1622 6048 50  0000 R CNN
+F 1 "JST - 5x1" H 1622 6048 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1650 6025 50  0001 C CNN
 F 3 "~" H 1650 6025 50  0001 C CNN
-F 4 "JST - 5 pin" H 1650 6025 50  0001 C CNN "part_details"
-F 5 "LOCAL STOCK" H 1650 6025 50  0001 C CNN "part_url"
+F 4 "" H 1650 6025 50  0001 C CNN "part_details"
+F 5 "" H 1650 6025 50  0001 C CNN "part_url"
+F 6 "Joystick Connector" H 1650 6025 50  0001 C CNN "part_name"
 	1    1650 6025
 	-1   0    0    1   
 $EndComp
@@ -247,11 +248,12 @@ P 1300 5050
 AR Path="/5F64B2DD" Ref="J?"  Part="1" 
 AR Path="/5F580392/5F64B2DD" Ref="J302"  Part="1" 
 F 0 "J302" H 1272 4932 50  0000 R CNN
-F 1 "I2C_CONNECTOR_OUT" H 1272 5023 50  0000 R CNN
+F 1 "JST - 4x1" H 1272 5023 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1300 5050 50  0001 C CNN
 F 3 "~" H 1300 5050 50  0001 C CNN
-F 4 "JST - 4 pin" H 1300 5050 50  0001 C CNN "part_details"
-F 5 "LOCAL STOCK" H 1300 5050 50  0001 C CNN "part_url"
+F 4 "" H 1300 5050 50  0001 C CNN "part_details"
+F 5 "" H 1300 5050 50  0001 C CNN "part_url"
+F 6 "Screen Connector" H 1300 5050 50  0001 C CNN "part_name"
 	1    1300 5050
 	-1   0    0    1   
 $EndComp
@@ -299,11 +301,12 @@ P 1300 4075
 AR Path="/5F64B2F5" Ref="J?"  Part="1" 
 AR Path="/5F580392/5F64B2F5" Ref="J301"  Part="1" 
 F 0 "J301" H 1272 3957 50  0000 R CNN
-F 1 "I2C_CONNECTOR_OUT" H 1272 4048 50  0000 R CNN
+F 1 "JST - 4x1" H 1272 4048 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1300 4075 50  0001 C CNN
 F 3 "~" H 1300 4075 50  0001 C CNN
-F 4 "JST - 4 pin" H 1300 4075 50  0001 C CNN "part_details"
-F 5 "LOCAL STOCK" H 1300 4075 50  0001 C CNN "part_url"
+F 4 "" H 1300 4075 50  0001 C CNN "part_details"
+F 5 "" H 1300 4075 50  0001 C CNN "part_url"
+F 6 "GPS Connector" H 1300 4075 50  0001 C CNN "part_name"
 	1    1300 4075
 	-1   0    0    1   
 $EndComp
@@ -361,10 +364,10 @@ P 10400 4900
 AR Path="/5F64B31D" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B31D" Ref="D324"  Part="1" 
 F 0 "D324" H 10393 4645 39  0001 C CNN
-F 1 "RING_LED" H 10393 4736 39  0001 C CNN
+F 1 "Green" H 10393 4736 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4900 50  0001 C CNN
 F 3 "~" H 10400 4900 50  0001 C CNN
-F 4 "LED - Green" H 10400 4900 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4900 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4900 50  0001 C CNN "part_url"
 	1    10400 4900
 	-1   0    0    1   
@@ -376,12 +379,12 @@ P 10050 4900
 AR Path="/5F64B323" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B323" Ref="R327"  Part="1" 
 F 0 "R327" V 9843 4900 50  0001 C CNN
-F 1 "330" V 9934 4900 50  0001 C CNN
+F 1 "180ohm" V 9934 4900 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4900 50  0001 C CNN
 F 3 "~" H 10050 4900 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4900 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4900 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4900 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4900 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4900 50  0001 C CNN "part_url"
 	1    10050 4900
 	0    1    1    0   
 $EndComp
@@ -396,10 +399,10 @@ P 10400 4800
 AR Path="/5F64B32B" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B32B" Ref="D323"  Part="1" 
 F 0 "D323" H 10393 4545 39  0001 C CNN
-F 1 "RING_LED" H 10393 4636 39  0001 C CNN
+F 1 "Green" H 10393 4636 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4800 50  0001 C CNN
 F 3 "~" H 10400 4800 50  0001 C CNN
-F 4 "LED - Green" H 10400 4800 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4800 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4800 50  0001 C CNN "part_url"
 	1    10400 4800
 	-1   0    0    1   
@@ -411,12 +414,12 @@ P 10050 4800
 AR Path="/5F64B331" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B331" Ref="R326"  Part="1" 
 F 0 "R326" V 9843 4800 50  0001 C CNN
-F 1 "330" V 9934 4800 50  0001 C CNN
+F 1 "180ohm" V 9934 4800 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4800 50  0001 C CNN
 F 3 "~" H 10050 4800 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4800 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4800 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4800 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4800 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4800 50  0001 C CNN "part_url"
 	1    10050 4800
 	0    1    1    0   
 $EndComp
@@ -431,10 +434,10 @@ P 10400 4700
 AR Path="/5F64B339" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B339" Ref="D322"  Part="1" 
 F 0 "D322" H 10393 4445 39  0001 C CNN
-F 1 "RING_LED" H 10393 4536 39  0001 C CNN
+F 1 "Green" H 10393 4536 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4700 50  0001 C CNN
 F 3 "~" H 10400 4700 50  0001 C CNN
-F 4 "LED - Green" H 10400 4700 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4700 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4700 50  0001 C CNN "part_url"
 	1    10400 4700
 	-1   0    0    1   
@@ -446,12 +449,12 @@ P 10050 4700
 AR Path="/5F64B33F" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B33F" Ref="R325"  Part="1" 
 F 0 "R325" V 9843 4700 50  0001 C CNN
-F 1 "330" V 9934 4700 50  0001 C CNN
+F 1 "180ohm" V 9934 4700 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4700 50  0001 C CNN
 F 3 "~" H 10050 4700 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4700 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4700 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4700 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4700 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4700 50  0001 C CNN "part_url"
 	1    10050 4700
 	0    1    1    0   
 $EndComp
@@ -466,10 +469,10 @@ P 10400 4600
 AR Path="/5F64B347" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B347" Ref="D321"  Part="1" 
 F 0 "D321" H 10393 4345 39  0001 C CNN
-F 1 "RING_LED" H 10393 4436 39  0001 C CNN
+F 1 "Green" H 10393 4436 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4600 50  0001 C CNN
 F 3 "~" H 10400 4600 50  0001 C CNN
-F 4 "LED - Green" H 10400 4600 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4600 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4600 50  0001 C CNN "part_url"
 	1    10400 4600
 	-1   0    0    1   
@@ -481,12 +484,12 @@ P 10050 4600
 AR Path="/5F64B34D" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B34D" Ref="R324"  Part="1" 
 F 0 "R324" V 9843 4600 50  0001 C CNN
-F 1 "330" V 9934 4600 50  0001 C CNN
+F 1 "180ohm" V 9934 4600 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4600 50  0001 C CNN
 F 3 "~" H 10050 4600 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4600 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4600 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4600 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4600 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4600 50  0001 C CNN "part_url"
 	1    10050 4600
 	0    1    1    0   
 $EndComp
@@ -501,10 +504,10 @@ P 10400 4500
 AR Path="/5F64B355" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B355" Ref="D320"  Part="1" 
 F 0 "D320" H 10393 4245 39  0001 C CNN
-F 1 "RING_LED" H 10393 4336 39  0001 C CNN
+F 1 "Green" H 10393 4336 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4500 50  0001 C CNN
 F 3 "~" H 10400 4500 50  0001 C CNN
-F 4 "LED - Green" H 10400 4500 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4500 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4500 50  0001 C CNN "part_url"
 	1    10400 4500
 	-1   0    0    1   
@@ -516,12 +519,12 @@ P 10050 4500
 AR Path="/5F64B35B" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B35B" Ref="R323"  Part="1" 
 F 0 "R323" V 9843 4500 50  0001 C CNN
-F 1 "330" V 9934 4500 50  0001 C CNN
+F 1 "180ohm" V 9934 4500 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4500 50  0001 C CNN
 F 3 "~" H 10050 4500 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4500 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4500 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4500 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4500 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4500 50  0001 C CNN "part_url"
 	1    10050 4500
 	0    1    1    0   
 $EndComp
@@ -536,10 +539,10 @@ P 10400 4400
 AR Path="/5F64B363" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B363" Ref="D319"  Part="1" 
 F 0 "D319" H 10393 4145 39  0001 C CNN
-F 1 "RING_LED" H 10393 4236 39  0001 C CNN
+F 1 "Green" H 10393 4236 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4400 50  0001 C CNN
 F 3 "~" H 10400 4400 50  0001 C CNN
-F 4 "LED - Green" H 10400 4400 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4400 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4400 50  0001 C CNN "part_url"
 	1    10400 4400
 	-1   0    0    1   
@@ -551,12 +554,12 @@ P 10050 4400
 AR Path="/5F64B369" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B369" Ref="R322"  Part="1" 
 F 0 "R322" V 9843 4400 50  0001 C CNN
-F 1 "330" V 9934 4400 50  0001 C CNN
+F 1 "180ohm" V 9934 4400 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4400 50  0001 C CNN
 F 3 "~" H 10050 4400 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4400 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4400 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4400 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4400 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4400 50  0001 C CNN "part_url"
 	1    10050 4400
 	0    1    1    0   
 $EndComp
@@ -573,10 +576,10 @@ P 10400 4300
 AR Path="/5F64B372" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B372" Ref="D318"  Part="1" 
 F 0 "D318" H 10393 4045 39  0001 C CNN
-F 1 "RING_LED" H 10393 4136 39  0001 C CNN
+F 1 "Green" H 10393 4136 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4300 50  0001 C CNN
 F 3 "~" H 10400 4300 50  0001 C CNN
-F 4 "LED - Green" H 10400 4300 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4300 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4300 50  0001 C CNN "part_url"
 	1    10400 4300
 	-1   0    0    1   
@@ -588,12 +591,12 @@ P 10050 4300
 AR Path="/5F64B378" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B378" Ref="R321"  Part="1" 
 F 0 "R321" V 9843 4300 50  0001 C CNN
-F 1 "330" V 9934 4300 50  0001 C CNN
+F 1 "180ohm" V 9934 4300 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4300 50  0001 C CNN
 F 3 "~" H 10050 4300 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4300 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4300 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4300 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4300 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4300 50  0001 C CNN "part_url"
 	1    10050 4300
 	0    1    1    0   
 $EndComp
@@ -606,10 +609,10 @@ P 10400 4200
 AR Path="/5F64B37F" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B37F" Ref="D317"  Part="1" 
 F 0 "D317" H 10393 3945 39  0000 C CNN
-F 1 "RING_LED" H 10393 4036 39  0000 C CNN
+F 1 "Green" H 10393 4036 39  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4200 50  0001 C CNN
 F 3 "~" H 10400 4200 50  0001 C CNN
-F 4 "LED - Green" H 10400 4200 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 4200 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4200 50  0001 C CNN "part_url"
 	1    10400 4200
 	-1   0    0    1   
@@ -621,12 +624,12 @@ P 10050 4200
 AR Path="/5F64B385" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B385" Ref="R320"  Part="1" 
 F 0 "R320" V 9843 4200 39  0000 C CNN
-F 1 "330" V 9934 4200 39  0000 C CNN
+F 1 "180ohm" V 9934 4200 39  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 4200 50  0001 C CNN
 F 3 "~" H 10050 4200 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 4200 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4200 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4200 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 4200 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4200 50  0001 C CNN "part_url"
 	1    10050 4200
 	0    1    1    0   
 $EndComp
@@ -673,10 +676,10 @@ P 10400 3375
 AR Path="/5F64B3AA" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3AA" Ref="D316"  Part="1" 
 F 0 "D316" H 10393 3120 39  0001 C CNN
-F 1 "RING_LED" H 10393 3211 39  0001 C CNN
+F 1 "Green" H 10393 3211 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3375 50  0001 C CNN
 F 3 "~" H 10400 3375 50  0001 C CNN
-F 4 "LED - Green" H 10400 3375 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 3375 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3375 50  0001 C CNN "part_url"
 	1    10400 3375
 	-1   0    0    1   
@@ -688,12 +691,12 @@ P 10050 3375
 AR Path="/5F64B3B0" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B3B0" Ref="R319"  Part="1" 
 F 0 "R319" V 9843 3375 50  0001 C CNN
-F 1 "330" V 9934 3375 50  0001 C CNN
+F 1 "180ohm" V 9934 3375 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 3375 50  0001 C CNN
 F 3 "~" H 10050 3375 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 3375 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3375 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3375 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 3375 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3375 50  0001 C CNN "part_url"
 	1    10050 3375
 	0    1    1    0   
 $EndComp
@@ -708,10 +711,10 @@ P 10400 3275
 AR Path="/5F64B3B8" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3B8" Ref="D315"  Part="1" 
 F 0 "D315" H 10393 3020 39  0001 C CNN
-F 1 "RING_LED" H 10393 3111 39  0001 C CNN
+F 1 "Green" H 10393 3111 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3275 50  0001 C CNN
 F 3 "~" H 10400 3275 50  0001 C CNN
-F 4 "LED - Green" H 10400 3275 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 3275 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3275 50  0001 C CNN "part_url"
 	1    10400 3275
 	-1   0    0    1   
@@ -723,12 +726,12 @@ P 10050 3275
 AR Path="/5F64B3BE" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B3BE" Ref="R318"  Part="1" 
 F 0 "R318" V 9843 3275 50  0001 C CNN
-F 1 "330" V 9934 3275 50  0001 C CNN
+F 1 "180ohm" V 9934 3275 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 3275 50  0001 C CNN
 F 3 "~" H 10050 3275 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 3275 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3275 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3275 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 3275 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3275 50  0001 C CNN "part_url"
 	1    10050 3275
 	0    1    1    0   
 $EndComp
@@ -743,10 +746,10 @@ P 10400 3175
 AR Path="/5F64B3C6" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3C6" Ref="D314"  Part="1" 
 F 0 "D314" H 10393 2920 39  0001 C CNN
-F 1 "RING_LED" H 10393 3011 39  0001 C CNN
+F 1 "Green" H 10393 3011 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3175 50  0001 C CNN
 F 3 "~" H 10400 3175 50  0001 C CNN
-F 4 "LED - Green" H 10400 3175 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 3175 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3175 50  0001 C CNN "part_url"
 	1    10400 3175
 	-1   0    0    1   
@@ -758,12 +761,12 @@ P 10050 3175
 AR Path="/5F64B3CC" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B3CC" Ref="R317"  Part="1" 
 F 0 "R317" V 9843 3175 50  0001 C CNN
-F 1 "330" V 9934 3175 50  0001 C CNN
+F 1 "180ohm" V 9934 3175 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 3175 50  0001 C CNN
 F 3 "~" H 10050 3175 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 3175 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3175 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3175 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 3175 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3175 50  0001 C CNN "part_url"
 	1    10050 3175
 	0    1    1    0   
 $EndComp
@@ -778,10 +781,10 @@ P 10400 3075
 AR Path="/5F64B3D4" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3D4" Ref="D313"  Part="1" 
 F 0 "D313" H 10393 2820 39  0001 C CNN
-F 1 "RING_LED" H 10393 2911 39  0001 C CNN
+F 1 "Green" H 10393 2911 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3075 50  0001 C CNN
 F 3 "~" H 10400 3075 50  0001 C CNN
-F 4 "LED - Green" H 10400 3075 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 3075 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3075 50  0001 C CNN "part_url"
 	1    10400 3075
 	-1   0    0    1   
@@ -793,12 +796,12 @@ P 10050 3075
 AR Path="/5F64B3DA" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B3DA" Ref="R316"  Part="1" 
 F 0 "R316" V 9843 3075 50  0001 C CNN
-F 1 "330" V 9934 3075 50  0001 C CNN
+F 1 "180ohm" V 9934 3075 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 3075 50  0001 C CNN
 F 3 "~" H 10050 3075 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 3075 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3075 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3075 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 3075 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3075 50  0001 C CNN "part_url"
 	1    10050 3075
 	0    1    1    0   
 $EndComp
@@ -813,10 +816,10 @@ P 10400 2975
 AR Path="/5F64B3E2" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3E2" Ref="D312"  Part="1" 
 F 0 "D312" H 10393 2720 39  0001 C CNN
-F 1 "RING_LED" H 10393 2811 39  0001 C CNN
+F 1 "Green" H 10393 2811 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2975 50  0001 C CNN
 F 3 "~" H 10400 2975 50  0001 C CNN
-F 4 "LED - Green" H 10400 2975 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 2975 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2975 50  0001 C CNN "part_url"
 	1    10400 2975
 	-1   0    0    1   
@@ -828,12 +831,12 @@ P 10050 2975
 AR Path="/5F64B3E8" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B3E8" Ref="R315"  Part="1" 
 F 0 "R315" V 9843 2975 50  0001 C CNN
-F 1 "330" V 9934 2975 50  0001 C CNN
+F 1 "180ohm" V 9934 2975 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2975 50  0001 C CNN
 F 3 "~" H 10050 2975 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 2975 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2975 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2975 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2975 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2975 50  0001 C CNN "part_url"
 	1    10050 2975
 	0    1    1    0   
 $EndComp
@@ -848,10 +851,10 @@ P 10400 2875
 AR Path="/5F64B3F0" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3F0" Ref="D311"  Part="1" 
 F 0 "D311" H 10393 2620 39  0001 C CNN
-F 1 "RING_LED" H 10393 2711 39  0001 C CNN
+F 1 "Green" H 10393 2711 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2875 50  0001 C CNN
 F 3 "~" H 10400 2875 50  0001 C CNN
-F 4 "LED - Green" H 10400 2875 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 2875 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2875 50  0001 C CNN "part_url"
 	1    10400 2875
 	-1   0    0    1   
@@ -863,12 +866,12 @@ P 10050 2875
 AR Path="/5F64B3F6" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B3F6" Ref="R314"  Part="1" 
 F 0 "R314" V 9843 2875 50  0001 C CNN
-F 1 "330" V 9934 2875 50  0001 C CNN
+F 1 "180ohm" V 9934 2875 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2875 50  0001 C CNN
 F 3 "~" H 10050 2875 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 2875 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2875 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2875 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2875 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2875 50  0001 C CNN "part_url"
 	1    10050 2875
 	0    1    1    0   
 $EndComp
@@ -967,8 +970,8 @@ F 0 "U302" H 3575 3981 79  0000 C CNN
 F 1 "LIS3MDLTR" H 3575 3846 79  0000 C CNN
 F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 3575 3850 79  0001 C CNN
 F 3 "" H 3575 3850 79  0001 C CNN
-F 4 "Magnometer Sensor " H 3575 3850 50  0001 C CNN "part_details"
-F 5 "LIS3MDLTR" H 3575 3850 50  0001 C CNN "part_name"
+F 4 "" H 3575 3850 50  0001 C CNN "part_details"
+F 5 "Magnometer Sensor " H 3575 3850 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3MDLTR/497-13892-1-ND/4309737" H 3575 3850 50  0001 C CNN "part_url"
 	1    3575 3850
 	1    0    0    -1  
@@ -1131,8 +1134,8 @@ F 0 "U303" H 4550 2140 50  0000 C CNN
 F 1 "LSM6DS33TR" H 4550 2049 50  0000 C CNN
 F 2 "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y" H 4575 2025 50  0001 C CNN
 F 3 "" H 4575 2025 50  0001 C CNN
-F 4 "6-axis Gyrometer" H 4575 2025 50  0001 C CNN "part_details"
-F 5 "LSM6DS33TR" H 4575 2025 50  0001 C CNN "part_name"
+F 4 "" H 4575 2025 50  0001 C CNN "part_details"
+F 5 "6-axis Gyrometer" H 4575 2025 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396" H 4575 2025 50  0001 C CNN "part_url"
 	1    4575 2025
 	1    0    0    -1  
@@ -1207,11 +1210,11 @@ P 9150 4000
 AR Path="/5F64B577" Ref="U?"  Part="1" 
 AR Path="/5F580392/5F64B577" Ref="U306"  Part="1" 
 F 0 "U306" H 9125 4067 50  0000 C CNN
-F 1 "74HC595PW" H 9125 3975 51  0000 C CNN
+F 1 "74HC595PW,112 " H 9125 3975 51  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 4100 50  0001 C CNN
 F 3 "" H 9200 4100 50  0001 C CNN
-F 4 "Shift Register" H 9150 4000 50  0001 C CNN "part_details"
-F 5 "74HC595PW,118" H 9150 4000 50  0001 C CNN "part_name"
+F 4 "" H 9150 4000 50  0001 C CNN "part_details"
+F 5 "Shift Register" H 9150 4000 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 4000 50  0001 C CNN "part_url"
 	1    9150 4000
 	1    0    0    -1  
@@ -1223,7 +1226,7 @@ P 1475 975
 AR Path="/5F64B590" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B590" Ref="R301"  Part="1" 
 F 0 "R301" V 1268 975 50  0000 C CNN
-F 1 "10k" V 1359 975 50  0000 C CNN
+F 1 "10kohm" V 1359 975 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1405 975 50  0001 C CNN
 F 3 "~" H 1475 975 50  0001 C CNN
 F 4 "" H 1475 975 50  0001 C CNN "Name"
@@ -1243,7 +1246,7 @@ F 0 "SW301" V 2029 1673 50  0000 L CNN
 F 1 "RESET PUSH" V 2120 1673 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2075 1725 50  0001 C CNN
 F 3 "~" H 2075 1725 50  0001 C CNN
-F 4 "Push Switch" H 2075 1525 50  0001 C CNN "part_name"
+F 4 "Switch - Reset (internal)" H 2075 1525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/c-k/PTS636-SM43-SMTR-LFS/CKN12310-1-ND/10071745" H 2075 1525 50  0001 C CNN "part_url"
 	1    2075 1525
 	0    1    1    0   
@@ -1420,10 +1423,11 @@ P 1575 7150
 AR Path="/5F581F38" Ref="J?"  Part="1" 
 AR Path="/5F580392/5F581F38" Ref="J303"  Part="1" 
 F 0 "J303" H 1547 7082 50  0000 R CNN
-F 1 "SWD_DEBUG" H 1547 7173 50  0000 R CNN
+F 1 "JST - 5x1" H 1547 7173 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1575 7150 50  0001 C CNN
 F 3 "~" H 1575 7150 50  0001 C CNN
-F 4 "LOCAL STOCK" H 1575 7150 50  0001 C CNN "part_url"
+F 4 "" H 1575 7150 50  0001 C CNN "part_url"
+F 5 "SWD Program Connector" H 1575 7150 50  0001 C CNN "part_name"
 	1    1575 7150
 	-1   0    0    1   
 $EndComp
@@ -1681,12 +1685,12 @@ P 10050 1225
 AR Path="/5F64B59C" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B59C" Ref="R304"  Part="1" 
 F 0 "R304" V 9843 1225 39  0000 C CNN
-F 1 "330" V 9934 1225 39  0000 C CNN
+F 1 "180ohm" V 9934 1225 39  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1225 50  0001 C CNN
 F 3 "~" H 10050 1225 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1225 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1225 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1225 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1225 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1225 50  0001 C CNN "part_url"
 	1    10050 1225
 	0    1    1    0   
 $EndComp
@@ -1697,10 +1701,10 @@ P 10400 1225
 AR Path="/5F64B596" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B596" Ref="D301"  Part="1" 
 F 0 "D301" H 10393 970 39  0000 C CNN
-F 1 "RING_LED" H 10393 1061 39  0000 C CNN
+F 1 "Green" H 10393 1061 39  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1225 50  0001 C CNN
 F 3 "~" H 10400 1225 50  0001 C CNN
-F 4 "LED - Green" H 10400 1225 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1225 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1225 50  0001 C CNN "part_url"
 	1    10400 1225
 	-1   0    0    1   
@@ -1712,11 +1716,11 @@ P 9150 2475
 AR Path="/5F64B586" Ref="U?"  Part="1" 
 AR Path="/5F580392/5F64B586" Ref="U305"  Part="1" 
 F 0 "U305" H 9125 2542 50  0000 C CNN
-F 1 "74HC595PW" H 9125 2450 51  0000 C CNN
+F 1 "74HC595PW,112 " H 9125 2450 51  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 2575 50  0001 C CNN
 F 3 "" H 9200 2575 50  0001 C CNN
-F 4 "Shift Register" H 9150 2475 50  0001 C CNN "part_details"
-F 5 "74HC595PW,118" H 9150 2475 50  0001 C CNN "part_name"
+F 4 "" H 9150 2475 50  0001 C CNN "part_details"
+F 5 "Shift Register" H 9150 2475 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 2475 50  0001 C CNN "part_url"
 	1    9150 2475
 	1    0    0    -1  
@@ -1743,11 +1747,11 @@ P 9150 1025
 AR Path="/5F64B568" Ref="U?"  Part="1" 
 AR Path="/5F580392/5F64B568" Ref="U304"  Part="1" 
 F 0 "U304" H 9125 1092 50  0000 C CNN
-F 1 "74HC595PW" H 9125 1000 51  0000 C CNN
+F 1 "74HC595PW,112 " H 9125 1000 51  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 1125 50  0001 C CNN
 F 3 "" H 9200 1125 50  0001 C CNN
-F 4 "Shift Register" H 9150 1025 50  0001 C CNN "part_details"
-F 5 "74HC595PW,118" H 9150 1025 50  0001 C CNN "part_name"
+F 4 "" H 9150 1025 50  0001 C CNN "part_details"
+F 5 "Shift Register" H 9150 1025 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 1025 50  0001 C CNN "part_url"
 	1    9150 1025
 	1    0    0    -1  
@@ -1763,12 +1767,12 @@ P 10050 1325
 AR Path="/5F64B492" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B492" Ref="R305"  Part="1" 
 F 0 "R305" V 9843 1325 50  0001 C CNN
-F 1 "330" V 9934 1325 50  0001 C CNN
+F 1 "180ohm" V 9934 1325 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1325 50  0001 C CNN
 F 3 "~" H 10050 1325 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1325 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1325 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1325 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1325 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1325 50  0001 C CNN "part_url"
 	1    10050 1325
 	0    1    1    0   
 $EndComp
@@ -1779,10 +1783,10 @@ P 10400 1325
 AR Path="/5F64B48C" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B48C" Ref="D302"  Part="1" 
 F 0 "D302" H 10393 1070 39  0001 C CNN
-F 1 "RING_LED" H 10393 1161 39  0001 C CNN
+F 1 "Green" H 10393 1161 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1325 50  0001 C CNN
 F 3 "~" H 10400 1325 50  0001 C CNN
-F 4 "LED - Green" H 10400 1325 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1325 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1325 50  0001 C CNN "part_url"
 	1    10400 1325
 	-1   0    0    1   
@@ -1800,12 +1804,12 @@ P 10050 1425
 AR Path="/5F64B483" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B483" Ref="R306"  Part="1" 
 F 0 "R306" V 9843 1425 50  0001 C CNN
-F 1 "330" V 9934 1425 50  0001 C CNN
+F 1 "180ohm" V 9934 1425 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1425 50  0001 C CNN
 F 3 "~" H 10050 1425 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1425 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1425 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1425 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1425 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1425 50  0001 C CNN "part_url"
 	1    10050 1425
 	0    1    1    0   
 $EndComp
@@ -1816,10 +1820,10 @@ P 10400 1425
 AR Path="/5F64B47D" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B47D" Ref="D303"  Part="1" 
 F 0 "D303" H 10393 1170 39  0001 C CNN
-F 1 "RING_LED" H 10393 1261 39  0001 C CNN
+F 1 "Green" H 10393 1261 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1425 50  0001 C CNN
 F 3 "~" H 10400 1425 50  0001 C CNN
-F 4 "LED - Green" H 10400 1425 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1425 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1425 50  0001 C CNN "part_url"
 	1    10400 1425
 	-1   0    0    1   
@@ -1835,12 +1839,12 @@ P 10050 1525
 AR Path="/5F64B475" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B475" Ref="R307"  Part="1" 
 F 0 "R307" V 9843 1525 50  0001 C CNN
-F 1 "330" V 9934 1525 50  0001 C CNN
+F 1 "180ohm" V 9934 1525 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1525 50  0001 C CNN
 F 3 "~" H 10050 1525 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1525 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1525 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1525 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1525 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1525 50  0001 C CNN "part_url"
 	1    10050 1525
 	0    1    1    0   
 $EndComp
@@ -1851,10 +1855,10 @@ P 10400 1525
 AR Path="/5F64B46F" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B46F" Ref="D304"  Part="1" 
 F 0 "D304" H 10393 1270 39  0001 C CNN
-F 1 "RING_LED" H 10393 1361 39  0001 C CNN
+F 1 "Green" H 10393 1361 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1525 50  0001 C CNN
 F 3 "~" H 10400 1525 50  0001 C CNN
-F 4 "LED - Green" H 10400 1525 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1525 50  0001 C CNN "part_url"
 	1    10400 1525
 	-1   0    0    1   
@@ -1870,12 +1874,12 @@ P 10050 1625
 AR Path="/5F64B467" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B467" Ref="R308"  Part="1" 
 F 0 "R308" V 9843 1625 50  0001 C CNN
-F 1 "330" V 9934 1625 50  0001 C CNN
+F 1 "180ohm" V 9934 1625 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1625 50  0001 C CNN
 F 3 "~" H 10050 1625 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1625 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1625 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1625 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1625 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1625 50  0001 C CNN "part_url"
 	1    10050 1625
 	0    1    1    0   
 $EndComp
@@ -1886,10 +1890,10 @@ P 10400 1625
 AR Path="/5F64B461" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B461" Ref="D305"  Part="1" 
 F 0 "D305" H 10393 1370 39  0001 C CNN
-F 1 "RING_LED" H 10393 1461 39  0001 C CNN
+F 1 "Green" H 10393 1461 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1625 50  0001 C CNN
 F 3 "~" H 10400 1625 50  0001 C CNN
-F 4 "LED - Green" H 10400 1625 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1625 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1625 50  0001 C CNN "part_url"
 	1    10400 1625
 	-1   0    0    1   
@@ -1905,12 +1909,12 @@ P 10050 1725
 AR Path="/5F64B459" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B459" Ref="R309"  Part="1" 
 F 0 "R309" V 9843 1725 50  0001 C CNN
-F 1 "330" V 9934 1725 50  0001 C CNN
+F 1 "180ohm" V 9934 1725 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1725 50  0001 C CNN
 F 3 "~" H 10050 1725 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1725 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1725 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1725 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1725 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1725 50  0001 C CNN "part_url"
 	1    10050 1725
 	0    1    1    0   
 $EndComp
@@ -1921,10 +1925,10 @@ P 10400 1725
 AR Path="/5F64B453" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B453" Ref="D306"  Part="1" 
 F 0 "D306" H 10393 1470 39  0001 C CNN
-F 1 "RING_LED" H 10393 1561 39  0001 C CNN
+F 1 "Green" H 10393 1561 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1725 50  0001 C CNN
 F 3 "~" H 10400 1725 50  0001 C CNN
-F 4 "LED - Green" H 10400 1725 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1725 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1725 50  0001 C CNN "part_url"
 	1    10400 1725
 	-1   0    0    1   
@@ -1940,12 +1944,12 @@ P 10050 1825
 AR Path="/5F64B44B" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B44B" Ref="R310"  Part="1" 
 F 0 "R310" V 9843 1825 50  0001 C CNN
-F 1 "330" V 9934 1825 50  0001 C CNN
+F 1 "180ohm" V 9934 1825 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1825 50  0001 C CNN
 F 3 "~" H 10050 1825 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1825 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1825 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1825 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1825 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1825 50  0001 C CNN "part_url"
 	1    10050 1825
 	0    1    1    0   
 $EndComp
@@ -1956,10 +1960,10 @@ P 10400 1825
 AR Path="/5F64B445" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B445" Ref="D307"  Part="1" 
 F 0 "D307" H 10393 1570 39  0001 C CNN
-F 1 "RING_LED" H 10393 1661 39  0001 C CNN
+F 1 "Green" H 10393 1661 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1825 50  0001 C CNN
 F 3 "~" H 10400 1825 50  0001 C CNN
-F 4 "LED - Green" H 10400 1825 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1825 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1825 50  0001 C CNN "part_url"
 	1    10400 1825
 	-1   0    0    1   
@@ -1975,12 +1979,12 @@ P 10050 1925
 AR Path="/5F64B43D" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B43D" Ref="R311"  Part="1" 
 F 0 "R311" V 9843 1925 50  0001 C CNN
-F 1 "330" V 9934 1925 50  0001 C CNN
+F 1 "180ohm" V 9934 1925 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 1925 50  0001 C CNN
 F 3 "~" H 10050 1925 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 1925 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1925 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1925 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 1925 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1925 50  0001 C CNN "part_url"
 	1    10050 1925
 	0    1    1    0   
 $EndComp
@@ -1991,10 +1995,10 @@ P 10400 1925
 AR Path="/5F64B437" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B437" Ref="D308"  Part="1" 
 F 0 "D308" H 10393 1670 39  0001 C CNN
-F 1 "RING_LED" H 10393 1761 39  0001 C CNN
+F 1 "Green" H 10393 1761 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1925 50  0001 C CNN
 F 3 "~" H 10400 1925 50  0001 C CNN
-F 4 "LED - Green" H 10400 1925 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 1925 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1925 50  0001 C CNN "part_url"
 	1    10400 1925
 	-1   0    0    1   
@@ -2047,12 +2051,12 @@ P 10050 2675
 AR Path="/5F64B412" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B412" Ref="R312"  Part="1" 
 F 0 "R312" V 9843 2675 39  0000 C CNN
-F 1 "330" V 9934 2675 39  0000 C CNN
+F 1 "180ohm" V 9934 2675 39  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2675 50  0001 C CNN
 F 3 "~" H 10050 2675 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 2675 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2675 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2675 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2675 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2675 50  0001 C CNN "part_url"
 	1    10050 2675
 	0    1    1    0   
 $EndComp
@@ -2063,10 +2067,10 @@ P 10400 2675
 AR Path="/5F64B40C" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B40C" Ref="D309"  Part="1" 
 F 0 "D309" H 10393 2420 39  0000 C CNN
-F 1 "RING_LED" H 10393 2511 39  0000 C CNN
+F 1 "Green" H 10393 2511 39  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2675 50  0001 C CNN
 F 3 "~" H 10400 2675 50  0001 C CNN
-F 4 "LED - Green" H 10400 2675 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 2675 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2675 50  0001 C CNN "part_url"
 	1    10400 2675
 	-1   0    0    1   
@@ -2078,12 +2082,12 @@ P 10050 2775
 AR Path="/5F64B405" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B405" Ref="R313"  Part="1" 
 F 0 "R313" V 9843 2775 50  0001 C CNN
-F 1 "330" V 9934 2775 50  0001 C CNN
+F 1 "180ohm" V 9934 2775 50  0001 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9980 2775 50  0001 C CNN
 F 3 "~" H 10050 2775 50  0001 C CNN
-F 4 "Limits current to 8mA" H 10050 2775 50  0001 C CNN "part_details"
+F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2775 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2775 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07330RL/311-330FRCT-ND/731769" H 10050 2775 50  0001 C CNN "part_url"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2775 50  0001 C CNN "part_url"
 	1    10050 2775
 	0    1    1    0   
 $EndComp
@@ -2094,10 +2098,10 @@ P 10400 2775
 AR Path="/5F64B3FF" Ref="D?"  Part="1" 
 AR Path="/5F580392/5F64B3FF" Ref="D310"  Part="1" 
 F 0 "D310" H 10393 2520 39  0001 C CNN
-F 1 "RING_LED" H 10393 2611 39  0001 C CNN
+F 1 "Green" H 10393 2611 39  0001 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2775 50  0001 C CNN
 F 3 "~" H 10400 2775 50  0001 C CNN
-F 4 "LED - Green" H 10400 2775 50  0001 C CNN "part_name"
+F 4 "LED - Ring Green" H 10400 2775 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2775 50  0001 C CNN "part_url"
 	1    10400 2775
 	-1   0    0    1   
@@ -2118,7 +2122,7 @@ F 0 "C310" H 5590 4396 50  0000 L CNN
 F 1 "1uF" H 5590 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5513 4200 50  0001 C CNN
 F 3 "~" H 5475 4350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 5475 4350 50  0001 C CNN "part_url"
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252" H 5475 4350 50  0001 C CNN "part_url"
 F 5 "Capactitor - Bypass" H 5475 4350 50  0001 C CNN "part_name"
 	1    5475 4350
 	-1   0    0    1   

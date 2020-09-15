@@ -6,7 +6,30 @@ THINGS TO BUY
     TWEEZERS (actually useful)
     
  
+TODO
+    Continue checking every part
+    One piece at a time :(
+    Update schematic so names are good, verify part connections match physical part
+        Art, notes, polarity
+        Gyro/mag  have orientation to account for.  Probably place near each other?
+            90* rotation just means simple axis shift I think
+            
+    Return to board.
+        Think of major changes
+        Begin moving to ring lines
     
+    EXPECTED CURRENT DRAW WHEN ON
+        Linear Regulator
+            
+        Cortex
+        GPS
+        Gyro
+        Mag
+        Screen
+        Shift
+            IC per
+            LED per
+            
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
