@@ -335,4 +335,100 @@ F 3 "" H 7500 5300 50  0001 C CNN
 	1    7500 5300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61C377
+P 5600 7200
+F 0 "H?" H 5700 7246 50  0000 L CNN
+F 1 "MountingHole" H 5700 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 7200 50  0001 C CNN
+F 3 "~" H 5600 7200 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 5600 7200 50  0001 C CNN "part_details"
+	1    5600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61C9F3
+P 5600 7400
+F 0 "H?" H 5700 7446 50  0000 L CNN
+F 1 "MountingHole" H 5700 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 7400 50  0001 C CNN
+F 3 "~" H 5600 7400 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 5600 7400 50  0001 C CNN "part_details"
+	1    5600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61EB9F
+P 5600 6750
+F 0 "H?" H 5700 6796 50  0000 L CNN
+F 1 "MountingHole" H 5700 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 6750 50  0001 C CNN
+F 3 "~" H 5600 6750 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 5600 6750 50  0001 C CNN "part_details"
+	1    5600 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61EBA6
+P 5600 6950
+F 0 "H?" H 5700 6996 50  0000 L CNN
+F 1 "MountingHole" H 5700 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 6950 50  0001 C CNN
+F 3 "~" H 5600 6950 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 5600 6950 50  0001 C CNN "part_details"
+	1    5600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61FCE3
+P 4800 7200
+F 0 "H?" H 4900 7246 50  0000 L CNN
+F 1 "MountingHole" H 4900 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 7200 50  0001 C CNN
+F 3 "~" H 4800 7200 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 4800 7200 50  0001 C CNN "part_details"
+	1    4800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61FCEA
+P 4800 7400
+F 0 "H?" H 4900 7446 50  0000 L CNN
+F 1 "MountingHole" H 4900 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 7400 50  0001 C CNN
+F 3 "~" H 4800 7400 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 4800 7400 50  0001 C CNN "part_details"
+	1    4800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61FCF1
+P 4800 6750
+F 0 "H?" H 4900 6796 50  0000 L CNN
+F 1 "MountingHole" H 4900 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6750 50  0001 C CNN
+F 3 "~" H 4800 6750 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 4800 6750 50  0001 C CNN "part_details"
+	1    4800 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5F61FCF8
+P 4800 6950
+F 0 "H?" H 4900 6996 50  0000 L CNN
+F 1 "MountingHole" H 4900 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6950 50  0001 C CNN
+F 3 "~" H 4800 6950 50  0001 C CNN
+F 4 "DO_NOT_SHOW" H 4800 6950 50  0001 C CNN "part_details"
+	1    4800 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

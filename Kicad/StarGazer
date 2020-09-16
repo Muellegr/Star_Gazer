@@ -1,11 +1,14 @@
 | Part Purpose |  #  | Value | References | Notes | 
 |:---|:---|:---|:---|:---|
 | [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107009/732-7619-1-ND/5454246 ) | 2 | 4.7uF | C101, C102 |  |
-| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252 ) | 6 | 1uF | C201, C202, C203, C204, C302, C310 |  |
+| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252 ) | 5 | 1uF | C201, C202, C203, C302, C310 |  |
+| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 2 | 2.2uF | C204, C305 |  |
+| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865230143004/732-8282-1-ND/5728239 ) | 1 | 100uF | C205 |  |
 | [ Capactitor - Crystal ]( https://www.digikey.com/product-detail/en/yageo/CC0805BRNPO9BN3R9/311-4131-6-ND/8026143 ) | 2 | 4pF | C301, C303 |  |
 | [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 2 | 100nF | C304, C309 |  |
-| [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239 ) | 1 | 2.2uF | C305 |  |
 | [ Capactitor - Bypass ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368 ) | 3 | 10uF | C306, C307, C308 |  |
+| [ LED - Green ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060 ) | 1 | Green | D101 | Debug Light |
+| [ LED - Red ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054 ) | 1 | Red | D102 | Debug Light |
 | [ LED - Red ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054 ) | 1 | Red | D201 | Red when charging error |
 | [ LED - Green ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060 ) | 1 | Green | D202 | Green when charging |
 | [ LED - Ring Green ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060 ) | 24 | Green | D301, D302, D303, D304, D305, D306, D307, D308, D309, D310, D311, D312, D313, D314, D315, D316, D317, D318, D319, D320, D321, D322, D323, D324 |  |
@@ -15,15 +18,15 @@
 | Screen Connector | 1 | JST - 4x1 | J302 |  |
 | SWD Program Connector | 1 | JST - 5x1 | J303 |  |
 | Joystick Connector | 1 | JST - 5x1 | J304 |  |
-| [ Resistor - Pull Up ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 5 | 10kohm | R101, R102, R204, R205, R301 |  |
+| [ Resistor - Pull Up ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 4 | 10kohm | R101, R204, R205, R301 |  |
+| [ Resistor - LED Status ]( https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658 ) | 4 | 180ohm | R102, R103, R202, R203 |  |
 | [ Resistor - Prog ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 1 | 10kohm | R201 | Battery Program for 100mA recharge rate. |
-| [ Resistor - LED Status ]( https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658 ) | 2 | 180ohm | R202, R203 |  |
 |  | 2 | R_I2C_PULLUP | R302, R303 |  |
 | [ Resistor - LED Ring ]( https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658 ) | 24 | 180ohm | R304, R305, R306, R307, R308, R309, R310, R311, R312, R313, R314, R315, R316, R317, R318, R319, R320, R321, R322, R323, R324, R325, R326, R327 | LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA |
 | [ Resistor - Potentiometer ]( https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891 ) | 1 | Pot - 10kohm | RV301 | Adjustable external clock resistor. |
 | [ Switch - Power ]( https://www.amazon.com/MTS-101-Position-Miniature-Toggle-Switch/dp/B0799LBFNY/ref=lp_306596011_1_8?s=industrial&ie=UTF8&qid=1599516393&sr=1-8 ) | 1 | JST - 2x1 | SW201 | Power toggle |
 | [ Switch - Reset (internal) ]( https://www.digikey.com/product-detail/en/c-k/PTS636-SM43-SMTR-LFS/CKN12310-1-ND/10071745 ) | 1 | RESET PUSH | SW301 |  |
-| [ Cortex M0 Microcontroller ]( https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F070F6P6TR/497-17354-1-ND/8024125 ) | 1 | STM32F070F6P6TR | U101 | Cortex M0 48MHz |
+| [ Cortex M0+ ]( https://www.digikey.com/product-detail/en/stmicroelectronics/STM32G070KBT6/497-STM32G070KBT6-ND/10326752 ) | 1 | STM32G070KBT6 | U101 | 64Mhz        Flash=128Kb, SRAM=32Kb |
 | [ Lithium Ion Battery Charging IC ]( https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505 ) | 1 | STBC08 | U201 |  |
 | [ Mosfet, active low ]( https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787 ) | 1 | AP22811BW5-7 | U202 | Battery protection switch |
 | [ Linear Regulator ]( https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161 ) | 1 | TLV75528PDBVR | U203 | 2.8v 500mA, 230mV~ dropout |
