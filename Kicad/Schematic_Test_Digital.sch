@@ -204,11 +204,11 @@ F 3 "" H 1350 6350 50  0001 C CNN
 	1    1350 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 5925 0    47   BiDi ~ 0
+Text GLabel 1350 6125 0    47   BiDi ~ 0
 UI_JOY_Y
 Text GLabel 1350 6025 0    47   BiDi ~ 0
 UI_JOY_X
-Text GLabel 1350 6125 0    47   BiDi ~ 0
+Text GLabel 1350 5925 0    47   BiDi ~ 0
 UI_BUTTON
 Text Notes 7125 725  0    79   ~ 0
 SHIFT REGISTERS
@@ -259,9 +259,9 @@ F 6 "Screen Connector" H 1300 5050 50  0001 C CNN "part_name"
 $EndComp
 Text Notes 600  4750 0    79   ~ 0
 SCREEN\n
-Text GLabel 1025 5050 0    50   BiDi ~ 0
-I2C_SDA
 Text GLabel 1025 4950 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 1025 5050 0    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 1025 4850 0    51   BiDi ~ 0
 V_REG
@@ -312,9 +312,9 @@ F 6 "GPS Connector" H 1300 4075 50  0001 C CNN "part_name"
 $EndComp
 Text Notes 600  3775 0    79   ~ 0
 GPS\n
-Text GLabel 1025 4075 0    50   BiDi ~ 0
-I2C_SDA
 Text GLabel 1025 3975 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 1025 4075 0    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 1025 3875 0    51   BiDi ~ 0
 V_REG
@@ -905,9 +905,9 @@ Wire Wire Line
 	2800 5925 3500 5925
 Wire Wire Line
 	2800 5825 3150 5825
-Text GLabel 2800 5825 0    50   BiDi ~ 0
-I2C_SDA
 Text GLabel 2800 5925 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 2800 5825 0    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 2800 5200 0    51   BiDi ~ 0
 V_REG
