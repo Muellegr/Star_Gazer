@@ -18,7 +18,7 @@ Text GLabel 6700 2950 2    50   BiDi ~ 0
 I2C_SDA
 Text GLabel 6700 2850 2    50   BiDi ~ 0
 I2C_SCL
-Text GLabel 6700 3500 2    50   BiDi ~ 0
+Text GLabel 6700 3400 2    50   BiDi ~ 0
 SHIFT_REG_LATCH
 Text GLabel 6700 3200 2    50   BiDi ~ 0
 SHIFT_REG_CLK
@@ -42,7 +42,7 @@ U 5F580392
 F0 "Schematic_Test_Digital" 50
 F1 "Schematic_Test_Digital.sch" 50
 $EndSheet
-Text GLabel 6700 3400 2    50   BiDi ~ 0
+Text GLabel 6700 3500 2    50   BiDi ~ 0
 SHIFT_REG_OUTPUT_ENABLE_N
 $Comp
 L StarGazer:STM32G070KBT6 U101
@@ -238,75 +238,52 @@ Wire Wire Line
 Wire Wire Line
 	6600 4750 6700 4750
 $Comp
-L Device:R_Small R103
-U 1 1 5F788165
-P 6950 5200
-AR Path="/5F788165" Ref="R103"  Part="1" 
-AR Path="/5F580D08/5F788165" Ref="R?"  Part="1" 
-F 0 "R103" V 6754 5200 50  0000 C CNN
-F 1 "180ohm" V 6845 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6950 5200 50  0001 C CNN
-F 3 "~" H 6950 5200 50  0001 C CNN
-F 4 "Resistor - LED Status" H 6950 5200 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 6950 5200 50  0001 C CNN "part_url"
-	1    6950 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R102
 U 1 1 5F78816D
-P 6900 4900
+P 7300 5400
 AR Path="/5F78816D" Ref="R102"  Part="1" 
 AR Path="/5F580D08/5F78816D" Ref="R?"  Part="1" 
-F 0 "R102" V 6704 4900 50  0000 C CNN
-F 1 "180ohm" V 6795 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6900 4900 50  0001 C CNN
-F 3 "~" H 6900 4900 50  0001 C CNN
-F 4 "Resistor - LED Status" H 6900 4900 50  0001 C CNN "part_name"
-F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 6900 4900 50  0001 C CNN "part_url"
-	1    6900 4900
-	0    -1   -1   0   
+F 0 "R102" V 7104 5400 50  0000 C CNN
+F 1 "180ohm" V 7195 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7300 5400 50  0001 C CNN
+F 3 "~" H 7300 5400 50  0001 C CNN
+F 4 "Resistor - LED Status" H 7300 5400 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 7300 5400 50  0001 C CNN "part_url"
+	1    7300 5400
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D102
 U 1 1 5F788176
-P 7250 5200
+P 7000 5200
 AR Path="/5F788176" Ref="D102"  Part="1" 
 AR Path="/5F580D08/5F788176" Ref="D?"  Part="1" 
-F 0 "D102" H 7243 5416 50  0000 C CNN
-F 1 "Red" H 7243 5325 50  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 7250 5200 50  0001 C CNN
-F 3 "~" H 7250 5200 50  0001 C CNN
-F 4 "Debug Light" H 7250 5200 50  0001 C CNN "part_details"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054" H 7250 5200 50  0001 C CNN "part_url"
-F 6 "LED - Red" H 7250 5200 50  0001 C CNN "part_name"
-	1    7250 5200
+F 0 "D102" H 6993 5416 50  0000 C CNN
+F 1 "Red" H 6993 5325 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 7000 5200 50  0001 C CNN
+F 3 "~" H 7000 5200 50  0001 C CNN
+F 4 "Debug Light" H 7000 5200 50  0001 C CNN "part_details"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054" H 7000 5200 50  0001 C CNN "part_url"
+F 6 "LED - Red" H 7000 5200 50  0001 C CNN "part_name"
+	1    7000 5200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D101
 U 1 1 5F78817F
-P 7250 4900
+P 7000 4900
 AR Path="/5F78817F" Ref="D101"  Part="1" 
 AR Path="/5F580D08/5F78817F" Ref="D?"  Part="1" 
-F 0 "D101" H 7243 5116 50  0000 C CNN
-F 1 "Green" H 7243 5025 50  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 7250 4900 50  0001 C CNN
-F 3 "~" H 7250 4900 50  0001 C CNN
-F 4 "Debug Light" H 7250 4900 50  0001 C CNN "part_details"
-F 5 "LED - Green" H 7250 4900 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 7250 4900 50  0001 C CNN "part_url"
-	1    7250 4900
+F 0 "D101" H 6993 5116 50  0000 C CNN
+F 1 "Green" H 6993 5025 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 7000 4900 50  0001 C CNN
+F 3 "~" H 7000 4900 50  0001 C CNN
+F 4 "Debug Light" H 7000 4900 50  0001 C CNN "part_details"
+F 5 "LED - Green" H 7000 4900 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 7000 4900 50  0001 C CNN "part_url"
+	1    7000 4900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7050 5200 7100 5200
-Wire Wire Line
-	7400 5200 7500 5200
-Wire Wire Line
-	7500 5200 7500 4900
-Wire Wire Line
-	7500 4900 7400 4900
 Wire Wire Line
 	6700 4950 6600 4950
 Wire Wire Line
@@ -318,28 +295,23 @@ Wire Wire Line
 Wire Wire Line
 	6700 4850 6700 4900
 Wire Wire Line
-	6700 4900 6800 4900
-Wire Wire Line
-	7000 4900 7100 4900
-Wire Wire Line
-	7500 5200 7500 5300
-Connection ~ 7500 5200
+	6700 4900 6850 4900
 $Comp
 L power:GND #PWR0103
 U 1 1 5F79138F
-P 7500 5300
-F 0 "#PWR0103" H 7500 5050 50  0001 C CNN
-F 1 "GND" H 7505 5127 50  0000 C CNN
-F 2 "" H 7500 5300 50  0001 C CNN
-F 3 "" H 7500 5300 50  0001 C CNN
-	1    7500 5300
+P 7300 5550
+F 0 "#PWR0103" H 7300 5300 50  0001 C CNN
+F 1 "GND" H 7305 5377 50  0000 C CNN
+F 2 "" H 7300 5550 50  0001 C CNN
+F 3 "" H 7300 5550 50  0001 C CNN
+	1    7300 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H107
 U 1 1 5F61C377
 P 5600 7200
-F 0 "H?" H 5700 7246 50  0000 L CNN
+F 0 "H107" H 5700 7246 50  0000 L CNN
 F 1 "MountingHole" H 5700 7155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 7200 50  0001 C CNN
 F 3 "~" H 5600 7200 50  0001 C CNN
@@ -348,10 +320,10 @@ F 4 "DO_NOT_SHOW" H 5600 7200 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H108
 U 1 1 5F61C9F3
 P 5600 7400
-F 0 "H?" H 5700 7446 50  0000 L CNN
+F 0 "H108" H 5700 7446 50  0000 L CNN
 F 1 "MountingHole" H 5700 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 7400 50  0001 C CNN
 F 3 "~" H 5600 7400 50  0001 C CNN
@@ -360,10 +332,10 @@ F 4 "DO_NOT_SHOW" H 5600 7400 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H105
 U 1 1 5F61EB9F
 P 5600 6750
-F 0 "H?" H 5700 6796 50  0000 L CNN
+F 0 "H105" H 5700 6796 50  0000 L CNN
 F 1 "MountingHole" H 5700 6705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 6750 50  0001 C CNN
 F 3 "~" H 5600 6750 50  0001 C CNN
@@ -372,10 +344,10 @@ F 4 "DO_NOT_SHOW" H 5600 6750 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H106
 U 1 1 5F61EBA6
 P 5600 6950
-F 0 "H?" H 5700 6996 50  0000 L CNN
+F 0 "H106" H 5700 6996 50  0000 L CNN
 F 1 "MountingHole" H 5700 6905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 6950 50  0001 C CNN
 F 3 "~" H 5600 6950 50  0001 C CNN
@@ -384,10 +356,10 @@ F 4 "DO_NOT_SHOW" H 5600 6950 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H103
 U 1 1 5F61FCE3
 P 4800 7200
-F 0 "H?" H 4900 7246 50  0000 L CNN
+F 0 "H103" H 4900 7246 50  0000 L CNN
 F 1 "MountingHole" H 4900 7155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 7200 50  0001 C CNN
 F 3 "~" H 4800 7200 50  0001 C CNN
@@ -396,10 +368,10 @@ F 4 "DO_NOT_SHOW" H 4800 7200 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H104
 U 1 1 5F61FCEA
 P 4800 7400
-F 0 "H?" H 4900 7446 50  0000 L CNN
+F 0 "H104" H 4900 7446 50  0000 L CNN
 F 1 "MountingHole" H 4900 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 7400 50  0001 C CNN
 F 3 "~" H 4800 7400 50  0001 C CNN
@@ -408,10 +380,10 @@ F 4 "DO_NOT_SHOW" H 4800 7400 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H101
 U 1 1 5F61FCF1
 P 4800 6750
-F 0 "H?" H 4900 6796 50  0000 L CNN
+F 0 "H101" H 4900 6796 50  0000 L CNN
 F 1 "MountingHole" H 4900 6705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6750 50  0001 C CNN
 F 3 "~" H 4800 6750 50  0001 C CNN
@@ -420,10 +392,10 @@ F 4 "DO_NOT_SHOW" H 4800 6750 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H102
 U 1 1 5F61FCF8
 P 4800 6950
-F 0 "H?" H 4900 6996 50  0000 L CNN
+F 0 "H102" H 4900 6996 50  0000 L CNN
 F 1 "MountingHole" H 4900 6905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6950 50  0001 C CNN
 F 3 "~" H 4800 6950 50  0001 C CNN
@@ -431,4 +403,15 @@ F 4 "DO_NOT_SHOW" H 4800 6950 50  0001 C CNN "part_details"
 	1    4800 6950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7150 5200 7300 5200
+Wire Wire Line
+	7300 5200 7300 5300
+Wire Wire Line
+	7150 4900 7300 4900
+Wire Wire Line
+	7300 4900 7300 5200
+Connection ~ 7300 5200
+Wire Wire Line
+	7300 5550 7300 5500
 $EndSCHEMATC
