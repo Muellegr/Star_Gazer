@@ -1,4 +1,4 @@
-16305826629667238
+16307427198472887
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48572,6 +48572,13 @@ lga land grid array
 0
 4
 4
+Kicad
+Test_Background
+
+
+0
+0
+0
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

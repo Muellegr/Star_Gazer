@@ -643,10 +643,10 @@ Wire Wire Line
 Wire Wire Line
 	1050 4050 1250 4050
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J204
 U 1 1 5F8F328D
 P 1450 3850
-F 0 "J?" H 1530 3892 50  0000 L CNN
+F 0 "J204" H 1530 3892 50  0000 L CNN
 F 1 "Conn_01x01" H 1530 3801 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1450 3850 50  0001 C CNN
 F 3 "~" H 1450 3850 50  0001 C CNN
@@ -655,10 +655,10 @@ F 4 "DO_NOT_SHOW" H 1450 3850 50  0001 C CNN "part_details"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J203
 U 1 1 5F8F4320
 P 1200 4650
-F 0 "J?" H 1280 4692 50  0000 L CNN
+F 0 "J203" H 1280 4692 50  0000 L CNN
 F 1 "Conn_01x01" H 1280 4601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 4650 50  0001 C CNN
 F 3 "~" H 1200 4650 50  0001 C CNN

@@ -204,11 +204,11 @@ F 3 "" H 1350 6350 50  0001 C CNN
 	1    1350 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 6125 0    47   BiDi ~ 0
+Text GLabel 1350 5925 0    47   BiDi ~ 0
 UI_JOY_Y
 Text GLabel 1350 6025 0    47   BiDi ~ 0
 UI_JOY_X
-Text GLabel 1350 5925 0    47   BiDi ~ 0
+Text GLabel 1350 6125 0    47   BiDi ~ 0
 UI_BUTTON
 Text Notes 7125 725  0    79   ~ 0
 SHIFT REGISTERS
@@ -252,7 +252,7 @@ F 1 "JST - 4x1" H 1272 5023 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1300 5050 50  0001 C CNN
 F 3 "~" H 1300 5050 50  0001 C CNN
 F 4 "" H 1300 5050 50  0001 C CNN "part_details"
-F 5 "" H 1300 5050 50  0001 C CNN "part_url"
+F 5 "https://www.amazon.com/WayinTop-Display-SSD1306-3-3V-5V-Raspberry/dp/B085NHJYBV/ref=pd_vtp_328_10?_encoding=UTF8&pd_rd_i=B085NHM5TC&pd_rd_r=7bdf7370-03dc-4b29-82c0-f607778b8952&pd_rd_w=HTH0F&pd_rd_wg=QAfMe&pf_rd_p=9f0d957d-c466-420a-817f-4adcb2657c85&pf_rd_r=2740EXSJPY7P7H0NYG2V&refRID=2740EXSJPY7P7H0NYG2V&th=1" H 1300 5050 50  0001 C CNN "part_url"
 F 6 "Screen Connector" H 1300 5050 50  0001 C CNN "part_name"
 	1    1300 5050
 	-1   0    0    1   
@@ -929,9 +929,11 @@ P 3500 5525
 AR Path="/5F64B4C2" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B4C2" Ref="R303"  Part="1" 
 F 0 "R303" V 3293 5525 50  0000 C CNN
-F 1 "R_I2C_PULLUP" V 3384 5525 50  0000 C CNN
+F 1 "10kohm" V 3384 5525 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3430 5525 50  0001 C CNN
 F 3 "~" H 3500 5525 50  0001 C CNN
+F 4 "Resistor - Pull up" H 3500 5525 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 3500 5525 50  0001 C CNN "part_url"
 	1    3500 5525
 	1    0    0    -1  
 $EndComp
@@ -942,9 +944,11 @@ P 3150 5525
 AR Path="/5F64B4C8" Ref="R?"  Part="1" 
 AR Path="/5F580392/5F64B4C8" Ref="R302"  Part="1" 
 F 0 "R302" V 2943 5525 50  0000 C CNN
-F 1 "R_I2C_PULLUP" V 3034 5525 50  0000 C CNN
+F 1 "10kohm" V 3034 5525 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3080 5525 50  0001 C CNN
 F 3 "~" H 3150 5525 50  0001 C CNN
+F 4 "Resistor - Pull up" H 3150 5525 50  0001 C CNN "part_name"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 3150 5525 50  0001 C CNN "part_url"
 	1    3150 5525
 	1    0    0    -1  
 $EndComp

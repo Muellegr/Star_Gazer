@@ -20,15 +20,15 @@ Text GLabel 6700 2850 2    50   BiDi ~ 0
 I2C_SCL
 Text GLabel 6700 3400 2    50   BiDi ~ 0
 SHIFT_REG_LATCH
-Text GLabel 6700 3200 2    50   BiDi ~ 0
+Text GLabel 8150 3200 2    50   BiDi ~ 0
 SHIFT_REG_CLK
 Text GLabel 6700 3300 2    50   BiDi ~ 0
 SHIFT_REG_DATA_IN
 Text GLabel 6700 3750 2    47   BiDi ~ 0
 UI_BUTTON
-Text GLabel 6700 3850 2    47   BiDi ~ 0
-UI_JOY_X
 Text GLabel 6700 3950 2    47   BiDi ~ 0
+UI_JOY_X
+Text GLabel 6700 3850 2    47   BiDi ~ 0
 UI_JOY_Y
 $Sheet
 S -13400 250  10700 7900
@@ -59,13 +59,7 @@ F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32G070KBT6/
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3950 6600 3950
-Wire Wire Line
-	6600 3850 6700 3850
-Wire Wire Line
 	6700 3750 6600 3750
-Wire Wire Line
-	6600 3200 6700 3200
 Wire Wire Line
 	6700 3300 6600 3300
 Wire Wire Line
@@ -209,32 +203,8 @@ Wire Notes Line
 	10200 950  6950 950 
 Wire Notes Line
 	6950 2500 10200 2500
-$Comp
-L StarGazer-cache:Connector_TestPoint TP101
-U 1 1 5F780150
-P 6700 4650
-F 0 "TP101" V 6650 4850 50  0000 L CNN
-F 1 "Connector_TestPoint" V 6700 4850 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6900 4650 50  0001 C CNN
-F 3 "" H 6900 4650 50  0001 C CNN
-F 4 "Test point for Cortex" H 6700 4650 50  0001 C CNN "part_details"
-	1    6700 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L StarGazer-cache:Connector_TestPoint TP102
-U 1 1 5F783255
-P 6700 4750
-F 0 "TP102" V 6650 4950 50  0000 L CNN
-F 1 "Connector_TestPoint" V 6700 4950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6900 4750 50  0001 C CNN
-F 3 "" H 6900 4750 50  0001 C CNN
-F 4 "Test point for Cortex" H 6700 4750 50  0001 C CNN "part_details"
-	1    6700 4750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6600 4650 6700 4650
+	6600 4650 6650 4650
 Wire Wire Line
 	6600 4750 6700 4750
 $Comp
@@ -308,54 +278,6 @@ F 3 "" H 7300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H107
-U 1 1 5F61C377
-P 5600 7200
-F 0 "H107" H 5700 7246 50  0000 L CNN
-F 1 "MountingHole" H 5700 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 7200 50  0001 C CNN
-F 3 "~" H 5600 7200 50  0001 C CNN
-F 4 "DO_NOT_SHOW" H 5600 7200 50  0001 C CNN "part_details"
-	1    5600 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H108
-U 1 1 5F61C9F3
-P 5600 7400
-F 0 "H108" H 5700 7446 50  0000 L CNN
-F 1 "MountingHole" H 5700 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 7400 50  0001 C CNN
-F 3 "~" H 5600 7400 50  0001 C CNN
-F 4 "DO_NOT_SHOW" H 5600 7400 50  0001 C CNN "part_details"
-	1    5600 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H105
-U 1 1 5F61EB9F
-P 5600 6750
-F 0 "H105" H 5700 6796 50  0000 L CNN
-F 1 "MountingHole" H 5700 6705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 6750 50  0001 C CNN
-F 3 "~" H 5600 6750 50  0001 C CNN
-F 4 "DO_NOT_SHOW" H 5600 6750 50  0001 C CNN "part_details"
-	1    5600 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H106
-U 1 1 5F61EBA6
-P 5600 6950
-F 0 "H106" H 5700 6996 50  0000 L CNN
-F 1 "MountingHole" H 5700 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 6950 50  0001 C CNN
-F 3 "~" H 5600 6950 50  0001 C CNN
-F 4 "DO_NOT_SHOW" H 5600 6950 50  0001 C CNN "part_details"
-	1    5600 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H103
 U 1 1 5F61FCE3
 P 4800 7200
@@ -414,4 +336,40 @@ Wire Wire Line
 Connection ~ 7300 5200
 Wire Wire Line
 	7300 5550 7300 5500
+Wire Wire Line
+	6650 4650 6650 3850
+Wire Wire Line
+	6650 3850 6700 3850
+Wire Wire Line
+	6700 3950 6700 4750
+Wire Wire Line
+	6600 3200 8150 3200
+Wire Wire Line
+	8100 3550 8100 3500
+$Comp
+L power:GND #PWR0104
+U 1 1 5F70674D
+P 8100 3550
+F 0 "#PWR0104" H 8100 3300 50  0001 C CNN
+F 1 "GND" H 8105 3377 50  0000 C CNN
+F 2 "" H 8100 3550 50  0001 C CNN
+F 3 "" H 8100 3550 50  0001 C CNN
+	1    8100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R103
+U 1 1 5F706757
+P 8100 3350
+F 0 "R103" V 7893 3350 50  0000 C CNN
+F 1 "10kohm" V 7984 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8030 3350 50  0001 C CNN
+F 3 "~" H 8100 3350 50  0001 C CNN
+F 4 "" H 8100 3350 50  0001 C CNN "Name"
+F 5 "" H 8100 3350 50  0001 C CNN "part_details"
+F 6 "Resistor - Pull Up" H 8100 3350 50  0001 C CNN "part_name"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 8100 3350 50  0001 C CNN "part_url"
+	1    8100 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

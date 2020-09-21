@@ -5,73 +5,34 @@ THINGS TO BUY
 	HOT PLATE
     TWEEZERS (actually useful)
     
- 
-TODO
-    Continue checking every part
-    One piece at a time :(
-    Update schematic so names are good, verify part connections match physical part
-        Art, notes, polarity
-        Gyro/mag  have orientation to account for.  Probably place near each other?
-            90* rotation just means simple axis shift I think
+          
             
-    Return to board.
-        Think of major changes
-        Begin moving to ring lines
+WHATS LEFT
+    Make name plate for this
+    Clean up back art - remove hole, correctly size. Maybe add inner outer ring?
+    Final part lookover - finetooth comb.  All communication sized correctly?
+    Final image lookover.  
+    Select GPS, batteries.
+    Buy parts for two?
     
-    EXPECTED CURRENT DRAW WHEN ON
-        Linear Regulator
-            
-        Cortex
-        GPS
-        Gyro
-        Mag
-        Screen
-        Shift
-            IC per
-            LED per
-            
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-LEFT OFF
-    Add vias to route LED signals on bottom of board.
-    test how this would look
-    ---
-    Once a format is made, apply it to the rest of the LED ring.
-    Think how an off-by-one error might look
-        Can I route these in a way so that 0-24 happens around a clock correctly?
-        Since I'm running these underneath the board, I think I can.
-        
-    Thatmeans top layer pieces will likely change.
-    AWESOME THING
-        Make connections THEN rotate. Allows for fine tuned routing!
+
 
 LEFTOVER
 	GPS selected
     BATTERY selected
         Fits inside
             Think in Z dimension, may be able to rotate.
-            
-	Go over power side
-        Voltage, current
-        Make sure right tags are on right pins
         
     i2C
         Verify all components will work on speed
         Verify all have same packet size
         Verify all treat pins the same (do they have active high vs active low??)
         
-    PCB MARKINGS
-        Orientation of gyros and magnometer
-            common orientation?
-    
-   SENSITIVE COMPONENT LOCATOINS
-        Magnometer -> Far away from current.  
-        GPS -> Far away from components.  Maybe even blank area of PCB.
-        
    SCREW TERMINALS
         Screw locations for
-            PCB
             GPS (may glue to case instead)
             Battery (May tape to case instead)
             
@@ -85,61 +46,6 @@ USER INTERFACE
 		Mounted externally.  Likely use amazon pieces.
 		While ADC, these basically act as complete up or down apparenntly.  Very little accuracy.
 
-REMAINING PARTS
-	EXTERNAL CLOCK
-		Not actually needed, throwing it in for sake of it!
-		TSX-3225 16.0000MF10U-B3
-		https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509
-		CL : 7pF
-		C1, C2 = 4pF
-		R : UNKNOWN, use pot
-			35WR10KLFTR
-			https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891
-			
-	
-	REGULATOR
-			TLV75528PDBVR Voltage Regulator - 2.8v with low (300mv) drop down voltage.
-			https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161
-				
-	POWER TOGGLE
-		This prevents the linear regulator / rest of system from making the charger believe the battery is still pulling current.
-		When charging, the res tof the circuit is off.
-		AP22811BW5 - Acive low power switch mosfet
-			https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787
-			
-	CHARGER STBC08PMR - Lithium Ion battery charger, very simple
-		https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505
-		6 pin
-		2 indicator lights
-		programmable current
-	
-	
-	
-	
-	SHIFT REGISTER (3x)
-		74HC595D,118 
-		https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595D-118/1727-2821-1-ND/763394
-		Big things
-			-8 bit
-			-100Mhz shift out freq
-			Serial support
-			LEFTOVER
-				Verify output amp is safe!
-				Check best way to connect (SPI or direct?)
-	
-	USER INTERFACE
-		Power switch
-		Maybe no other interface needed..
-		(display screen?)
-		
-	GYRO (I2C)
-		3 AXIS MAGNOMETER
-			MMC5603NJ
-			https://www.digikey.com/product-detail/en/memsic-inc/MMC5603NJ/1267-MMC5603NJCT-ND/10452803
-		6 AXIS ACC, ORIENATATION
-			LSM6DS33TR
-			https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396
-	
 	SCREEN 
 		3 x 0.91 Inch I2C SSD1306 OLED Display Module
 		https://www.amazon.com/WayinTop-Display-SSD1306-3-3V-5V-Raspberry/dp/B085NHJYBV/ref=pd_vtp_328_10?_encoding=UTF8&pd_rd_i=B085NHM5TC&pd_rd_r=7bdf7370-03dc-4b29-82c0-f607778b8952&pd_rd_w=HTH0F&pd_rd_wg=QAfMe&pf_rd_p=9f0d957d-c466-420a-817f-4adcb2657c85&pf_rd_r=2740EXSJPY7P7H0NYG2V&refRID=2740EXSJPY7P7H0NYG2V&th=1
@@ -154,9 +60,6 @@ REMAINING PARTS
 		
 		
 		
-ADC
-	VDDA - 2.4 VDC MIN
--------------------------
 	
 I2C
 	ADDRESSES
