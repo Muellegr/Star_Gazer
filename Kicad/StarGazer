@@ -14,14 +14,13 @@
 | [ LED - Ring Green ]( https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060 ) | 24 | Green | D301, D302, D303, D304, D305, D306, D307, D308, D309, D310, D311, D312, D313, D314, D315, D316, D317, D318, D319, D320, D321, D322, D323, D324 |  |
 | [ USB-B Micro ]( https://www.digikey.com/product-detail/en/amphenol-icc-fci/10103594-0001LF/609-4050-1-ND/2350357 ) | 1 | USB_B_Micro | J201 | Only used for charging |
 | Battery Connector | 1 | JST - 2x1 | J202 |  |
-| GPS Connector | 1 | JST - 4x1 | J301 |  |
-| Screen Connector | 1 | JST - 4x1 | J302 |  |
+| [ GPS Connector ]( https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT/ref=sr_1_3?dchild=1&keywords=arduino%2Bgps&qid=1601007680&sr=8-3&th=1 ) | 1 | JST - 4x1 | J301 | USART |
+| [ Screen Connector ]( https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=pd_sbs_147_4/145-1111266-3690268?_encoding=UTF8&pd_rd_i=B08CDN5PSJ&pd_rd_r=0e37c7d0-00d4-4c6c-b496-f9da0ffda669&pd_rd_w=mtWFO&pd_rd_wg=RCtoO&pf_rd_p=703f3758-d945-4136-8df6-a43d19d750d1&pf_rd_r=FBPTKKC3JN25YH77MA03&psc=1&refRID=FBPTKKC3JN25YH77MA03 ) | 1 | JST - 4x1 | J302 | I2C |
 | SWD Program Connector | 1 | JST - 5x1 | J303 |  |
-| Joystick Connector | 1 | JST - 5x1 | J304 |  |
-| [ Resistor - Pull Up ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 4 | 10kohm | R101, R204, R205, R301 |  |
-| [ Resistor - LED Status ]( https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658 ) | 4 | 180ohm | R102, R103, R202, R203 |  |
+| [ Joystick Connector ]( https://www.amazon.com/ARCELI-Joystick-Controller-Dual-axis-Breakout/dp/B077Z8QN3S ) | 1 | JST - 5x1 | J304 | I2C |
+| [ Resistor - Pull Up ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 7 | 10kohm | R101, R103, R204, R205, R301, R302, R303 |  |
+| [ Resistor - LED Status ]( https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658 ) | 3 | 180ohm | R102, R202, R203 |  |
 | [ Resistor - Prog ]( https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156 ) | 1 | 10kohm | R201 | Battery Program for 100mA recharge rate. |
-|  | 2 | R_I2C_PULLUP | R302, R303 |  |
 | [ Resistor - LED Ring ]( https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658 ) | 24 | 180ohm | R304, R305, R306, R307, R308, R309, R310, R311, R312, R313, R314, R315, R316, R317, R318, R319, R320, R321, R322, R323, R324, R325, R326, R327 | LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA |
 | [ Resistor - Potentiometer ]( https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891 ) | 1 | Pot - 10kohm | RV301 | Adjustable external clock resistor. |
 | [ Switch - Power ]( https://www.amazon.com/MTS-101-Position-Miniature-Toggle-Switch/dp/B0799LBFNY/ref=lp_306596011_1_8?s=industrial&ie=UTF8&qid=1599516393&sr=1-8 ) | 1 | JST - 2x1 | SW201 | Power toggle |

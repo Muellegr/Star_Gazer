@@ -1,4 +1,4 @@
-16307427198472887
+16313831216545540
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48558,6 +48558,34 @@ Potentiometer vertical Vishay TS53YJ
 0
 3
 3
+Kicad
+Back_Art
+
+
+0
+0
+0
+Kicad
+Label_Date_Rev
+
+
+0
+0
+0
+Kicad
+Label_Name
+
+
+0
+0
+0
+Kicad
+Label_URL
+
+
+0
+0
+0
 Kicad
 StarGazer_74HC595D_SOIC-16
 16-Lead Plastic Small Outline (SO) - Wide, 5.3 mm Body (http://www.ti.com/lit/ml/msop002a/msop002a.pdf)

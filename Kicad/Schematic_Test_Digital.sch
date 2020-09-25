@@ -171,8 +171,8 @@ F 0 "J304" H 1622 5957 50  0000 R CNN
 F 1 "JST - 5x1" H 1622 6048 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1650 6025 50  0001 C CNN
 F 3 "~" H 1650 6025 50  0001 C CNN
-F 4 "" H 1650 6025 50  0001 C CNN "part_details"
-F 5 "" H 1650 6025 50  0001 C CNN "part_url"
+F 4 "I2C" H 1650 6025 50  0001 C CNN "part_details"
+F 5 "https://www.amazon.com/ARCELI-Joystick-Controller-Dual-axis-Breakout/dp/B077Z8QN3S" H 1650 6025 50  0001 C CNN "part_url"
 F 6 "Joystick Connector" H 1650 6025 50  0001 C CNN "part_name"
 	1    1650 6025
 	-1   0    0    1   
@@ -251,8 +251,8 @@ F 0 "J302" H 1272 4932 50  0000 R CNN
 F 1 "JST - 4x1" H 1272 5023 50  0000 R CNN
 F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1300 5050 50  0001 C CNN
 F 3 "~" H 1300 5050 50  0001 C CNN
-F 4 "" H 1300 5050 50  0001 C CNN "part_details"
-F 5 "https://www.amazon.com/WayinTop-Display-SSD1306-3-3V-5V-Raspberry/dp/B085NHJYBV/ref=pd_vtp_328_10?_encoding=UTF8&pd_rd_i=B085NHM5TC&pd_rd_r=7bdf7370-03dc-4b29-82c0-f607778b8952&pd_rd_w=HTH0F&pd_rd_wg=QAfMe&pf_rd_p=9f0d957d-c466-420a-817f-4adcb2657c85&pf_rd_r=2740EXSJPY7P7H0NYG2V&refRID=2740EXSJPY7P7H0NYG2V&th=1" H 1300 5050 50  0001 C CNN "part_url"
+F 4 "I2C" H 1300 5050 50  0001 C CNN "part_details"
+F 5 "https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=pd_sbs_147_4/145-1111266-3690268?_encoding=UTF8&pd_rd_i=B08CDN5PSJ&pd_rd_r=0e37c7d0-00d4-4c6c-b496-f9da0ffda669&pd_rd_w=mtWFO&pd_rd_wg=RCtoO&pf_rd_p=703f3758-d945-4136-8df6-a43d19d750d1&pf_rd_r=FBPTKKC3JN25YH77MA03&psc=1&refRID=FBPTKKC3JN25YH77MA03" H 1300 5050 50  0001 C CNN "part_url"
 F 6 "Screen Connector" H 1300 5050 50  0001 C CNN "part_name"
 	1    1300 5050
 	-1   0    0    1   
@@ -267,57 +267,12 @@ Text GLabel 1025 4850 0    51   BiDi ~ 0
 V_REG
 Wire Notes Line
 	575  4500 2250 4500
-Wire Wire Line
-	1025 3875 1100 3875
-Wire Wire Line
-	1025 4075 1100 4075
-Wire Wire Line
-	1025 3975 1100 3975
 Wire Notes Line
 	2250 3625 575  3625
 Wire Notes Line
 	2250 4500 2250 3625
 Wire Notes Line
 	575  3625 575  4500
-$Comp
-L power:GND #PWR?
-U 1 1 5F64B2EE
-P 1100 4250
-AR Path="/5F64B2EE" Ref="#PWR?"  Part="1" 
-AR Path="/5F580392/5F64B2EE" Ref="#PWR0302"  Part="1" 
-F 0 "#PWR0302" H 1100 4000 50  0001 C CNN
-F 1 "GND" H 1105 4077 50  0000 C CNN
-F 2 "" H 1100 4250 50  0001 C CNN
-F 3 "" H 1100 4250 50  0001 C CNN
-	1    1100 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 4175 1100 4250
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5F64B2F5
-P 1300 4075
-AR Path="/5F64B2F5" Ref="J?"  Part="1" 
-AR Path="/5F580392/5F64B2F5" Ref="J301"  Part="1" 
-F 0 "J301" H 1272 3957 50  0000 R CNN
-F 1 "JST - 4x1" H 1272 4048 50  0000 R CNN
-F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1300 4075 50  0001 C CNN
-F 3 "~" H 1300 4075 50  0001 C CNN
-F 4 "" H 1300 4075 50  0001 C CNN "part_details"
-F 5 "" H 1300 4075 50  0001 C CNN "part_url"
-F 6 "GPS Connector" H 1300 4075 50  0001 C CNN "part_name"
-	1    1300 4075
-	-1   0    0    1   
-$EndComp
-Text Notes 600  3775 0    79   ~ 0
-GPS\n
-Text GLabel 1025 3975 0    50   BiDi ~ 0
-I2C_SDA
-Text GLabel 1025 4075 0    50   BiDi ~ 0
-I2C_SCL
-Text GLabel 1025 3875 0    51   BiDi ~ 0
-V_REG
 Connection ~ 10700 4900
 Wire Wire Line
 	10700 4800 10700 4900
@@ -932,7 +887,7 @@ F 0 "R303" V 3293 5525 50  0000 C CNN
 F 1 "10kohm" V 3384 5525 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3430 5525 50  0001 C CNN
 F 3 "~" H 3500 5525 50  0001 C CNN
-F 4 "Resistor - Pull up" H 3500 5525 50  0001 C CNN "part_name"
+F 4 "Resistor - Pull Up" H 3500 5525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 3500 5525 50  0001 C CNN "part_url"
 	1    3500 5525
 	1    0    0    -1  
@@ -947,7 +902,7 @@ F 0 "R302" V 2943 5525 50  0000 C CNN
 F 1 "10kohm" V 3034 5525 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3080 5525 50  0001 C CNN
 F 3 "~" H 3150 5525 50  0001 C CNN
-F 4 "Resistor - Pull up" H 3150 5525 50  0001 C CNN "part_name"
+F 4 "Resistor - Pull Up" H 3150 5525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 3150 5525 50  0001 C CNN "part_url"
 	1    3150 5525
 	1    0    0    -1  
@@ -2137,4 +2092,51 @@ Text GLabel 8300 4950 0    50   BiDi ~ 0
 RESET_N
 Text GLabel 8300 3425 0    50   BiDi ~ 0
 RESET_N
+$Comp
+L power:GND #PWR?
+U 1 1 5F94CCE4
+P 1100 4300
+AR Path="/5F94CCE4" Ref="#PWR?"  Part="1" 
+AR Path="/5F580392/5F94CCE4" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 1100 4050 50  0001 C CNN
+F 1 "GND" H 1105 4127 50  0000 C CNN
+F 2 "" H 1100 4300 50  0001 C CNN
+F 3 "" H 1100 4300 50  0001 C CNN
+	1    1100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5F94CCED
+P 1350 4100
+AR Path="/5F94CCED" Ref="J?"  Part="1" 
+AR Path="/5F580392/5F94CCED" Ref="J301"  Part="1" 
+F 0 "J301" H 1322 3982 50  0000 R CNN
+F 1 "JST - 4x1" H 1322 4073 50  0000 R CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1350 4100 50  0001 C CNN
+F 3 "~" H 1350 4100 50  0001 C CNN
+F 4 "USART" H 1350 4100 50  0001 C CNN "part_details"
+F 5 "https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT/ref=sr_1_3?dchild=1&keywords=arduino%2Bgps&qid=1601007680&sr=8-3&th=1" H 1350 4100 50  0001 C CNN "part_url"
+F 6 "GPS Connector" H 1350 4100 50  0001 C CNN "part_name"
+	1    1350 4100
+	-1   0    0    1   
+$EndComp
+Text Notes 600  3775 0    79   ~ 0
+GPS\n
+Text GLabel 1100 3900 0    51   BiDi ~ 0
+V_REG
+Text GLabel 1100 4000 0    50   BiDi ~ 0
+USART1_RX
+Text GLabel 1100 4100 0    50   BiDi ~ 0
+USART1_TX
+Wire Wire Line
+	1100 3900 1150 3900
+Wire Wire Line
+	1100 4000 1150 4000
+Wire Wire Line
+	1100 4100 1150 4100
+Wire Wire Line
+	1150 4200 1100 4200
+Wire Wire Line
+	1100 4200 1100 4300
 $EndSCHEMATC
