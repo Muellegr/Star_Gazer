@@ -336,6 +336,7 @@ F 2 "Capacitor_SMD:CP_Elec_6.3x5.2" H 7738 3830 50  0001 C CNN
 F 3 "~" H 7700 3980 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 7700 3980 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865230143004/732-8282-1-ND/5728239" H 7700 3980 50  0001 C CNN "part_url"
+F 6 "3x" H 7700 3980 50  0001 C CNN "PURCHASED"
 	1    7700 3980
 	1    0    0    -1  
 $EndComp
@@ -352,6 +353,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 9450 4095 50  0001 C CNN
 F 4 "2.8v 500mA, 230mV~ dropout" H 9450 4095 50  0001 C CNN "part_details"
 F 5 "Linear Regulator" H 9450 4095 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV75528PDBVR/296-51798-1-ND/9746161" H 9450 4095 50  0001 C CNN "part_url"
+F 7 "3x" H 9450 4095 50  0001 C CNN "PURCHASED"
 	1    9450 4095
 	1    0    0    -1  
 $EndComp
@@ -364,6 +366,7 @@ F 1 "TestPoint" V 7800 4583 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7955 4395 50  0001 C CNN
 F 3 "~" H 7955 4395 50  0001 C CNN
 F 4 "Test point for U202 error (low imp. on error)" H 7755 4395 50  0001 C CNN "part_details"
+F 5 "x" H 7755 4395 50  0001 C CNN "PURCHASED"
 	1    7755 4395
 	0    1    1    0   
 $EndComp
@@ -380,6 +383,7 @@ F 3 "" H 3475 3945 50  0001 C CNN
 F 4 "" H 3475 3945 50  0001 C CNN "part_details"
 F 5 "Lithium Ion Battery Charging IC" H 3475 3945 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STBC08PMR/497-5808-6-ND/1506505" H 3475 3945 50  0001 C CNN "part_url"
+F 7 "3x" H 3475 3945 50  0001 C CNN "PURCHASED"
 	1    3475 3945
 	1    0    0    -1  
 $EndComp
@@ -395,6 +399,7 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4775 4295 50  0
 F 3 "~" H 4775 4295 50  0001 C CNN
 F 4 "Resistor - LED Status" H 4775 4295 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 4775 4295 50  0001 C CNN "part_url"
+F 6 "9x" H 4775 4295 50  0001 C CNN "PURCHASED"
 	1    4775 4295
 	0    1    1    0   
 $EndComp
@@ -410,6 +415,7 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4775 4595 50  0
 F 3 "~" H 4775 4595 50  0001 C CNN
 F 4 "Resistor - LED Status" H 4775 4595 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 4775 4595 50  0001 C CNN "part_url"
+F 6 "9x" H 4775 4595 50  0001 C CNN "PURCHASED"
 	1    4775 4595
 	0    1    1    0   
 $EndComp
@@ -426,6 +432,7 @@ F 3 "~" H 4375 4295 50  0001 C CNN
 F 4 "Red when charging error" H 4375 4295 50  0001 C CNN "part_details"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054" H 4375 4295 50  0001 C CNN "part_url"
 F 6 "LED - Red" H 4375 4295 50  0001 C CNN "part_name"
+F 7 "6x" H 4375 4295 50  0001 C CNN "PURCHASED"
 	1    4375 4295
 	1    0    0    -1  
 $EndComp
@@ -442,6 +449,7 @@ F 3 "~" H 4375 4595 50  0001 C CNN
 F 4 "Green when charging" H 4375 4595 50  0001 C CNN "part_details"
 F 5 "LED - Green" H 4375 4595 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 4375 4595 50  0001 C CNN "part_url"
+F 7 "6x" H 4375 4595 50  0001 C CNN "PURCHASED"
 	1    4375 4595
 	1    0    0    -1  
 $EndComp
@@ -458,6 +466,7 @@ F 3 "~" H 2825 4295 50  0001 C CNN
 F 4 "Battery Program for 100mA recharge rate." H 2825 4295 50  0001 C CNN "part_details"
 F 5 "Resistor - Prog" H 2825 4295 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 2825 4295 50  0001 C CNN "part_url"
+F 7 "24x" H 2825 4295 50  0001 C CNN "PURCHASED"
 	1    2825 4295
 	0    -1   -1   0   
 $EndComp
@@ -473,6 +482,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2363 4295 50  
 F 3 "~" H 2325 4445 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 2325 4445 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252" H 2325 4445 50  0001 C CNN "part_url"
+F 6 "12x" H 2325 4445 50  0001 C CNN "PURCHASED"
 	1    2325 4445
 	1    0    0    -1  
 $EndComp
@@ -489,6 +499,7 @@ F 3 "~" H 4525 3595 50  0001 C CNN
 F 4 "" H 4525 3595 50  0001 C CNN "part_details"
 F 5 "" H 4525 3595 50  0001 C CNN "part_url"
 F 6 "Battery Connector" H 4525 3595 50  0001 C CNN "part_name"
+F 7 "x" H 4525 3595 50  0001 C CNN "PURCHASED"
 	1    4525 3595
 	-1   0    0    1   
 $EndComp
@@ -505,6 +516,7 @@ F 3 "" H 7175 4245 50  0001 C CNN
 F 4 "Battery protection switch" H 7175 4195 50  0001 C CNN "part_details"
 F 5 "Mosfet, active low" H 7175 4195 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP22811BW5-7/AP22811BW5-7DICT-ND/8545787" H 7175 4195 50  0001 C CNN "part_url"
+F 7 "3x" H 7175 4195 50  0001 C CNN "PURCHASED"
 	1    7175 4195
 	1    0    0    -1  
 $EndComp
@@ -520,6 +532,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6513 3795 50  
 F 3 "~" H 6475 3945 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 6475 3945 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252" H 6475 3945 50  0001 C CNN "part_url"
+F 6 "12x" H 6475 3945 50  0001 C CNN "PURCHASED"
 	1    6475 3945
 	0    1    1    0   
 $EndComp
@@ -537,6 +550,7 @@ F 4 "" H 6425 4645 50  0001 C CNN "Name"
 F 5 "" H 6425 4645 50  0001 C CNN "part_details"
 F 6 "Resistor - Pull Up" H 6425 4645 50  0001 C CNN "part_name"
 F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 6425 4645 50  0001 C CNN "part_url"
+F 8 "24x" H 6425 4645 50  0001 C CNN "PURCHASED"
 	1    6425 4645
 	1    0    0    -1  
 $EndComp
@@ -554,6 +568,7 @@ F 4 "" H 6175 4395 50  0001 C CNN "Name"
 F 5 "" H 6175 4395 50  0001 C CNN "part_details"
 F 6 "Resistor - Pull Up" H 6175 4395 50  0001 C CNN "part_name"
 F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 6175 4395 50  0001 C CNN "part_url"
+F 8 "24x" H 6175 4395 50  0001 C CNN "PURCHASED"
 	1    6175 4395
 	0    1    1    0   
 $EndComp
@@ -570,6 +585,7 @@ F 3 "~" H 6375 3595 50  0001 C CNN
 F 4 "Power toggle" H 6375 3595 50  0001 C CNN "part_details"
 F 5 "Switch - Power" H 6375 3595 50  0001 C CNN "part_name"
 F 6 "https://www.amazon.com/MTS-101-Position-Miniature-Toggle-Switch/dp/B0799LBFNY/ref=lp_306596011_1_8?s=industrial&ie=UTF8&qid=1599516393&sr=1-8" H 6375 3595 50  0001 C CNN "part_url"
+F 7 "10x" H 6375 3595 50  0001 C CNN "PURCHASED"
 	1    6375 3595
 	-1   0    0    1   
 $EndComp
@@ -585,6 +601,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 4245 50  
 F 3 "~" H 9000 4395 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 9000 4395 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252" H 9000 4395 50  0001 C CNN "part_url"
+F 6 "12x" H 9000 4395 50  0001 C CNN "PURCHASED"
 	1    9000 4395
 	-1   0    0    1   
 $EndComp
@@ -612,6 +629,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10038 4245 50 
 F 3 "~" H 10000 4395 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 10000 4395 50  0001 C CNN "part_url"
 F 5 "Capactitor - Bypass" H 10000 4395 50  0001 C CNN "part_name"
+F 6 "6x" H 10000 4395 50  0001 C CNN "PURCHASED"
 	1    10000 4395
 	-1   0    0    1   
 $EndComp
@@ -626,6 +644,7 @@ F 3 "~" H 900 4200 50  0001 C CNN
 F 4 "USB-B Micro" H 750 4250 50  0001 C CNN "part_name"
 F 5 "Only used for charging" H 750 4250 50  0001 C CNN "part_details"
 F 6 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10103594-0001LF/609-4050-1-ND/2350357" H 750 4250 50  0001 C CNN "part_url"
+F 7 "3x" H 750 4250 50  0001 C CNN "PURCHASED"
 	1    750  4250
 	1    0    0    -1  
 $EndComp
@@ -651,6 +670,7 @@ F 1 "Conn_01x01" H 1530 3801 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1450 3850 50  0001 C CNN
 F 3 "~" H 1450 3850 50  0001 C CNN
 F 4 "DO_NOT_SHOW" H 1450 3850 50  0001 C CNN "part_details"
+F 5 "x" H 1450 3850 50  0001 C CNN "PURCHASED"
 	1    1450 3850
 	1    0    0    -1  
 $EndComp
@@ -663,6 +683,7 @@ F 1 "Conn_01x01" H 1280 4601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 1200 4650 50  0001 C CNN
 F 3 "~" H 1200 4650 50  0001 C CNN
 F 4 "DO_NOT_SHOW" H 1200 4650 50  0001 C CNN "part_details"
+F 5 "x" H 1200 4650 50  0001 C CNN "PURCHASED"
 	1    1200 4650
 	1    0    0    -1  
 $EndComp

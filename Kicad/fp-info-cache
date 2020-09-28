@@ -1,4 +1,4 @@
-16313831216545540
+16315432456040065
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48558,6 +48558,13 @@ Potentiometer vertical Vishay TS53YJ
 0
 3
 3
+Kicad
+BGA_2_2
+BGA-9, http://www.ti.com/lit/ds/symlink/bq27421-g1.pdf
+BGA-9
+0
+4
+4
 Kicad
 Back_Art
 

@@ -36,6 +36,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2525 2950 50  
 F 3 "~" H 2525 2950 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805BRNPO9BN3R9/311-4131-6-ND/8026143" H 2525 2950 50  0001 C CNN "part_url"
 F 5 "Capactitor - Crystal" H 2525 2950 50  0001 C CNN "part_name"
+F 6 "6x  IMPORT" H 2525 2950 50  0001 C CNN "PURCHASED"
 	1    2525 2950
 	1    0    0    -1  
 $EndComp
@@ -55,6 +56,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1125 3000 50  
 F 3 "~" H 1125 3000 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805BRNPO9BN3R9/311-4131-6-ND/8026143" H 1125 3000 50  0001 C CNN "part_url"
 F 5 "Capactitor - Crystal" H 1125 3000 50  0001 C CNN "part_name"
+F 6 "6x  IMPORT" H 1125 3000 50  0001 C CNN "PURCHASED"
 	1    1125 3000
 	1    0    0    -1  
 $EndComp
@@ -85,6 +87,7 @@ F 3 "~" H 2675 2475 50  0001 C CNN
 F 4 "Adjustable external clock resistor." H 2675 2475 50  0001 C CNN "part_details"
 F 5 "Resistor - Potentiometer" H 2675 2475 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/tt-electronics-bi/35WR10KLFTR/987-1694-6-ND/6009891" H 2675 2475 50  0001 C CNN "part_url"
+F 7 "3x" H 2675 2475 50  0001 C CNN "PURCHASED"
 	1    2675 2475
 	0    1    1    0   
 $EndComp
@@ -148,6 +151,7 @@ F 3 "" H 1600 2375 79  0001 C CNN
 F 4 "" H 1550 2425 50  0001 C CNN "part_details"
 F 5 "16MHz Crystal" H 1550 2425 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/epson/TSX-3225-16-0000MF10U-B3/SER4371DKR-ND/7932509" H 1550 2425 50  0001 C CNN "part_url"
+F 7 "3x" H 1550 2425 50  0001 C CNN "PURCHASED"
 	1    1550 2425
 	1    0    0    -1  
 $EndComp
@@ -174,6 +178,7 @@ F 3 "~" H 1650 6025 50  0001 C CNN
 F 4 "I2C" H 1650 6025 50  0001 C CNN "part_details"
 F 5 "https://www.amazon.com/ARCELI-Joystick-Controller-Dual-axis-Breakout/dp/B077Z8QN3S" H 1650 6025 50  0001 C CNN "part_url"
 F 6 "Joystick Connector" H 1650 6025 50  0001 C CNN "part_name"
+F 7 "10x" H 1650 6025 50  0001 C CNN "PURCHASED"
 	1    1650 6025
 	-1   0    0    1   
 $EndComp
@@ -254,6 +259,7 @@ F 3 "~" H 1300 5050 50  0001 C CNN
 F 4 "I2C" H 1300 5050 50  0001 C CNN "part_details"
 F 5 "https://www.amazon.com/Pieces-Display-Module-SSD1306-3-3V-5V/dp/B08CDN5PSJ/ref=pd_sbs_147_4/145-1111266-3690268?_encoding=UTF8&pd_rd_i=B08CDN5PSJ&pd_rd_r=0e37c7d0-00d4-4c6c-b496-f9da0ffda669&pd_rd_w=mtWFO&pd_rd_wg=RCtoO&pf_rd_p=703f3758-d945-4136-8df6-a43d19d750d1&pf_rd_r=FBPTKKC3JN25YH77MA03&psc=1&refRID=FBPTKKC3JN25YH77MA03" H 1300 5050 50  0001 C CNN "part_url"
 F 6 "Screen Connector" H 1300 5050 50  0001 C CNN "part_name"
+F 7 "5x" H 1300 5050 50  0001 C CNN "PURCHASED"
 	1    1300 5050
 	-1   0    0    1   
 $EndComp
@@ -324,6 +330,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4900 50  0001 C CNN
 F 3 "~" H 10400 4900 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4900 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4900 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4900 50  0001 C CNN "PURCHASED"
 	1    10400 4900
 	-1   0    0    1   
 $EndComp
@@ -340,6 +347,7 @@ F 3 "~" H 10050 4900 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4900 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4900 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4900 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4900 50  0001 C CNN "PURCHASED"
 	1    10050 4900
 	0    1    1    0   
 $EndComp
@@ -359,6 +367,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4800 50  0001 C CNN
 F 3 "~" H 10400 4800 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4800 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4800 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4800 50  0001 C CNN "PURCHASED"
 	1    10400 4800
 	-1   0    0    1   
 $EndComp
@@ -375,6 +384,7 @@ F 3 "~" H 10050 4800 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4800 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4800 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4800 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4800 50  0001 C CNN "PURCHASED"
 	1    10050 4800
 	0    1    1    0   
 $EndComp
@@ -394,6 +404,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4700 50  0001 C CNN
 F 3 "~" H 10400 4700 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4700 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4700 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4700 50  0001 C CNN "PURCHASED"
 	1    10400 4700
 	-1   0    0    1   
 $EndComp
@@ -410,6 +421,7 @@ F 3 "~" H 10050 4700 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4700 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4700 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4700 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4700 50  0001 C CNN "PURCHASED"
 	1    10050 4700
 	0    1    1    0   
 $EndComp
@@ -429,6 +441,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4600 50  0001 C CNN
 F 3 "~" H 10400 4600 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4600 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4600 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4600 50  0001 C CNN "PURCHASED"
 	1    10400 4600
 	-1   0    0    1   
 $EndComp
@@ -445,6 +458,7 @@ F 3 "~" H 10050 4600 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4600 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4600 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4600 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4600 50  0001 C CNN "PURCHASED"
 	1    10050 4600
 	0    1    1    0   
 $EndComp
@@ -464,6 +478,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4500 50  0001 C CNN
 F 3 "~" H 10400 4500 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4500 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4500 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4500 50  0001 C CNN "PURCHASED"
 	1    10400 4500
 	-1   0    0    1   
 $EndComp
@@ -480,6 +495,7 @@ F 3 "~" H 10050 4500 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4500 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4500 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4500 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4500 50  0001 C CNN "PURCHASED"
 	1    10050 4500
 	0    1    1    0   
 $EndComp
@@ -499,6 +515,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4400 50  0001 C CNN
 F 3 "~" H 10400 4400 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4400 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4400 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4400 50  0001 C CNN "PURCHASED"
 	1    10400 4400
 	-1   0    0    1   
 $EndComp
@@ -515,6 +532,7 @@ F 3 "~" H 10050 4400 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4400 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4400 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4400 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4400 50  0001 C CNN "PURCHASED"
 	1    10050 4400
 	0    1    1    0   
 $EndComp
@@ -536,6 +554,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4300 50  0001 C CNN
 F 3 "~" H 10400 4300 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4300 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4300 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4300 50  0001 C CNN "PURCHASED"
 	1    10400 4300
 	-1   0    0    1   
 $EndComp
@@ -552,6 +571,7 @@ F 3 "~" H 10050 4300 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4300 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4300 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4300 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4300 50  0001 C CNN "PURCHASED"
 	1    10050 4300
 	0    1    1    0   
 $EndComp
@@ -569,6 +589,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 4200 50  0001 C CNN
 F 3 "~" H 10400 4200 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 4200 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 4200 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 4200 50  0001 C CNN "PURCHASED"
 	1    10400 4200
 	-1   0    0    1   
 $EndComp
@@ -585,6 +606,7 @@ F 3 "~" H 10050 4200 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 4200 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 4200 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 4200 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 4200 50  0001 C CNN "PURCHASED"
 	1    10050 4200
 	0    1    1    0   
 $EndComp
@@ -636,6 +658,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3375 50  0001 C CNN
 F 3 "~" H 10400 3375 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 3375 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3375 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 3375 50  0001 C CNN "PURCHASED"
 	1    10400 3375
 	-1   0    0    1   
 $EndComp
@@ -652,6 +675,7 @@ F 3 "~" H 10050 3375 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3375 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3375 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3375 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 3375 50  0001 C CNN "PURCHASED"
 	1    10050 3375
 	0    1    1    0   
 $EndComp
@@ -671,6 +695,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3275 50  0001 C CNN
 F 3 "~" H 10400 3275 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 3275 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3275 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 3275 50  0001 C CNN "PURCHASED"
 	1    10400 3275
 	-1   0    0    1   
 $EndComp
@@ -687,6 +712,7 @@ F 3 "~" H 10050 3275 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3275 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3275 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3275 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 3275 50  0001 C CNN "PURCHASED"
 	1    10050 3275
 	0    1    1    0   
 $EndComp
@@ -706,6 +732,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3175 50  0001 C CNN
 F 3 "~" H 10400 3175 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 3175 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3175 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 3175 50  0001 C CNN "PURCHASED"
 	1    10400 3175
 	-1   0    0    1   
 $EndComp
@@ -722,6 +749,7 @@ F 3 "~" H 10050 3175 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3175 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3175 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3175 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 3175 50  0001 C CNN "PURCHASED"
 	1    10050 3175
 	0    1    1    0   
 $EndComp
@@ -741,6 +769,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 3075 50  0001 C CNN
 F 3 "~" H 10400 3075 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 3075 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 3075 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 3075 50  0001 C CNN "PURCHASED"
 	1    10400 3075
 	-1   0    0    1   
 $EndComp
@@ -757,6 +786,7 @@ F 3 "~" H 10050 3075 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 3075 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 3075 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 3075 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 3075 50  0001 C CNN "PURCHASED"
 	1    10050 3075
 	0    1    1    0   
 $EndComp
@@ -776,6 +806,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2975 50  0001 C CNN
 F 3 "~" H 10400 2975 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 2975 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2975 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 2975 50  0001 C CNN "PURCHASED"
 	1    10400 2975
 	-1   0    0    1   
 $EndComp
@@ -792,6 +823,7 @@ F 3 "~" H 10050 2975 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2975 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2975 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2975 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 2975 50  0001 C CNN "PURCHASED"
 	1    10050 2975
 	0    1    1    0   
 $EndComp
@@ -811,6 +843,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2875 50  0001 C CNN
 F 3 "~" H 10400 2875 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 2875 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2875 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 2875 50  0001 C CNN "PURCHASED"
 	1    10400 2875
 	-1   0    0    1   
 $EndComp
@@ -827,6 +860,7 @@ F 3 "~" H 10050 2875 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2875 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2875 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2875 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 2875 50  0001 C CNN "PURCHASED"
 	1    10050 2875
 	0    1    1    0   
 $EndComp
@@ -848,10 +882,6 @@ Wire Wire Line
 	3500 5675 3500 5925
 Text Notes 2375 5125 0    79   ~ 0
 I2C
-Text GLabel 2750 4100 0    50   BiDi ~ 0
-I2C_SDA
-Text GLabel 2750 4000 0    50   BiDi ~ 0
-I2C_SCL
 Text GLabel 5225 3075 2    50   BiDi ~ 0
 I2C_SDA
 Text GLabel 5225 3175 2    50   BiDi ~ 0
@@ -889,6 +919,7 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3430 5525 50  0
 F 3 "~" H 3500 5525 50  0001 C CNN
 F 4 "Resistor - Pull Up" H 3500 5525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 3500 5525 50  0001 C CNN "part_url"
+F 6 "24x" H 3500 5525 50  0001 C CNN "PURCHASED"
 	1    3500 5525
 	1    0    0    -1  
 $EndComp
@@ -904,35 +935,8 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3080 5525 50  0
 F 3 "~" H 3150 5525 50  0001 C CNN
 F 4 "Resistor - Pull Up" H 3150 5525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 3150 5525 50  0001 C CNN "part_url"
+F 6 "24x" H 3150 5525 50  0001 C CNN "PURCHASED"
 	1    3150 5525
-	1    0    0    -1  
-$EndComp
-Text Notes 2400 3750 0    79   ~ 0
-MAGNOMETER
-Wire Notes Line
-	6000 3600 2350 3600
-Wire Notes Line
-	6000 4925 6000 3600
-Wire Notes Line
-	2350 3600 2350 4925
-Wire Wire Line
-	2750 4000 3025 4000
-Wire Wire Line
-	2750 4100 3025 4100
-$Comp
-L StarGazer:LIS3MDL U?
-U 1 1 5F64B4EE
-P 3575 3850
-AR Path="/5F64B4EE" Ref="U?"  Part="1" 
-AR Path="/5F580392/5F64B4EE" Ref="U302"  Part="1" 
-F 0 "U302" H 3575 3981 79  0000 C CNN
-F 1 "LIS3MDLTR" H 3575 3846 79  0000 C CNN
-F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 3575 3850 79  0001 C CNN
-F 3 "" H 3575 3850 79  0001 C CNN
-F 4 "" H 3575 3850 50  0001 C CNN "part_details"
-F 5 "Magnometer Sensor " H 3575 3850 50  0001 C CNN "part_name"
-F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3MDLTR/497-13892-1-ND/4309737" H 3575 3850 50  0001 C CNN "part_url"
-	1    3575 3850
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1021,6 +1025,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3913 2625 50  
 F 3 "~" H 3875 2775 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 3875 2775 50  0001 C CNN "part_url"
 F 5 "Capactitor - Bypass" H 3875 2775 50  0001 C CNN "part_name"
+F 6 "6x" H 3875 2775 50  0001 C CNN "PURCHASED"
 	1    3875 2775
 	-1   0    0    1   
 $EndComp
@@ -1096,6 +1101,7 @@ F 3 "" H 4575 2025 50  0001 C CNN
 F 4 "" H 4575 2025 50  0001 C CNN "part_details"
 F 5 "6-axis Gyrometer" H 4575 2025 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DS33TR/497-15996-1-ND/5452396" H 4575 2025 50  0001 C CNN "part_url"
+F 7 "3x" H 4575 2025 50  0001 C CNN "PURCHASED"
 	1    4575 2025
 	1    0    0    -1  
 $EndComp
@@ -1138,6 +1144,7 @@ F 3 "~" H 1675 1475 50  0001 C CNN
 F 4 "" H 1675 1475 50  0001 C CNN "part_details"
 F 5 "Capactitor - Bypass" H 1675 1475 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252" H 1675 1475 50  0001 C CNN "part_url"
+F 7 "12x" H 1675 1475 50  0001 C CNN "PURCHASED"
 	1    1675 1475
 	1    0    0    -1  
 $EndComp
@@ -1159,6 +1166,7 @@ F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 3775 50  0001 C CNN
 F 3 "~" H 8425 3925 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 8425 3925 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 3925 50  0001 C CNN "part_url"
+F 6 "9x" H 8425 3925 50  0001 C CNN "PURCHASED"
 	1    8425 3925
 	-1   0    0    1   
 $EndComp
@@ -1175,6 +1183,7 @@ F 3 "" H 9200 4100 50  0001 C CNN
 F 4 "" H 9150 4000 50  0001 C CNN "part_details"
 F 5 "Shift Register" H 9150 4000 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 4000 50  0001 C CNN "part_url"
+F 7 "9x" H 9150 4000 50  0001 C CNN "PURCHASED"
 	1    9150 4000
 	1    0    0    -1  
 $EndComp
@@ -1192,6 +1201,7 @@ F 4 "" H 1475 975 50  0001 C CNN "Name"
 F 5 "" H 1475 975 50  0001 C CNN "part_details"
 F 6 "Resistor - Pull Up" H 1475 975 50  0001 C CNN "part_name"
 F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 1475 975 50  0001 C CNN "part_url"
+F 8 "24x" H 1475 975 50  0001 C CNN "PURCHASED"
 	1    1475 975 
 	0    1    1    0   
 $EndComp
@@ -1207,6 +1217,7 @@ F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2075 1725 50  0001 C CNN
 F 3 "~" H 2075 1725 50  0001 C CNN
 F 4 "Switch - Reset (internal)" H 2075 1525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/c-k/PTS636-SM43-SMTR-LFS/CKN12310-1-ND/10071745" H 2075 1525 50  0001 C CNN "part_url"
+F 6 "3x" H 2075 1525 50  0001 C CNN "PURCHASED"
 	1    2075 1525
 	0    1    1    0   
 $EndComp
@@ -1387,6 +1398,7 @@ F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1575 7150 50  0001 C
 F 3 "~" H 1575 7150 50  0001 C CNN
 F 4 "" H 1575 7150 50  0001 C CNN "part_url"
 F 5 "SWD Program Connector" H 1575 7150 50  0001 C CNN "part_name"
+F 6 "1x" H 1575 7150 50  0001 C CNN "PURCHASED"
 	1    1575 7150
 	-1   0    0    1   
 $EndComp
@@ -1410,117 +1422,6 @@ Wire Notes Line
 	2350 6650 600  6650
 Text Notes 650  6775 0    50   ~ 0
 SWD - PROGRAM\n
-Text GLabel 2750 4200 0    51   BiDi ~ 0
-V_REG
-Wire Wire Line
-	3025 4200 2875 4200
-Wire Wire Line
-	2875 4200 2875 4300
-Wire Wire Line
-	2875 4300 3025 4300
-Connection ~ 2875 4200
-Wire Wire Line
-	2875 4200 2750 4200
-$Comp
-L power:GND #PWR0105
-U 1 1 5F746BCA
-P 4275 4700
-F 0 "#PWR0105" H 4275 4450 50  0001 C CNN
-F 1 "GND" H 4280 4527 50  0000 C CNN
-F 2 "" H 4275 4700 50  0001 C CNN
-F 3 "" H 4275 4700 50  0001 C CNN
-	1    4275 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4175 4600 4275 4600
-Wire Wire Line
-	4275 4600 4275 4700
-Connection ~ 4275 4600
-Wire Wire Line
-	4175 4400 4275 4400
-Wire Wire Line
-	3025 4500 2875 4500
-Text GLabel 5575 4000 2    51   BiDi ~ 0
-V_REG
-Wire Wire Line
-	5575 4000 5475 4000
-Wire Wire Line
-	4175 4100 4275 4100
-Wire Wire Line
-	4275 4100 4275 4000
-Connection ~ 4275 4000
-Wire Wire Line
-	4275 4000 4175 4000
-$Comp
-L Device:C C?
-U 1 1 5F891147
-P 5050 4350
-AR Path="/5F891147" Ref="C?"  Part="1" 
-AR Path="/5F580392/5F891147" Ref="C309"  Part="1" 
-F 0 "C309" H 5165 4396 50  0000 L CNN
-F 1 "100nF" H 5165 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 4200 50  0001 C CNN
-F 3 "~" H 5050 4350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 5050 4350 50  0001 C CNN "part_url"
-F 5 "Capactitor - Bypass" H 5050 4350 50  0001 C CNN "part_name"
-	1    5050 4350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4275 4000 5050 4000
-Wire Wire Line
-	5050 4000 5050 4200
-Wire Wire Line
-	4175 4200 4600 4200
-Wire Wire Line
-	4275 4400 4275 4500
-Wire Wire Line
-	4275 4500 4275 4600
-Wire Wire Line
-	4175 4500 4275 4500
-$Comp
-L Device:C C?
-U 1 1 5F7F2C46
-P 4600 4350
-AR Path="/5F7F2C46" Ref="C?"  Part="1" 
-AR Path="/5F580392/5F7F2C46" Ref="C304"  Part="1" 
-F 0 "C304" H 4715 4396 50  0000 L CNN
-F 1 "100nF" H 4715 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4638 4200 50  0001 C CNN
-F 3 "~" H 4600 4350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 4600 4350 50  0001 C CNN "part_url"
-F 5 "Capactitor - Bypass" H 4600 4350 50  0001 C CNN "part_name"
-	1    4600 4350
-	-1   0    0    1   
-$EndComp
-Connection ~ 4275 4500
-Wire Wire Line
-	4275 4600 4600 4600
-Wire Wire Line
-	5050 4500 5050 4600
-Connection ~ 4600 4600
-Wire Wire Line
-	4600 4600 5050 4600
-Wire Wire Line
-	4600 4500 4600 4600
-Wire Wire Line
-	5475 4500 5475 4600
-Wire Wire Line
-	5475 4600 5050 4600
-Connection ~ 5050 4600
-Wire Wire Line
-	5050 4000 5475 4000
-Wire Wire Line
-	5475 4000 5475 4200
-Connection ~ 5050 4000
-Connection ~ 5475 4000
-Wire Wire Line
-	3025 4400 2875 4400
-NoConn ~ 2875 4400
-NoConn ~ 2875 4500
-Wire Notes Line
-	2350 4925 6000 4925
 Connection ~ 9250 3625
 Wire Wire Line
 	9250 3575 9250 3625
@@ -1634,6 +1535,7 @@ F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 800 50  0001 C CNN
 F 3 "~" H 8425 950 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 8425 950 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 950 50  0001 C CNN "part_url"
+F 6 "9x" H 8425 950 50  0001 C CNN "PURCHASED"
 	1    8425 950 
 	-1   0    0    1   
 $EndComp
@@ -1650,6 +1552,7 @@ F 3 "~" H 10050 1225 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1225 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1225 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1225 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1225 50  0001 C CNN "PURCHASED"
 	1    10050 1225
 	0    1    1    0   
 $EndComp
@@ -1665,6 +1568,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1225 50  0001 C CNN
 F 3 "~" H 10400 1225 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1225 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1225 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1225 50  0001 C CNN "PURCHASED"
 	1    10400 1225
 	-1   0    0    1   
 $EndComp
@@ -1681,6 +1585,7 @@ F 3 "" H 9200 2575 50  0001 C CNN
 F 4 "" H 9150 2475 50  0001 C CNN "part_details"
 F 5 "Shift Register" H 9150 2475 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 2475 50  0001 C CNN "part_url"
+F 7 "9x" H 9150 2475 50  0001 C CNN "PURCHASED"
 	1    9150 2475
 	1    0    0    -1  
 $EndComp
@@ -1696,6 +1601,7 @@ F 2 "Capacitor_SMD:CP_Elec_4x3" H 8463 2250 50  0001 C CNN
 F 3 "~" H 8425 2400 50  0001 C CNN
 F 4 "Capactitor - Bypass" H 8425 2400 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080340001/732-8411-1-ND/5728368" H 8425 2400 50  0001 C CNN "part_url"
+F 6 "9x" H 8425 2400 50  0001 C CNN "PURCHASED"
 	1    8425 2400
 	-1   0    0    1   
 $EndComp
@@ -1712,6 +1618,7 @@ F 3 "" H 9200 1125 50  0001 C CNN
 F 4 "" H 9150 1025 50  0001 C CNN "part_details"
 F 5 "Shift Register" H 9150 1025 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC595PW-112/1727-6439-ND/1230493" H 9150 1025 50  0001 C CNN "part_url"
+F 7 "9x" H 9150 1025 50  0001 C CNN "PURCHASED"
 	1    9150 1025
 	1    0    0    -1  
 $EndComp
@@ -1732,6 +1639,7 @@ F 3 "~" H 10050 1325 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1325 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1325 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1325 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1325 50  0001 C CNN "PURCHASED"
 	1    10050 1325
 	0    1    1    0   
 $EndComp
@@ -1747,6 +1655,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1325 50  0001 C CNN
 F 3 "~" H 10400 1325 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1325 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1325 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1325 50  0001 C CNN "PURCHASED"
 	1    10400 1325
 	-1   0    0    1   
 $EndComp
@@ -1769,6 +1678,7 @@ F 3 "~" H 10050 1425 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1425 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1425 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1425 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1425 50  0001 C CNN "PURCHASED"
 	1    10050 1425
 	0    1    1    0   
 $EndComp
@@ -1784,6 +1694,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1425 50  0001 C CNN
 F 3 "~" H 10400 1425 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1425 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1425 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1425 50  0001 C CNN "PURCHASED"
 	1    10400 1425
 	-1   0    0    1   
 $EndComp
@@ -1804,6 +1715,7 @@ F 3 "~" H 10050 1525 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1525 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1525 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1525 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1525 50  0001 C CNN "PURCHASED"
 	1    10050 1525
 	0    1    1    0   
 $EndComp
@@ -1819,6 +1731,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1525 50  0001 C CNN
 F 3 "~" H 10400 1525 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1525 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1525 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1525 50  0001 C CNN "PURCHASED"
 	1    10400 1525
 	-1   0    0    1   
 $EndComp
@@ -1839,6 +1752,7 @@ F 3 "~" H 10050 1625 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1625 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1625 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1625 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1625 50  0001 C CNN "PURCHASED"
 	1    10050 1625
 	0    1    1    0   
 $EndComp
@@ -1854,6 +1768,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1625 50  0001 C CNN
 F 3 "~" H 10400 1625 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1625 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1625 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1625 50  0001 C CNN "PURCHASED"
 	1    10400 1625
 	-1   0    0    1   
 $EndComp
@@ -1874,6 +1789,7 @@ F 3 "~" H 10050 1725 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1725 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1725 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1725 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1725 50  0001 C CNN "PURCHASED"
 	1    10050 1725
 	0    1    1    0   
 $EndComp
@@ -1889,6 +1805,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1725 50  0001 C CNN
 F 3 "~" H 10400 1725 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1725 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1725 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1725 50  0001 C CNN "PURCHASED"
 	1    10400 1725
 	-1   0    0    1   
 $EndComp
@@ -1909,6 +1826,7 @@ F 3 "~" H 10050 1825 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1825 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1825 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1825 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1825 50  0001 C CNN "PURCHASED"
 	1    10050 1825
 	0    1    1    0   
 $EndComp
@@ -1924,6 +1842,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1825 50  0001 C CNN
 F 3 "~" H 10400 1825 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1825 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1825 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1825 50  0001 C CNN "PURCHASED"
 	1    10400 1825
 	-1   0    0    1   
 $EndComp
@@ -1944,6 +1863,7 @@ F 3 "~" H 10050 1925 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 1925 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 1925 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 1925 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 1925 50  0001 C CNN "PURCHASED"
 	1    10050 1925
 	0    1    1    0   
 $EndComp
@@ -1959,6 +1879,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 1925 50  0001 C CNN
 F 3 "~" H 10400 1925 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 1925 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 1925 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 1925 50  0001 C CNN "PURCHASED"
 	1    10400 1925
 	-1   0    0    1   
 $EndComp
@@ -2016,6 +1937,7 @@ F 3 "~" H 10050 2675 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2675 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2675 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2675 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 2675 50  0001 C CNN "PURCHASED"
 	1    10050 2675
 	0    1    1    0   
 $EndComp
@@ -2031,6 +1953,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2675 50  0001 C CNN
 F 3 "~" H 10400 2675 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 2675 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2675 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 2675 50  0001 C CNN "PURCHASED"
 	1    10400 2675
 	-1   0    0    1   
 $EndComp
@@ -2047,6 +1970,7 @@ F 3 "~" H 10050 2775 50  0001 C CNN
 F 4 "LED dropout: 2v.  V_REG is 2.8v.   0.8/180 = 4.4mA" H 10050 2775 50  0001 C CNN "part_details"
 F 5 "Resistor - LED Ring" H 10050 2775 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 10050 2775 50  0001 C CNN "part_url"
+F 7 "72 (up to 100)" H 10050 2775 50  0001 C CNN "PURCHASED"
 	1    10050 2775
 	0    1    1    0   
 $EndComp
@@ -2062,6 +1986,7 @@ F 2 "Diode_SMD:D_1206_3216Metric" H 10400 2775 50  0001 C CNN
 F 3 "~" H 10400 2775 50  0001 C CNN
 F 4 "LED - Ring Green" H 10400 2775 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 10400 2775 50  0001 C CNN "part_url"
+F 6 "72x" H 10400 2775 50  0001 C CNN "PURCHASED"
 	1    10400 2775
 	-1   0    0    1   
 $EndComp
@@ -2071,21 +1996,6 @@ Wire Wire Line
 	10550 2675 10700 2675
 Wire Wire Line
 	10700 2675 10700 2775
-$Comp
-L Device:C C?
-U 1 1 5FC220FB
-P 5475 4350
-AR Path="/5FC220FB" Ref="C?"  Part="1" 
-AR Path="/5F580392/5FC220FB" Ref="C310"  Part="1" 
-F 0 "C310" H 5590 4396 50  0000 L CNN
-F 1 "1uF" H 5590 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5513 4200 50  0001 C CNN
-F 3 "~" H 5475 4350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107015/732-7625-1-ND/5454252" H 5475 4350 50  0001 C CNN "part_url"
-F 5 "Capactitor - Bypass" H 5475 4350 50  0001 C CNN "part_name"
-	1    5475 4350
-	-1   0    0    1   
-$EndComp
 Text GLabel 8300 1975 0    50   BiDi ~ 0
 RESET_N
 Text GLabel 8300 4950 0    50   BiDi ~ 0
@@ -2118,6 +2028,7 @@ F 3 "~" H 1350 4100 50  0001 C CNN
 F 4 "USART" H 1350 4100 50  0001 C CNN "part_details"
 F 5 "https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT/ref=sr_1_3?dchild=1&keywords=arduino%2Bgps&qid=1601007680&sr=8-3&th=1" H 1350 4100 50  0001 C CNN "part_url"
 F 6 "GPS Connector" H 1350 4100 50  0001 C CNN "part_name"
+F 7 "2x" H 1350 4100 50  0001 C CNN "PURCHASED"
 	1    1350 4100
 	-1   0    0    1   
 $EndComp
@@ -2139,4 +2050,83 @@ Wire Wire Line
 	1150 4200 1100 4200
 Wire Wire Line
 	1100 4200 1100 4300
+Wire Wire Line
+	3700 4450 3700 4650
+Connection ~ 3700 4450
+Wire Wire Line
+	3450 4450 3700 4450
+Wire Wire Line
+	3450 4350 3450 4450
+Wire Wire Line
+	3450 4050 3900 4050
+Connection ~ 3450 4050
+$Comp
+L Device:C C?
+U 1 1 5F8500E8
+P 3450 4200
+AR Path="/5F8500E8" Ref="C?"  Part="1" 
+AR Path="/5F580392/5F8500E8" Ref="C304"  Part="1" 
+F 0 "C304" H 3565 4246 50  0000 L CNN
+F 1 "2.2uF" H 3565 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3488 4050 50  0001 C CNN
+F 3 "~" H 3450 4200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107001/732-7612-1-ND/5454239" H 3450 4200 50  0001 C CNN "part_url"
+F 5 "Capactitor - Bypass" H 3450 4200 50  0001 C CNN "part_name"
+F 6 "6x" H 3450 4200 50  0001 C CNN "PURCHASED"
+	1    3450 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 4200 3900 4200
+Wire Wire Line
+	3700 4200 3700 4450
+$Comp
+L power:GND #PWR?
+U 1 1 5F80E0A4
+P 3700 4650
+AR Path="/5F80E0A4" Ref="#PWR?"  Part="1" 
+AR Path="/5F580392/5F80E0A4" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 3700 4400 50  0001 C CNN
+F 1 "GND" H 3705 4477 50  0000 C CNN
+F 2 "" H 3700 4650 50  0001 C CNN
+F 3 "" H 3700 4650 50  0001 C CNN
+	1    3700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4050 3450 4050
+Wire Wire Line
+	4600 4200 4800 4200
+Wire Wire Line
+	4800 4050 4600 4050
+Text GLabel 3100 4050 0    51   BiDi ~ 0
+V_REG
+Text GLabel 4800 4200 2    50   BiDi ~ 0
+I2C_SCL
+Text GLabel 4800 4050 2    50   BiDi ~ 0
+I2C_SDA
+$Comp
+L StarGazer:MMC5603NJ U302
+U 1 1 5F725C8E
+P 4250 3850
+F 0 "U302" H 4250 3981 79  0000 C CNN
+F 1 "MMC5603NJ" H 4250 3846 79  0000 C CNN
+F 2 "Kicad:BGA_2_2" H 4250 3850 79  0001 C CNN
+F 3 "" H 4250 3850 79  0001 C CNN
+F 4 "3x" H 4250 3850 50  0001 C CNN "PURCHASED"
+F 5 "Magnometer" H 4250 3850 50  0001 C CNN "part_name"
+F 6 "https://www.digikey.com/product-detail/en/MMC5603NJ/1267-MMC5603NJCT-ND/10452803/?itemSeq=339885919" H 4250 3850 50  0001 C CNN "part_url"
+	1    4250 3850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2350 4925 6000 4925
+Wire Notes Line
+	2350 3600 2350 4925
+Wire Notes Line
+	6000 4925 6000 3600
+Wire Notes Line
+	6000 3600 2350 3600
+Text Notes 2400 3750 0    79   ~ 0
+MAGNOMETER
 $EndSCHEMATC

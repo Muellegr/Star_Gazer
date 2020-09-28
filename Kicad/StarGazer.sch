@@ -55,6 +55,7 @@ F 3 "" H 5600 2600 50  0001 C CNN
 F 4 "64Mhz        Flash=128Kb, SRAM=32Kb" H 5600 2600 50  0001 C CNN "part_details"
 F 5 "ARM Cortex M0+" H 5600 2600 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32G070KBT6/497-STM32G070KBT6-ND/10326752" H 5600 2600 50  0001 C CNN "part_url"
+F 7 "3x" H 5600 2600 50  0001 C CNN "PURCHASED"
 	1    5600 2600
 	1    0    0    -1  
 $EndComp
@@ -140,6 +141,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4200 2700 50  
 F 3 "~" H 4200 2700 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107009/732-7619-1-ND/5454246" H 4200 2700 50  0001 C CNN "part_url"
 F 5 "Capactitor - Bypass" H 4200 2700 50  0001 C CNN "part_name"
+F 6 "6x" H 4200 2700 50  0001 C CNN "PURCHASED"
 	1    4200 2700
 	0    1    1    0   
 $EndComp
@@ -154,6 +156,7 @@ F 3 "~" H 4200 2350 50  0001 C CNN
 F 4 "" V 4200 2350 50  0001 C CNN "TestField"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012107009/732-7619-1-ND/5454246" H 4200 2350 50  0001 C CNN "part_url"
 F 6 "Capactitor - Bypass" H 4200 2350 50  0001 C CNN "part_name"
+F 7 "6x" H 4200 2350 50  0001 C CNN "PURCHASED"
 	1    4200 2350
 	0    1    1    0   
 $EndComp
@@ -182,6 +185,7 @@ F 4 "" H 4000 3600 50  0001 C CNN "Name"
 F 5 "" H 4000 3600 50  0001 C CNN "part_details"
 F 6 "Resistor - Pull Up" H 4000 3600 50  0001 C CNN "part_name"
 F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 4000 3600 50  0001 C CNN "part_url"
+F 8 "24x" H 4000 3600 50  0001 C CNN "PURCHASED"
 	1    4000 3600
 	1    0    0    -1  
 $EndComp
@@ -213,6 +217,7 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7200 5800 50  0
 F 3 "~" H 7200 5800 50  0001 C CNN
 F 4 "Resistor - LED Status" H 7200 5800 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD180R/RNCP1206FTD180RCT-ND/2240658" H 7200 5800 50  0001 C CNN "part_url"
+F 6 "9x" H 7200 5800 50  0001 C CNN "PURCHASED"
 	1    7200 5800
 	-1   0    0    1   
 $EndComp
@@ -229,6 +234,7 @@ F 3 "~" H 6900 5550 50  0001 C CNN
 F 4 "Debug Light" H 6900 5550 50  0001 C CNN "part_details"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120RS75000/732-5030-1-ND/4490054" H 6900 5550 50  0001 C CNN "part_url"
 F 6 "LED - Red" H 6900 5550 50  0001 C CNN "part_name"
+F 7 "6x" H 6900 5550 50  0001 C CNN "PURCHASED"
 	1    6900 5550
 	-1   0    0    1   
 $EndComp
@@ -245,6 +251,7 @@ F 3 "~" H 6900 5150 50  0001 C CNN
 F 4 "Debug Light" H 6900 5150 50  0001 C CNN "part_details"
 F 5 "LED - Green" H 6900 5150 50  0001 C CNN "part_name"
 F 6 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/156120VS75000/732-5032-1-ND/4490060" H 6900 5150 50  0001 C CNN "part_url"
+F 7 "6x" H 6900 5150 50  0001 C CNN "PURCHASED"
 	1    6900 5150
 	-1   0    0    1   
 $EndComp
@@ -268,6 +275,7 @@ F 1 "MountingHole" H 4900 7155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 7200 50  0001 C CNN
 F 3 "~" H 4800 7200 50  0001 C CNN
 F 4 "DO_NOT_SHOW" H 4800 7200 50  0001 C CNN "part_details"
+F 5 "x" H 4800 7200 50  0001 C CNN "PURCHASED"
 	1    4800 7200
 	1    0    0    -1  
 $EndComp
@@ -280,6 +288,7 @@ F 1 "MountingHole" H 4900 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 7400 50  0001 C CNN
 F 3 "~" H 4800 7400 50  0001 C CNN
 F 4 "DO_NOT_SHOW" H 4800 7400 50  0001 C CNN "part_details"
+F 5 "x" H 4800 7400 50  0001 C CNN "PURCHASED"
 	1    4800 7400
 	1    0    0    -1  
 $EndComp
@@ -292,6 +301,7 @@ F 1 "MountingHole" H 4900 6705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 6750 50  0001 C CNN
 F 3 "~" H 4800 6750 50  0001 C CNN
 F 4 "DO_NOT_SHOW" H 4800 6750 50  0001 C CNN "part_details"
+F 5 "x" H 4800 6750 50  0001 C CNN "PURCHASED"
 	1    4800 6750
 	1    0    0    -1  
 $EndComp
@@ -304,6 +314,7 @@ F 1 "MountingHole" H 4900 6905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 6950 50  0001 C CNN
 F 3 "~" H 4800 6950 50  0001 C CNN
 F 4 "DO_NOT_SHOW" H 4800 6950 50  0001 C CNN "part_details"
+F 5 "x" H 4800 6950 50  0001 C CNN "PURCHASED"
 	1    4800 6950
 	1    0    0    -1  
 $EndComp
@@ -343,6 +354,7 @@ F 4 "" H 8100 3350 50  0001 C CNN "Name"
 F 5 "" H 8100 3350 50  0001 C CNN "part_details"
 F 6 "Resistor - Pull Up" H 8100 3350 50  0001 C CNN "part_name"
 F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 8100 3350 50  0001 C CNN "part_url"
+F 8 "24x" H 8100 3350 50  0001 C CNN "PURCHASED"
 	1    8100 3350
 	1    0    0    -1  
 $EndComp
