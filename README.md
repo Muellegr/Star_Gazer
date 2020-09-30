@@ -30,6 +30,8 @@ In the future there may even be pictures here.
 These turn your phone into a sort of window into the night sky - hold it over a constellation, and the screen will show the constellation.  This project stems from those kinds of apps.
 This isn't a replacement, nor is it a product.  This will cost more and be much less capable. But it will teach me a lot of things!
 
+![Front of PCB](https://github.com/Muellegr/Star_Gazer/blob/master/Documentation/Images/Ring_Design.png)
+![Back of PCB](https://github.com/Muellegr/Star_Gazer/blob/master/Documentation/Images/Ring_Design_Back.png)
 The shape of the device is ring like, where the inside of ring glows in the direction of constellations and important stars. As the device 'aims' at one of these object, the ring light will change shape and intensity to indicate distance and location.  When aimed at the object, a button can be pressed which will display information about this object (name, description..) on a small screen on the device.
 
 
