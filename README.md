@@ -1,10 +1,15 @@
 ****WIP****
+PCB, Case, and Parts are currently ordered.  
+Programming has not started.  
+
 # Star_Gazer
 
 An electrical engineering summer & fall project.  
 A handheld device with a simple interface.  Point it at the sky and it will display information on constellations, stars, and planets
 
 This is mainly an excuse to get back into electrical engineering after spending several months in a software engineering internship.  The focus of this was to gain more experiance with PCBs, digging into a microcontroller to flash & debug, and reinforce knowledge from my internship with programming.
+
+The [ Bill Of Materials ](https://github.com/Muellegr/Star_Gazer/wiki)
 
 TODO (missing from readme)
 * Concept images
