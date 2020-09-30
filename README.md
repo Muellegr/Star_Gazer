@@ -23,7 +23,7 @@ I also wanted to look at signal integrity but this was a smaller goal. I have se
 * Testing - I want to create my own testing system for this for some parts. This is a low priority and meant to be more of a proof of concept.
 * Microcontroller setup - Microcontrollers have manuals with hundreds of pages for using them.  This is intimidating.  
 
-# DEEPER EXPLINATION
+### DEEPER EXPLINATION
 In the future there may even be pictures here.
 
 [ Phones have a ton of options for star gazing apps ](https://www.tomsguide.com/round-up/best-stargazing-apps)
