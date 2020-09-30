@@ -9,7 +9,7 @@ This is mainly an excuse to get back into electrical engineering after spending 
 TODO (missing from readme)
 * Concept images
 
-# MAJOR GOALS
+# DESIGN AND GOALS
 ## Push into scary unknowns
 My classes have given me nice microcontroller boards with nicely formatted instructions with how to use and program with it.  Selecting a microcontroller, putting it on a PCB, and flashing it are all things I haven't had any experiance with.  It was a big scary unknown - jumping into it with this project lets me get experiance with it.
 I also wanted to look at signal integrity but this was a smaller goal. I have several long awkward SPI/I2C traces which may allow for some learning.
@@ -23,7 +23,7 @@ I also wanted to look at signal integrity but this was a smaller goal. I have se
 * Testing - I want to create my own testing system for this for some parts. This is a low priority and meant to be more of a proof of concept.
 * Microcontroller setup - Microcontrollers have manuals with hundreds of pages for using them.  This is intimidating.  
 
-# DESIGN
+# DEEPER EXPLINATION
 In the future there may even be pictures here.
 
 [ Phones have a ton of options for star gazing apps ](https://www.tomsguide.com/round-up/best-stargazing-apps)
