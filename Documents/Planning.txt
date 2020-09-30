@@ -1,10 +1,4 @@
-THINGS TO BUY
-	PROGRAMMER - SWD
-	SOLDER PASTE, LEAD
-	FLUX MARKER
-	HOT PLATE
-    TWEEZERS (actually useful)
-    
+
           
             
 WHATS LEFT
@@ -14,7 +8,7 @@ WHATS LEFT
     Final image lookover.  
     Select GPS, batteries.
     Buy parts for two?
-    
+    //
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
