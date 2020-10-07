@@ -1,3 +1,4 @@
 *.bck
 BACKUP/*
 *.sch-bak
+Ignore\ Folder/*
