@@ -12,6 +12,10 @@ This is mainly an excuse to get back into electrical engineering after spending 
 
 The [ Bill Of Materials ](https://github.com/Muellegr/Star_Gazer/wiki)
 
+The [ Schematic ](https://github.com/Muellegr/Star_Gazer/blob/master/Documentation/StarGazer_Schematics.pdf)
+
+The [ PCB Layers ](https://github.com/Muellegr/Star_Gazer/blob/master/Documentation)
+
 # DESIGN AND GOALS
 ## Push into scary unknowns
 My classes have given me nice microcontroller boards with nicely formatted instructions with how to use and program with it.  Selecting a microcontroller, putting it on a PCB, and flashing it are all things I haven't had any experiance with.  It was a big scary unknown - jumping into it with this project lets me get experiance with it.
@@ -34,11 +38,4 @@ This isn't a replacement, nor is it a product.  This will cost more and be much 
 
 The shape of the device is ring like, where the inside of ring glows in the direction of constellations and important stars. As the device 'aims' at one of these object, the ring light will change shape and intensity to indicate distance and location.  When aimed at the object, a button can be pressed which will display information about this object (name, description..) on a small screen on the device.
 
-#### Basic idea behind orientation
-As the earth travels around the sun our position relative to the stars changes so little we can safely ignore it for this device.  As a result in a way, we're at the center of a sphere and the constellation are painted on the walls.  I don't move, the walls don't move, but I can rotate.  If I know something about where I"m looking at, I can figure out if I'm looking at the side of the wall that contains a constellation.  
-
-A GPS provides me with two pieces of information - a time and a location.  The location gives me a surface normal, and the time rotates that around.  But this normal doesn't know what is 'up' and doesn't know where the device is looking.
-A magnometer provides that crucial direction 'up' by pointing at north.  Because the axis of the planet changes little, knowing north also provides me with a universal direction pointing up into the universe. At this point I know where the surface normal is pointing into the universe. 
-A gyrometer provides device orientation and the last piece of information.  The orientation is based on surface gravity which we know.
-Combined together you know where into the universe you are pointing with universal directions and a constant 'up' direction.  
-
+[ Basic but more indepth description on finding orientation. ](https://github.com/Muellegr/Star_Gazer/wiki/Basic-idea-behind-orientation)
