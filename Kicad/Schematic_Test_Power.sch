@@ -338,7 +338,7 @@ F 4 "Capactitor - Bypass" H 7700 3980 50  0001 C CNN "part_name"
 F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865230143004/732-8282-1-ND/5728239" H 7700 3980 50  0001 C CNN "part_url"
 F 6 "3x" H 7700 3980 50  0001 C CNN "PURCHASED"
 	1    7700 3980
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Regulator_Linear:TLV75528PDBV U?
