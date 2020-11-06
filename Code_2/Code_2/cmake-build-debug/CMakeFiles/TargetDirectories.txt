@@ -1,0 +1,3 @@
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/cmake-build-debug/CMakeFiles/Code_2.elf.dir
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
