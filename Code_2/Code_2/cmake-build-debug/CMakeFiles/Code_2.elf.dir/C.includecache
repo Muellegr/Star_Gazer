@@ -194,6 +194,10 @@ stm32g0xx_hal_def.h
 stm32g0xx.h
 ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx.h
 
+../Inc/RingLight.h
+main.h
+../Inc/main.h
+
 ../Inc/debug_assert.h
 main.h
 ../Inc/main.h
@@ -201,6 +205,16 @@ main.h
 ../Inc/i2c_controller.h
 main.h
 ../Inc/main.h
+debug_assert.h
+../Inc/debug_assert.h
+
+../Inc/i2c_display.h
+main.h
+../Inc/main.h
+debug_assert.h
+../Inc/debug_assert.h
+i2c_controller.h
+../Inc/i2c_controller.h
 
 ../Inc/i2c_gyroscope_lsm6.h
 main.h
@@ -210,9 +224,23 @@ i2c_controller.h
 debug_assert.h
 ../Inc/debug_assert.h
 
+../Inc/i2c_magnometer.h
+main.h
+../Inc/main.h
+debug_assert.h
+../Inc/debug_assert.h
+i2c_controller.h
+../Inc/i2c_controller.h
+
 ../Inc/main.h
 stm32g0xx_hal.h
 ../Inc/stm32g0xx_hal.h
+
+../Inc/ring_light_controller.h
+main.h
+../Inc/main.h
+RingLight.h
+../Inc/RingLight.h
 
 ../Inc/stm32g0xx_hal_conf.h
 stm32g0xx_hal_rcc.h
@@ -272,7 +300,25 @@ stm32g0xx_hal_usart.h
 stm32g0xx_hal_wwdg.h
 ../Inc/stm32g0xx_hal_wwdg.h
 
-C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_gyroscope_lsm6.c
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_magnometer.c
+i2c_magnometer.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_magnometer.h
+
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/main.c
+main.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/main.h
+ring_light_controller.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/ring_light_controller.h
+i2c_controller.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller.h
 i2c_gyroscope_lsm6.h
-C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_gyroscope_lsm6.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_gyroscope_lsm6.h
+i2c_magnometer.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_magnometer.h
+i2c_display.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_display.h
+stdio.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/stdio.h
+math.h
+C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/math.h
 

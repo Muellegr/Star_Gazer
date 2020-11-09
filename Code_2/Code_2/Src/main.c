@@ -35,6 +35,10 @@
 #include "ring_light_controller.h"
 #include "i2c_controller.h"
 #include "i2c_gyroscope_lsm6.h"
+#include "i2c_magnometer.h"
+#include "i2c_display.h"
+
+#include "stdio.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -95,6 +99,8 @@ void TIM3_Code_Interrupt()
   * @brief  The application entry point.
   * @retval int
   */
+
+#include "math.h"
 int main(void)
 {
 	/* USER CODE BEGIN 1 */
@@ -129,34 +135,111 @@ int main(void)
 
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
-	//init_ring_light_controller(&hspi1, &htim3);
+	init_ring_light_controller(&hspi1, &htim3);
 	uint32_t loop_int = 0;
 
 	//run_i2c_example();
+    HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, RESET);
+    chip_led_red_off();
 
-	init_i2c_controller(&hi2c1);
+
+	//Init I2C interfaces
+    HAL_Delay(100); //Delay slightly to allow devices to clear
+    init_i2c_controller(&hi2c1);
     init_gyroscope();
+    init_mag();
+
 
     bool result = false;
     gyroscope_orientation_raw orientation_data = {0};
+    magnometer_orientation_raw mag_orientation_data = {0};
     volatile gyroscope_orientation_raw orientation_data_diff = {0};
     result = get_gyroscope_orientation( &orientation_data );
     orientation_data_diff = orientation_data;
 
+    int magData_counter = 0;
+    int magData_max = 3;
+     magnometer_orientation_raw mag_orientation_arr = {0};
+    //double direction[1024] = {0};
+    //double direction_angle[1024] = {0};
+
+
+    typedef struct{
+        double atan_d;
+        double dir;
+        double x;
+        double y;
+        double z;
+    } direction_test_type;
+    volatile direction_test_type direction[104] = {0};
+    volatile float direction_avg = 0.0f;
+
+
+    display_init();
 	while (1)
 	{
-		//run_i2c_example();
-		//int timerValue = __HAL_TIM_GET_COUNTER(&htim3);
-		// if (timerValue == 99999999){ loop_int += 1;}
-        result = get_gyroscope_orientation( &orientation_data );
+        //result = get_gyroscope_orientation( &orientation_data );
+        //ITM_SEND
 
         result = get_gyroscope_acceleration( &orientation_data );
+       // result = get_magnometer_orientation( &mag_orientation_data );
+        if (magData_counter < magData_max)
+        {
+            get_magnometer_orientation( &mag_orientation_arr);
+            double x = mag_orientation_arr.x;
+            double y = mag_orientation_arr.y;
+            double length = sqrt( x * x + y*y);
+            x = x / length;
+            y = y / length;
+
+            direction[magData_counter].atan_d = atan2( y, x );
+            direction[magData_counter].dir = direction[magData_counter].atan_d * 180.0f / 3.14f;
+            direction[magData_counter].x = 1.0f * mag_orientation_arr.x;
+            direction[magData_counter].y = 1.0f * mag_orientation_arr.y;
+            direction[magData_counter].z = 1.0f * mag_orientation_arr.z;
+            magData_counter++;
+        }
+        else{
+            direction_avg = 0;
+            double x = 0;
+            double y = 0;
+            double z = 0;
+            double avg_length;
+            double avg_dir;
+
+            char str_deg[16] = {' '};
+            char str_len[16] = {' '};
+            char str_x[16] = {' '};
+            char str_y[16] = {' '};
+
+
+            for (int i = 0 ; i < magData_counter ; ++i ){
+                direction_avg += direction[i].dir;
+                x += direction[i].x;
+                y += direction[i].y;
+                z += direction[i].z;
+            }
+            direction_avg /= magData_counter;
+            x = (int) (x / magData_counter);
+            y = (int) (y / magData_counter);
+            z = (int) (z / magData_counter);
+            avg_length = sqrt( (double)(x * x + y*y + z*z));
+            avg_dir = atan2(y / avg_length, x / avg_length) * 180.0f / 3.14f;
+            if (direction_avg < 0){ direction_avg += 360.0f;}
+            magData_counter = 0;
+
+            snprintf(str_deg, 15, "d %f", avg_dir);
+            snprintf(str_len, 15, "l %f", avg_length);
+            snprintf(str_x, 15, "x %f", x);
+            snprintf(str_y, 15, "y %f", y);
+            display_4x_string( str_deg, str_len, str_x, str_y );
+        }
 		loop_int++;
-	    if (loop_int % 10000 == 0){HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin); }
-		//if (loop_int % 64000 == 0)
-		//{ HAL_GPIO_TogglePin(GPIOA, LED_RED_Pin); }
+	    if (loop_int % 5 == 0){HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin); }
+
+      //  HAL_GPIO_TogglePin(GPIOA, SWDIO_Pin);
 		/* USER CODE END WHILE */
-		HAL_Delay(100);
+		//HAL_Delay(100);
 		/* USER CODE BEGIN 3 */
 	}
 	/* USER CODE END 3 */
@@ -252,46 +335,7 @@ static void MX_I2C1_Init(void)
 	/* USER CODE END I2C1_Init 2 */
 
 }
-//static void MX_I2C1_Init(void)
-//{
-//
-//	/* USER CODE BEGIN I2C1_Init 0 */
-//
-//	/* USER CODE END I2C1_Init 0 */
-//
-//	/* USER CODE BEGIN I2C1_Init 1 */
-//
-//	/* USER CODE END I2C1_Init 1 */
-//	hi2c1.Instance = I2C1;
-//	hi2c1.Init.Timing = 0x00303D5B;
-//	hi2c1.Init.OwnAddress1 = 0;
-//	hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
-//	hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
-//	hi2c1.Init.OwnAddress2 = 0;
-//	hi2c1.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
-//	hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
-//	hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
-//	if (HAL_I2C_Init(&hi2c1) != HAL_OK)
-//	{
-//		Error_Handler();
-//	}
-//	/** Configure Analogue filter
-//	*/
-//	if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
-//	{
-//		Error_Handler();
-//	}
-//	/** Configure Digital filter
-//	*/
-//	if (HAL_I2CEx_ConfigDigitalFilter(&hi2c1, 0) != HAL_OK)
-//	{
-//		Error_Handler();
-//	}
-//	/* USER CODE BEGIN I2C1_Init 2 */
-//
-//	/* USER CODE END I2C1_Init 2 */
-//
-//}
+
 
 /**
   * @brief SPI1 Initialization Function
@@ -441,8 +485,8 @@ static void MX_GPIO_Init(void)
 	__HAL_RCC_GPIOB_CLK_ENABLE();
 
 	/*Configure GPIO pin Output Level */
-	HAL_GPIO_WritePin(GPIOA, SHIFT_REG_LATCH_Pin | SHIFT_REG_OUTPUT_ENABLE_N_Pin | LED_RED_Pin, GPIO_PIN_RESET);
-
+	HAL_GPIO_WritePin(GPIOA,   SHIFT_REG_LATCH_Pin | SHIFT_REG_OUTPUT_ENABLE_N_Pin | LED_RED_Pin, GPIO_PIN_RESET);
+    //HAL_GPIO_WritePin(SWDIO_GPIO_Port, SWDIO_Pin, GPIO_PIN_RESET);
 	/*Configure GPIO pin Output Level */
 	HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_RESET);
 

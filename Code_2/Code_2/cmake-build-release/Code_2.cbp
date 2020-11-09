@@ -315,6 +315,15 @@
 		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/STM32G070KBTX_FLASH.ld">
 			<Option target="Code_2.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/Display/fonts.c">
+			<Option target="Code_2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/Display/ssd1306.c">
+			<Option target="Code_2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/Orientation/orientation.c">
+			<Option target="Code_2.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/RingLight.c">
 			<Option target="Code_2.elf"/>
 		</Unit>
@@ -330,7 +339,13 @@
 		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_controller.c">
 			<Option target="Code_2.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_display.c">
+			<Option target="Code_2.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_gyroscope_lsm6.c">
+			<Option target="Code_2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/i2c_controller/i2c_magnometer.c">
 			<Option target="Code_2.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/Src/main.c">

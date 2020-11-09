@@ -39,6 +39,10 @@ extern "C" {
 /* USER CODE BEGIN ET */
 typedef enum {false, true} bool;
 
+//https://stackoverflow.com/questions/523724/c-c-check-if-one-bit-is-set-in-i-e-int-variable
+// If
+#define CHECK_BIT(var,pos) (((var)>>(pos)) & 1)
+
 void chip_led_red_on();
 void chip_led_red_off();
 

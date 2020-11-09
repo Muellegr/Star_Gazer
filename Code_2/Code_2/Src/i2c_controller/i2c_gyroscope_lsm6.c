@@ -173,7 +173,7 @@ static bool is_alive()
     result &= i2c_write( I2C_ADDR_GYRO_W, &buffer, 1 );
     debug_assert_if( !result );
 
-    result &= i2c_read( I2C_ADDR_GYRO_W, &buffer, 1 );
+    result &= i2c_read( I2C_ADDR_GYRO_R, &buffer, 1 );
     debug_assert_if( !result );
 
     //Verify the response matches its address

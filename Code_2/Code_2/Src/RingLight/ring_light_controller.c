@@ -191,7 +191,7 @@ void init_ring_light_controller(SPI_HandleTypeDef *spi_pointer_input, TIM_Handle
 		ring_light_controller.ring_led_buffer[i] = 0xaa;
 	}
 	//Set LED ring to constant state.
-	Init_Led_Ring_Type(&ring_light_controller.led_ring);
+    init_led_ring_type( &ring_light_controller.led_ring );
 
 	//Ensure LED ring is off.
 	ring_pwm_off();

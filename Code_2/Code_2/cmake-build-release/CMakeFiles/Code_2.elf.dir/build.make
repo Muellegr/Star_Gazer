@@ -362,9 +362,48 @@ CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_rcc.c" -o CMakeFiles\Code_2.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_rcc.c.s
 
+CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
+CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.obj: ../Src/Display/fonts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\Display\fonts.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Display\fonts.c"
+
+CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.i"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Display\fonts.c" > CMakeFiles\Code_2.elf.dir\Src\Display\fonts.c.i
+
+CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.s"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Display\fonts.c" -o CMakeFiles\Code_2.elf.dir\Src\Display\fonts.c.s
+
+CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
+CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.obj: ../Src/Display/ssd1306.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\Display\ssd1306.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Display\ssd1306.c"
+
+CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.i"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Display\ssd1306.c" > CMakeFiles\Code_2.elf.dir\Src\Display\ssd1306.c.i
+
+CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.s"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Display\ssd1306.c" -o CMakeFiles\Code_2.elf.dir\Src\Display\ssd1306.c.s
+
+CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
+CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.obj: ../Src/Orientation/orientation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\Orientation\orientation.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Orientation\orientation.c"
+
+CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.i"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Orientation\orientation.c" > CMakeFiles\Code_2.elf.dir\Src\Orientation\orientation.c.i
+
+CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.s"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\Orientation\orientation.c" -o CMakeFiles\Code_2.elf.dir\Src\Orientation\orientation.c.s
+
 CMakeFiles/Code_2.elf.dir/Src/RingLight.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/RingLight.c.obj: ../Src/RingLight.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Code_2.elf.dir/Src/RingLight.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Code_2.elf.dir/Src/RingLight.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\RingLight.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\RingLight.c"
 
 CMakeFiles/Code_2.elf.dir/Src/RingLight.c.i: cmake_force
@@ -377,7 +416,7 @@ CMakeFiles/Code_2.elf.dir/Src/RingLight.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.obj: ../Src/RingLight/ring_light_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\RingLight\ring_light_bar.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\RingLight\ring_light_bar.c"
 
 CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.i: cmake_force
@@ -390,7 +429,7 @@ CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.obj: ../Src/RingLight/ring_light_controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\RingLight\ring_light_controller.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\RingLight\ring_light_controller.c"
 
 CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.i: cmake_force
@@ -403,7 +442,7 @@ CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.obj: ../Src/debug_assert/debug_assert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\debug_assert\debug_assert.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\debug_assert\debug_assert.c"
 
 CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.i: cmake_force
@@ -416,7 +455,7 @@ CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.obj: ../Src/i2c_controller/i2c_controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_controller.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_controller.c"
 
 CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.i: cmake_force
@@ -427,9 +466,22 @@ CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.s"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_controller.c" -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_controller.c.s
 
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.obj: ../Src/i2c_controller/i2c_display.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_display.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_display.c"
+
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.i"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_display.c" > CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_display.c.i
+
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.s"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_display.c" -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_display.c.s
+
 CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.obj: ../Src/i2c_controller/i2c_gyroscope_lsm6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_gyroscope_lsm6.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_gyroscope_lsm6.c"
 
 CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.i: cmake_force
@@ -440,9 +492,22 @@ CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.s"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_gyroscope_lsm6.c" -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_gyroscope_lsm6.c.s
 
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.obj: ../Src/i2c_controller/i2c_magnometer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.obj"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_magnometer.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_magnometer.c"
+
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.i"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_magnometer.c" > CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_magnometer.c.i
+
+CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.s"
+	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\i2c_controller\i2c_magnometer.c" -o CMakeFiles\Code_2.elf.dir\Src\i2c_controller\i2c_magnometer.c.s
+
 CMakeFiles/Code_2.elf.dir/Src/main.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Code_2.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Code_2.elf.dir/Src/main.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\main.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\main.c"
 
 CMakeFiles/Code_2.elf.dir/Src/main.c.i: cmake_force
@@ -455,7 +520,7 @@ CMakeFiles/Code_2.elf.dir/Src/main.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.obj: ../Src/stm32g0xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\stm32g0xx_hal_msp.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\stm32g0xx_hal_msp.c"
 
 CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.i: cmake_force
@@ -468,7 +533,7 @@ CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.obj: ../Src/stm32g0xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\stm32g0xx_it.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\stm32g0xx_it.c"
 
 CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.i: cmake_force
@@ -481,7 +546,7 @@ CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/syscalls.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Code_2.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Code_2.elf.dir/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\syscalls.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\syscalls.c"
 
 CMakeFiles/Code_2.elf.dir/Src/syscalls.c.i: cmake_force
@@ -494,7 +559,7 @@ CMakeFiles/Code_2.elf.dir/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/sysmem.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/sysmem.c.obj: ../Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Code_2.elf.dir/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Code_2.elf.dir/Src/sysmem.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\sysmem.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\sysmem.c"
 
 CMakeFiles/Code_2.elf.dir/Src/sysmem.c.i: cmake_force
@@ -507,7 +572,7 @@ CMakeFiles/Code_2.elf.dir/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.obj: ../Src/system_stm32g0xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Code_2.elf.dir\Src\system_stm32g0xx.c.obj   -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Src\system_stm32g0xx.c"
 
 CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.i: cmake_force
@@ -520,7 +585,7 @@ CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.s: cmake_force
 
 CMakeFiles/Code_2.elf.dir/Startup/startup_stm32g070kbtx.s.obj: CMakeFiles/Code_2.elf.dir/flags.make
 CMakeFiles/Code_2.elf.dir/Startup/startup_stm32g070kbtx.s.obj: ../Startup/startup_stm32g070kbtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/Code_2.elf.dir/Startup/startup_stm32g070kbtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/Code_2.elf.dir/Startup/startup_stm32g070kbtx.s.obj"
 	C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Code_2.elf.dir\Startup\startup_stm32g070kbtx.s.obj -c "C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\Startup\startup_stm32g070kbtx.s"
 
 # Object files for target Code_2.elf
@@ -547,12 +612,17 @@ Code_2_elf_OBJECTS = \
 "CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj" \
+"CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.obj" \
+"CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.obj" \
+"CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/RingLight.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.obj" \
+"CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.obj" \
+"CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/main.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.obj" \
 "CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.obj" \
@@ -586,12 +656,17 @@ Code_2.elf: CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj
+Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.obj
+Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.obj
+Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/RingLight.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_bar.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/RingLight/ring_light_controller.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/debug_assert/debug_assert.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.obj
+Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.obj
+Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/main.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_hal_msp.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/stm32g0xx_it.c.obj
@@ -601,7 +676,7 @@ Code_2.elf: CMakeFiles/Code_2.elf.dir/Src/system_stm32g0xx.c.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/Startup/startup_stm32g070kbtx.s.obj
 Code_2.elf: CMakeFiles/Code_2.elf.dir/build.make
 Code_2.elf: CMakeFiles/Code_2.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable Code_2.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Graham\Documents\Star Gazer\Code_2\Code_2\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Linking C executable Code_2.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Code_2.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/cmake-build-release/Code_2.hex"
 	arm-none-eabi-objcopy -Oihex "C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/cmake-build-release/Code_2.elf" "C:/Users/Graham/Documents/Star Gazer/Code_2/Code_2/cmake-build-release/Code_2.hex"

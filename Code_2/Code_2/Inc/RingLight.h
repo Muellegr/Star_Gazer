@@ -37,7 +37,7 @@ typedef struct
 //--FUNCTIONS--//
 
 //Initiates the low level led ring to a blank slate.
-void Init_Led_Ring_Type(led_ring_type *led_ring);
+void init_led_ring_type( led_ring_type *led_ring);
 
 //Sets the led brightness to specified amount.
 void Set_Visual_Led_Intensity(led_ring_type *ring_led, led_index_type visual_index, led_intensity_type intensity);

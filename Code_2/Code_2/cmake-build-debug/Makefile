@@ -736,6 +736,87 @@ Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
 .PHONY : Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
 
+Src/Display/fonts.obj: Src/Display/fonts.c.obj
+
+.PHONY : Src/Display/fonts.obj
+
+# target to build an object file
+Src/Display/fonts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.obj
+.PHONY : Src/Display/fonts.c.obj
+
+Src/Display/fonts.i: Src/Display/fonts.c.i
+
+.PHONY : Src/Display/fonts.i
+
+# target to preprocess a source file
+Src/Display/fonts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.i
+.PHONY : Src/Display/fonts.c.i
+
+Src/Display/fonts.s: Src/Display/fonts.c.s
+
+.PHONY : Src/Display/fonts.s
+
+# target to generate assembly for a file
+Src/Display/fonts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Display/fonts.c.s
+.PHONY : Src/Display/fonts.c.s
+
+Src/Display/ssd1306.obj: Src/Display/ssd1306.c.obj
+
+.PHONY : Src/Display/ssd1306.obj
+
+# target to build an object file
+Src/Display/ssd1306.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.obj
+.PHONY : Src/Display/ssd1306.c.obj
+
+Src/Display/ssd1306.i: Src/Display/ssd1306.c.i
+
+.PHONY : Src/Display/ssd1306.i
+
+# target to preprocess a source file
+Src/Display/ssd1306.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.i
+.PHONY : Src/Display/ssd1306.c.i
+
+Src/Display/ssd1306.s: Src/Display/ssd1306.c.s
+
+.PHONY : Src/Display/ssd1306.s
+
+# target to generate assembly for a file
+Src/Display/ssd1306.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Display/ssd1306.c.s
+.PHONY : Src/Display/ssd1306.c.s
+
+Src/Orientation/orientation.obj: Src/Orientation/orientation.c.obj
+
+.PHONY : Src/Orientation/orientation.obj
+
+# target to build an object file
+Src/Orientation/orientation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.obj
+.PHONY : Src/Orientation/orientation.c.obj
+
+Src/Orientation/orientation.i: Src/Orientation/orientation.c.i
+
+.PHONY : Src/Orientation/orientation.i
+
+# target to preprocess a source file
+Src/Orientation/orientation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.i
+.PHONY : Src/Orientation/orientation.c.i
+
+Src/Orientation/orientation.s: Src/Orientation/orientation.c.s
+
+.PHONY : Src/Orientation/orientation.s
+
+# target to generate assembly for a file
+Src/Orientation/orientation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/Orientation/orientation.c.s
+.PHONY : Src/Orientation/orientation.c.s
+
 Src/RingLight.obj: Src/RingLight.c.obj
 
 .PHONY : Src/RingLight.obj
@@ -871,6 +952,33 @@ Src/i2c_controller/i2c_controller.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_controller.c.s
 .PHONY : Src/i2c_controller/i2c_controller.c.s
 
+Src/i2c_controller/i2c_display.obj: Src/i2c_controller/i2c_display.c.obj
+
+.PHONY : Src/i2c_controller/i2c_display.obj
+
+# target to build an object file
+Src/i2c_controller/i2c_display.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.obj
+.PHONY : Src/i2c_controller/i2c_display.c.obj
+
+Src/i2c_controller/i2c_display.i: Src/i2c_controller/i2c_display.c.i
+
+.PHONY : Src/i2c_controller/i2c_display.i
+
+# target to preprocess a source file
+Src/i2c_controller/i2c_display.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.i
+.PHONY : Src/i2c_controller/i2c_display.c.i
+
+Src/i2c_controller/i2c_display.s: Src/i2c_controller/i2c_display.c.s
+
+.PHONY : Src/i2c_controller/i2c_display.s
+
+# target to generate assembly for a file
+Src/i2c_controller/i2c_display.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_display.c.s
+.PHONY : Src/i2c_controller/i2c_display.c.s
+
 Src/i2c_controller/i2c_gyroscope_lsm6.obj: Src/i2c_controller/i2c_gyroscope_lsm6.c.obj
 
 .PHONY : Src/i2c_controller/i2c_gyroscope_lsm6.obj
@@ -897,6 +1005,33 @@ Src/i2c_controller/i2c_gyroscope_lsm6.s: Src/i2c_controller/i2c_gyroscope_lsm6.c
 Src/i2c_controller/i2c_gyroscope_lsm6.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_gyroscope_lsm6.c.s
 .PHONY : Src/i2c_controller/i2c_gyroscope_lsm6.c.s
+
+Src/i2c_controller/i2c_magnometer.obj: Src/i2c_controller/i2c_magnometer.c.obj
+
+.PHONY : Src/i2c_controller/i2c_magnometer.obj
+
+# target to build an object file
+Src/i2c_controller/i2c_magnometer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.obj
+.PHONY : Src/i2c_controller/i2c_magnometer.c.obj
+
+Src/i2c_controller/i2c_magnometer.i: Src/i2c_controller/i2c_magnometer.c.i
+
+.PHONY : Src/i2c_controller/i2c_magnometer.i
+
+# target to preprocess a source file
+Src/i2c_controller/i2c_magnometer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.i
+.PHONY : Src/i2c_controller/i2c_magnometer.c.i
+
+Src/i2c_controller/i2c_magnometer.s: Src/i2c_controller/i2c_magnometer.c.s
+
+.PHONY : Src/i2c_controller/i2c_magnometer.s
+
+# target to generate assembly for a file
+Src/i2c_controller/i2c_magnometer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code_2.elf.dir\build.make CMakeFiles/Code_2.elf.dir/Src/i2c_controller/i2c_magnometer.c.s
+.PHONY : Src/i2c_controller/i2c_magnometer.c.s
 
 Src/main.obj: Src/main.c.obj
 
@@ -1144,6 +1279,15 @@ help:
 	@echo ... Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.obj
 	@echo ... Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.i
 	@echo ... Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.s
+	@echo ... Src/Display/fonts.obj
+	@echo ... Src/Display/fonts.i
+	@echo ... Src/Display/fonts.s
+	@echo ... Src/Display/ssd1306.obj
+	@echo ... Src/Display/ssd1306.i
+	@echo ... Src/Display/ssd1306.s
+	@echo ... Src/Orientation/orientation.obj
+	@echo ... Src/Orientation/orientation.i
+	@echo ... Src/Orientation/orientation.s
 	@echo ... Src/RingLight.obj
 	@echo ... Src/RingLight.i
 	@echo ... Src/RingLight.s
@@ -1159,9 +1303,15 @@ help:
 	@echo ... Src/i2c_controller/i2c_controller.obj
 	@echo ... Src/i2c_controller/i2c_controller.i
 	@echo ... Src/i2c_controller/i2c_controller.s
+	@echo ... Src/i2c_controller/i2c_display.obj
+	@echo ... Src/i2c_controller/i2c_display.i
+	@echo ... Src/i2c_controller/i2c_display.s
 	@echo ... Src/i2c_controller/i2c_gyroscope_lsm6.obj
 	@echo ... Src/i2c_controller/i2c_gyroscope_lsm6.i
 	@echo ... Src/i2c_controller/i2c_gyroscope_lsm6.s
+	@echo ... Src/i2c_controller/i2c_magnometer.obj
+	@echo ... Src/i2c_controller/i2c_magnometer.i
+	@echo ... Src/i2c_controller/i2c_magnometer.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s

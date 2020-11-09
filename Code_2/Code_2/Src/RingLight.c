@@ -3,6 +3,7 @@
  */
 #include "RingLight.h"
 
+//--Increments the visual or serial index to wrap around naturally. Supports subtraction.
 led_index_type increment_led_index(led_index_type index, int add)
 {
 	led_index_type return_index = index + (led_index_type) add;
@@ -15,6 +16,7 @@ led_index_type increment_led_index(led_index_type index, int add)
 	return return_index;
 }
 
+//--Need to remove these, they make it more complex.
 led_index_type int_to_led_index_type(int i)
 {
 	led_index_type return_index = (led_index_type) i;
@@ -22,7 +24,8 @@ led_index_type int_to_led_index_type(int i)
 	return increment_led_index(return_index, 0);
 }
 
-void Init_Led_Ring_Type(led_ring_type *led_ring)
+//--Configures ordering of LEDs on device.
+void init_led_ring_type( led_ring_type *led_ring)
 {
 	int visual_index = 0;
 	//Because shift registers are in series we have to carefully assign LEDs.
@@ -58,23 +61,24 @@ void Init_Led_Ring_Type(led_ring_type *led_ring)
 		led_ring->serial_to_visual_map[i] = int_to_led_index_type(visual_index);
 		visual_index++;
 	}
-
 	Led_Ring_Clear(led_ring);
 }
 
-
+//--Debug function
 void Set_One_Led_On(led_ring_type *led_ring, led_index_type visual_index)
 {
 	Led_Ring_Clear(led_ring);
 	Set_Visual_Led_Intensity(led_ring, visual_index, 100);
 }
 
+//--Sets LED intensity by its visual index.  0 is off.
 void Set_Visual_Led_Intensity(led_ring_type *ring_led, led_index_type visual_index, led_intensity_type intensity)
 {
 	led_type *led = &(ring_led->led[visual_index]);
 	led->intensity = intensity;
 }
 
+//--Adds LED intensity by its visual index.  Supports subtraction and handles min/max limits.
 void Add_Visual_Led_Intensity(led_ring_type *ring_led, led_index_type visual_index, led_intensity_type intensity)
 {
 	led_type *led = &(ring_led->led[visual_index]);
@@ -88,6 +92,7 @@ void Add_Visual_Led_Intensity(led_ring_type *ring_led, led_index_type visual_ind
 	led->intensity = working_intensity;
 }
 
+//--Set all LEDs on the ring off by setting their intensity to 0
 void Led_Ring_Clear(led_ring_type *ring_led)
 {
 	for (int i = 0; i < BOARD_LED_COUNT; ++i)
@@ -96,6 +101,7 @@ void Led_Ring_Clear(led_ring_type *ring_led)
 	}
 }
 
+//--Checks if an LED should be on while accounting for PWM.
 bool Is_Serial_Led_On(led_ring_type *ring_led, led_index_type serial_index, int frame)
 {
 	led_index_type visual_index = (int) ring_led->serial_to_visual_map[serial_index];
